@@ -10,7 +10,7 @@
   <b>Max Depth:</b> ${feature.max_Depth.value}m<BR>
   <b>Sample Size:</b> ${feature.sample_size.value}<BR>
   <b>Survey Date:</b> ${feature.sasDate.value}<BR>
-  <b>Stipe Density num per sq m:</b> ${feature.Stipe_Density_num_per_sq_m.value} per sq m<BR>
+  <b>Stipe Density num per sq m:</b> ${feature.Stipe_Density_num_per_sq_m.value}<BR>
   <b>Focal Kelp:</b> ${feature.focalKelp.value}<BR>
   <b>Focal Kelp (STD):</b> ${feature.focalKelp_STD.value}<BR>
   <b>ROC:</b> ${feature.ROC.value}<BR>
