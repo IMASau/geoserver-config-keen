@@ -7,20 +7,20 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
   <NamedLayer>
-    <Name>Green Point - CIRCLE</Name>
+    <Name>Orange Point - STAR</Name>
     <UserStyle>
       <Title>A simple default style</Title>
       <FeatureTypeStyle>
         <Rule>
           <Name>Rule 1</Name>
-          <Title>Study Site - kelp timeseries</Title>
-          <Abstract>A green fill with an 11 pixel size</Abstract>
+          <Title>Study Site - fish communities</Title>
+          <Abstract>A orange fill with an 11 pixel size</Abstract>
           <PointSymbolizer>
             <Graphic>
               <Mark>
-                <WellKnownName>circle</WellKnownName>
+                <WellKnownName>star</WellKnownName>
                 <Fill>
-                  <CssParameter name="fill">#28A526</CssParameter>
+                  <CssParameter name="fill">#FF7B00</CssParameter>
                 </Fill>
               </Mark>
               <Size>6</Size>
