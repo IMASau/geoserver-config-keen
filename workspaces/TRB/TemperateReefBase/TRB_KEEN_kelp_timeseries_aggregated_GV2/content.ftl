@@ -6,15 +6,19 @@
 	
   <div class="feature"> 
   <b>Study: </b> ${feature.Study.value}<BR>
+  <b>Date: </b> ${feature.sasDate?date.value}<BR> 
+  <b>Min. depth: </b> ${feature.min_Depth.value} m<BR><BR>  
   <b>Max. depth: </b> ${feature.max_Depth.value} m<BR><BR>
+  <b>Sample size (n): </b> ${feature.sample_size.value}<BR><BR>
+  
 
 Kelp community structure<BR><BR>
   
-  <b>Kelp biomass: </b> ${feature.biomass_KG_wet_per_sq_m.value} kg wet/m2<BR>  
+  <b>Focal kelp abundance </b> ${feature.focalKelp.value}<BR>
   <b>Stipe density: </b> ${feature.Stipe_Density_num_per_sq_m.value} number/m2<BR>
   <b>Individual density: </b> ${feature.individual_per_sq_m.value} individuals/m2<BR>  
-  <b>Percent cover: </b> ${feature.percent_cover.value}&#37<BR>      
-  <b>Focal kelp abundance </b> ${feature.focalKelp.value}<BR><BR>
+  <b>Percent cover: </b> ${feature.percent_cover.value}&#37<BR><BR>      
+
    
  
  </div>
