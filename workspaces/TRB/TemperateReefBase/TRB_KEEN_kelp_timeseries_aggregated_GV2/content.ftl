@@ -6,7 +6,7 @@
 	
   <div class="feature"> 
   <b>Study: </b> ${feature.Study.value}<BR>
-  <b>Date: </b> ${feature.sasDate?date.value}<BR> 
+  <b>Year: </b> ${feature.year.value}<BR> 
   <b>Min. depth: </b> ${feature.min_Depth.value} m<BR><BR>  
   <b>Max. depth: </b> ${feature.max_Depth.value} m<BR><BR>
   <b>Sample size (n): </b> ${feature.sample_size.value}<BR><BR>
