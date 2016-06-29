@@ -14,7 +14,7 @@
         <Rule>
           <Name>Rule 1</Name>
           <Title>Study Site - kelp timeseries</Title>
-          <Abstract>A green fill with an 11 pixel size</Abstract>
+          <Abstract>A green fill with a 7 pixel size</Abstract>
           <PointSymbolizer>
             <Graphic>
               <Mark>

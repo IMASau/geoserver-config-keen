@@ -14,7 +14,7 @@
         <Rule>
           <Name>Rule 1</Name>
           <Title>Study Site - fish communities</Title>
-          <Abstract>A orange fill with an 11 pixel size</Abstract>
+          <Abstract>A orange fill with a 9 pixel size</Abstract>
           <PointSymbolizer>
             <Graphic>
               <Mark>
@@ -23,7 +23,7 @@
                   <CssParameter name="fill">#FF7B00</CssParameter>
                 </Fill>
               </Mark>
-              <Size>7</Size>
+              <Size>9</Size>
             </Graphic>
           </PointSymbolizer>
         </Rule>
