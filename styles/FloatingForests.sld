@@ -1,11 +1,13 @@
-<StyledLayerDescriptor
-xmlns:sld="http://www.opengis.net/sld"
-version="1.0.0"
-xmlns:xlink="http://www.w3.org/1999/xlink"
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<StyledLayerDescriptor version="1.0.0"
+
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
+xmlns="http://www.opengis.net/sld" 
+xmlns:gml="http://www.opengis.net/gml"
 xmlns:ogc="http://www.opengis.net/ogc"
-xmlns:gml="http://www.opengis.net/gml">
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
   <NamedLayer>
     <Name>Zooniverse Floating Forests</Name>
     <UserStyle>
@@ -14,8 +16,11 @@ xmlns:gml="http://www.opengis.net/gml">
       <FeatureTypeStyle>
         <Rule>
           <Title>Area analysed (zoomed out)</Title>
-		  <MinScaleDenominator>30000000</MinScaleDenominator>		  
+		  <MinScaleDenominator>20000000</MinScaleDenominator>		  
           <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom_bdy</ogc:PropertyName>				
+			</Geometry>			  
             <Fill>
               <CssParameter name="fill">#ff572f</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
@@ -35,7 +40,7 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>30000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>20000000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
@@ -51,8 +56,11 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>30000000</MaxScaleDenominator>
-          <PolygonSymbolizer>		  
+		  <MaxScaleDenominator>20000000</MaxScaleDenominator>
+          <PolygonSymbolizer>	
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>			  
             <Fill>
               <CssParameter name="fill">#e9fecd</CssParameter>
               <CssParameter name="fill-opacity">0.5</CssParameter>
@@ -67,8 +75,11 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>30000000</MaxScaleDenominator>
-          <PolygonSymbolizer>			  
+		  <MaxScaleDenominator>20000000</MaxScaleDenominator>
+          <PolygonSymbolizer>	
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>			  
             <Fill>
               <CssParameter name="fill">#befb9d</CssParameter>
               <CssParameter name="fill-opacity">0.7</CssParameter>
@@ -83,8 +94,11 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>3</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>30000000</MaxScaleDenominator>
-          <PolygonSymbolizer>		  
+		  <MaxScaleDenominator>20000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>			  
             <Fill>
               <CssParameter name="fill">#9dfa6b</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
@@ -104,8 +118,11 @@ xmlns:gml="http://www.opengis.net/gml">
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
-		  <MaxScaleDenominator>30000000</MaxScaleDenominator>
-          <PolygonSymbolizer>		  
+		  <MaxScaleDenominator>20000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>			  
             <Fill>
               <CssParameter name="fill">#00b300</CssParameter>
               <CssParameter name="fill-opacity">1</CssParameter>
@@ -125,9 +142,12 @@ xmlns:gml="http://www.opengis.net/gml">
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
-		  <MaxScaleDenominator>30000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>20000000</MaxScaleDenominator>
           <PolygonSymbolizer>
-            <Fill>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	
+		  <Fill>
               <CssParameter name="fill">#006600</CssParameter>
               <CssParameter name="fill-opacity">1</CssParameter>
             </Fill>
@@ -141,8 +161,11 @@ xmlns:gml="http://www.opengis.net/gml">
               <ogc:Literal>10</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
-		  <MaxScaleDenominator>30000000</MaxScaleDenominator>		  
+		  <MaxScaleDenominator>20000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>			  
             <Fill>
               <CssParameter name="fill">#003300</CssParameter>
               <CssParameter name="fill-opacity">1</CssParameter>
