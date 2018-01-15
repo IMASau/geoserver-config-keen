@@ -1,4 +1,4 @@
-<sld:StyledLayerDescriptor
+<StyledLayerDescriptor
 xmlns:sld="http://www.opengis.net/sld"
 version="1.0.0"
 xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -6,74 +6,88 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
 xmlns:ogc="http://www.opengis.net/ogc"
 xmlns:gml="http://www.opengis.net/gml">
-  <sld:NamedLayer>
-    <sld:Name>Zooniverse Floating Forests</sld:Name>
-    <sld:UserStyle>
-      <sld:Title>Floating Forests</sld:Title>
-      <sld:Abstract>A style that renders kelp forest coverage</sld:Abstract>
-      <sld:FeatureTypeStyle>
-        <sld:Rule>
-          <sld:Title>Likelihood of kelp (count of +ve scores)</sld:Title>
+  <NamedLayer>
+    <Name>Zooniverse Floating Forests</Name>
+    <UserStyle>
+      <Title>Floating Forests</Title>
+      <Abstract>A style that renders kelp forest coverage</Abstract>
+      <FeatureTypeStyle>
+        <Rule>
+          <Title>Area analysed (zoomed out)</Title>
+		  <MinScaleDenominator>30000000</MinScaleDenominator>		  
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#ff572f</CssParameter>
+              <CssParameter name="fill-opacity">0.8</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	        
+        <Rule>
+          <Title>Likelihood of kelp (count of +ve scores)</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>threshold</ogc:PropertyName>
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#000000</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>	  
-        <sld:Rule>
-          <sld:Title>1</sld:Title>
+		  <MaxScaleDenominator>30000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#000000</CssParameter>
+              <CssParameter name="fill-opacity">0</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	  
+        <Rule>
+          <Title>1</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>threshold</ogc:PropertyName>
               <ogc:Literal>1</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#e9fecd</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.5</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>	 
-        <sld:Rule>
-          <sld:Title>2</sld:Title>
+		  <MaxScaleDenominator>30000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#e9fecd</CssParameter>
+              <CssParameter name="fill-opacity">0.5</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	 
+        <Rule>
+          <Title>2</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>threshold</ogc:PropertyName>
               <ogc:Literal>2</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#befb9d</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.7</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>			
-        <sld:Rule>
-          <sld:Title>3</sld:Title>
+		  <MaxScaleDenominator>30000000</MaxScaleDenominator>
+          <PolygonSymbolizer>			  
+            <Fill>
+              <CssParameter name="fill">#befb9d</CssParameter>
+              <CssParameter name="fill-opacity">0.7</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>			
+        <Rule>
+          <Title>3</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>threshold</ogc:PropertyName>
               <ogc:Literal>3</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#9dfa6b</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">0.9</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>4-5</sld:Title>
+		  <MaxScaleDenominator>30000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#9dfa6b</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>4-5</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>threshold</ogc:PropertyName>
@@ -85,15 +99,16 @@ xmlns:gml="http://www.opengis.net/gml">
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#00b300</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">1</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>            
-          <sld:Title>6-10</sld:Title>
+		  <MaxScaleDenominator>30000000</MaxScaleDenominator>
+          <PolygonSymbolizer>		  
+            <Fill>
+              <CssParameter name="fill">#00b300</CssParameter>
+              <CssParameter name="fill-opacity">1</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>            
+          <Title>6-10</Title>
           <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>threshold</ogc:PropertyName>
@@ -105,29 +120,31 @@ xmlns:gml="http://www.opengis.net/gml">
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#006600</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">1</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-        <sld:Rule>
-          <sld:Title>&#62;10</sld:Title>
+		  <MaxScaleDenominator>30000000</MaxScaleDenominator>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#006600</CssParameter>
+              <CssParameter name="fill-opacity">1</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>	
+        <Rule>
+          <Title>&#62;10</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>threshold</ogc:PropertyName>
               <ogc:Literal>10</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
-          <sld:PolygonSymbolizer>
-            <sld:Fill>
-              <sld:CssParameter name="fill">#003300</sld:CssParameter>
-              <sld:CssParameter name="fill-opacity">1</sld:CssParameter>
-            </sld:Fill>
-          </sld:PolygonSymbolizer>
-        </sld:Rule>
-      </sld:FeatureTypeStyle>
-    </sld:UserStyle>
-  </sld:NamedLayer>
-</sld:StyledLayerDescriptor>
+		  <MaxScaleDenominator>30000000</MaxScaleDenominator>		  
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#003300</CssParameter>
+              <CssParameter name="fill-opacity">1</CssParameter>
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>        
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>
