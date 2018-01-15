@@ -18,8 +18,13 @@ xmlns:gml="http://www.opengis.net/gml">
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#ff572f</CssParameter>
-              <CssParameter name="fill-opacity">0.8</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
+			<Stroke>
+              <CssParameter name="stroke">#000000</CssParameter>
+              <CssParameter name="stroke-opacity">1</CssParameter>
+              <CssParameter name="stroke-width">0.01</CssParameter>
+			</Stroke>        
           </PolygonSymbolizer>
         </Rule>	        
         <Rule>
