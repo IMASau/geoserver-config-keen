@@ -47,7 +47,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">0</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>	  
+        </Rule>	   
         <Rule>
           <Title>3-5</Title>
             <ogc:PropertyIsBetween>
@@ -65,13 +65,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			<ogc:PropertyName>geom</ogc:PropertyName>				
 			</Geometry>			  
             <Fill>
-              <CssParameter name="fill">#e9fecd</CssParameter>
-              <CssParameter name="fill-opacity">0.85</CssParameter>
+              <CssParameter name="fill">#befb9d</CssParameter>
+              <CssParameter name="fill-opacity">0.</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>	 
+        </Rule>			
         <Rule>
           <Title>6-7</Title>
+          <ogc:Filter>
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>threshold</ogc:PropertyName>
 			  <ogc:LowerBoundary>
@@ -81,17 +82,18 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <ogc:Literal>7</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
+          </ogc:Filter>
 		  <MaxScaleDenominator>20000000</MaxScaleDenominator>
-          <PolygonSymbolizer>	
+          <PolygonSymbolizer>		
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
 			</Geometry>			  
             <Fill>
-              <CssParameter name="fill">#befb9d</CssParameter>
-              <CssParameter name="fill-opacity">0.85</CssParameter>
+              <CssParameter name="fill">#9dfa6b</CssParameter>
+              <CssParameter name="fill-opacity">1</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>			
+        </Rule>
         <Rule>
           <Title>8</Title>
           <ogc:Filter>
@@ -106,36 +108,17 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			<ogc:PropertyName>geom</ogc:PropertyName>				
 			</Geometry>			  
             <Fill>
-              <CssParameter name="fill">#9dfa6b</CssParameter>
-              <CssParameter name="fill-opacity">1</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>9</Title>
-          <ogc:Filter>
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>threshold</ogc:PropertyName>
-              <ogc:Literal>9</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-		  <MaxScaleDenominator>20000000</MaxScaleDenominator>
-          <PolygonSymbolizer>		
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>			  
-            <Fill>
               <CssParameter name="fill">#00b300</CssParameter>
               <CssParameter name="fill-opacity">1</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>
         <Rule>            
-          <Title>10</Title>
+          <Title>9</Title>
           <ogc:Filter>
             <ogc:PropertyIsEqualTo>
               <ogc:PropertyName>threshold</ogc:PropertyName>
-              <ogc:Literal>10</ogc:Literal>
+              <ogc:Literal>9</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
 		  <MaxScaleDenominator>20000000</MaxScaleDenominator>
@@ -150,11 +133,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>	
         <Rule>
-          <Title>&#62;10</Title>
+          <Title>&ge;10</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>threshold</ogc:PropertyName>
-              <ogc:Literal>10</ogc:Literal>
+              <ogc:Literal>9</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
 		  <MaxScaleDenominator>20000000</MaxScaleDenominator>		  
