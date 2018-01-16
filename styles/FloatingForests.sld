@@ -50,6 +50,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         </Rule>	   
         <Rule>
           <Title>3-5</Title>
+          <ogc:Filter>          
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>threshold</ogc:PropertyName>
 			  <ogc:LowerBoundary>
@@ -59,14 +60,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <ogc:Literal>5</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
+          </ogc:Filter>            
 		  <MaxScaleDenominator>20000000</MaxScaleDenominator>
           <PolygonSymbolizer>	
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
 			</Geometry>			  
             <Fill>
-              <CssParameter name="fill">#befb9d</CssParameter>
-              <CssParameter name="fill-opacity">0.</CssParameter>
+              <CssParameter name="fill">#dbfb83</CssParameter>
+              <CssParameter name="fill-opacity">0.85</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>			
@@ -89,7 +91,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 			<ogc:PropertyName>geom</ogc:PropertyName>				
 			</Geometry>			  
             <Fill>
-              <CssParameter name="fill">#9dfa6b</CssParameter>
+              <CssParameter name="fill">#95f854</CssParameter>
               <CssParameter name="fill-opacity">1</CssParameter>
             </Fill>
           </PolygonSymbolizer>
@@ -133,7 +135,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>	
         <Rule>
-          <Title>&ge;10</Title>
+          <Title>&gt;10</Title>
           <ogc:Filter>
             <ogc:PropertyIsGreaterThan>
               <ogc:PropertyName>threshold</ogc:PropertyName>
