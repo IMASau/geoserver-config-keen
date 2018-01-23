@@ -4,12 +4,12 @@
   <#if (feature_index < 1) >
   
     <div class="feature"> 
-	<b>Image date/time: </b> ${feature.scene_timestamp.value}<BR>
+	<b>Image capture date: </b> ${feature.scene_timestamp.value[0..11]}<BR>
 	<b>Scoring date/time: </b> ${feature.created_at.value}<BR>	
-	<b>No. positive kelp identifications for region: </b> ${feature.threshold.value}<BR>
-	<a href="${feature.image_url.value}" target="_blank">View satellite image</a><BR><BR>
+	<b>No. positive kelp identifications for region: </b> ${feature.threshold.rawValue?round}<BR>
 		<a href="${feature.image_url.value}" target="_blank">
-		<img class="spaced" style="max-width:250px!important" src="${feature.image_url.value}" alt="no image available"></a><BR><BR>	
+		<img class="spaced" style="max-width:240px!important" src="${feature.image_url.value}" alt="no image available"></a><BR><BR>
+	<a href="${feature.image_url.value}" target="_blank">View full-sized satellite image</a><BR><BR>		
     </div>
   
 	<#else>
