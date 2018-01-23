@@ -22,16 +22,15 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
               <CssParameter name="fill-opacity">0</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>
+        </Rule>	
         <Rule>
-          <Title>&lt;2</Title>
+          <Title>&lt;3</Title>
           <ogc:Filter>          
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>threshold</ogc:PropertyName>
@@ -43,17 +42,13 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>            
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
-          <PolygonSymbolizer>	
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>			  
+          <PolygonSymbolizer>			  
             <Fill>
               <CssParameter name="fill">#8c8c8c</CssParameter>
               <CssParameter name="fill-opacity">0.5</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>        
+        </Rule>	        
         <Rule>
           <Title>3-5</Title>
           <ogc:Filter>          
@@ -67,11 +62,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>            
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
-          <PolygonSymbolizer>	
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>			  
+          <PolygonSymbolizer>			  
             <Fill>
               <CssParameter name="fill">#dbfb83</CssParameter>
               <CssParameter name="fill-opacity">0.9</CssParameter>
@@ -91,11 +82,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
-          <PolygonSymbolizer>		
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>			  
+          <PolygonSymbolizer>				  
             <Fill>
               <CssParameter name="fill">#95f854</CssParameter>
               <CssParameter name="fill-opacity">1</CssParameter>
@@ -110,11 +97,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>8</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
-          <PolygonSymbolizer>		
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>			  
+          <PolygonSymbolizer>				  
             <Fill>
               <CssParameter name="fill">#00b300</CssParameter>
               <CssParameter name="fill-opacity">1</CssParameter>
@@ -129,11 +112,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>9</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>	
 		  <Fill>
               <CssParameter name="fill">#006600</CssParameter>
               <CssParameter name="fill-opacity">1</CssParameter>
@@ -147,12 +126,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:PropertyName>threshold</ogc:PropertyName>
               <ogc:Literal>9</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
-          </ogc:Filter>
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>		  
-          <PolygonSymbolizer>
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>			  
+          </ogc:Filter>	  
+          <PolygonSymbolizer>		  
             <Fill>
               <CssParameter name="fill">#003300</CssParameter>
               <CssParameter name="fill-opacity">1</CssParameter>

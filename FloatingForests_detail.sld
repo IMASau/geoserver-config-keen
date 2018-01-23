@@ -29,31 +29,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <CssParameter name="fill-opacity">0</CssParameter>
             </Fill>
           </PolygonSymbolizer>
-        </Rule>
-        <Rule>
-          <Title>&lt;2</Title>
-          <ogc:Filter>          
-            <ogc:PropertyIsBetween>
-              <ogc:PropertyName>threshold</ogc:PropertyName>
-			  <ogc:LowerBoundary>
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:LowerBoundary>
-			  <ogc:UpperBoundary>
-                <ogc:Literal>2</ogc:Literal>
-              </ogc:UpperBoundary>
-            </ogc:PropertyIsBetween>
-          </ogc:Filter>            
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
-          <PolygonSymbolizer>	
-			<Geometry>  
-			<ogc:PropertyName>geom</ogc:PropertyName>				
-			</Geometry>			  
-            <Fill>
-              <CssParameter name="fill">#8c8c8c</CssParameter>
-              <CssParameter name="fill-opacity">0.5</CssParameter>
-            </Fill>
-          </PolygonSymbolizer>
-        </Rule>        
+        </Rule>	   
         <Rule>
           <Title>3-5</Title>
           <ogc:Filter>          
