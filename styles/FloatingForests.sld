@@ -16,7 +16,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <FeatureTypeStyle>
         <Rule>
           <Title>Area analysed (zoomed out)</Title>
-		  <MinScaleDenominator>20000000</MinScaleDenominator>		  
+		  <MinScaleDenominator>5000000</MinScaleDenominator>		  
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom_bdy</ogc:PropertyName>				
@@ -40,7 +40,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>0</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>20000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
@@ -61,14 +61,14 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>            
-		  <MaxScaleDenominator>20000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>	
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
 			</Geometry>			  
             <Fill>
               <CssParameter name="fill">#dbfb83</CssParameter>
-              <CssParameter name="fill-opacity">0.85</CssParameter>
+              <CssParameter name="fill-opacity">0.9</CssParameter>
             </Fill>
           </PolygonSymbolizer>
         </Rule>			
@@ -85,7 +85,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
           </ogc:Filter>
-		  <MaxScaleDenominator>20000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -104,7 +104,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>8</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>20000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>		
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -123,7 +123,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>9</ogc:Literal>
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
-		  <MaxScaleDenominator>20000000</MaxScaleDenominator>
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
@@ -142,7 +142,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
               <ogc:Literal>9</ogc:Literal>
             </ogc:PropertyIsGreaterThan>
           </ogc:Filter>
-		  <MaxScaleDenominator>20000000</MaxScaleDenominator>		  
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>		  
           <PolygonSymbolizer>
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
