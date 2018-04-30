@@ -12,7 +12,7 @@
 		<#assign Temperature=feature.TEMPERATURE_C>
 		<#if Temperature=="NA">
 		<b>Temperature:</b> no data<BR>
-		<#else>
+		<#elseif Temperature!="NA">
 		<b>Temperature:</b> ${feature.TEMPERATURE_C.value} &#176;C<BR>
 		</#if>
 		<b>Visibility:</b> ${feature.VISIBILITY_M.value}m<BR><BR>		
