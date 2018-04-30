@@ -9,7 +9,7 @@
 		<b>Sampling Site:</b> ${feature.SITE.value}<BR>
 		<b>Date:</b> ${feature.YEAR.value}-${feature.MONTH.value}-${feature.DAY.value}<BR>
 		<b>Transect (depth range):</b> ${feature.TRANSECT.value} (${feature.START_DEPTH_M.value}m - ${feature.END_DEPTH_M.value}m)<BR>
-		<#assign Temperature=feature.TEMPERATURE_C[0]/>
+		<#assign Temperature=feature.TEMPERATURE_C>
 		<#if Temperature=="NA">
 		<b>Temperature:</b> no data<BR>
 		<#else>
