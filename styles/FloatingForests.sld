@@ -42,6 +42,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </ogc:Filter>
 		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
           <PolygonSymbolizer>
+			<Geometry>  
+			<ogc:PropertyName>geom</ogc:PropertyName>				
+			</Geometry>	            
             <Fill>
               <CssParameter name="fill">#000000</CssParameter>
               <CssParameter name="fill-opacity">0</CssParameter>
@@ -49,7 +52,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
           </PolygonSymbolizer>
         </Rule>	   
         <Rule>
-          <Title>3-5</Title>
+          <Title>3-5</Title>	  
           <ogc:Filter>          
             <ogc:PropertyIsBetween>
               <ogc:PropertyName>threshold</ogc:PropertyName>
@@ -60,8 +63,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
                 <ogc:Literal>5</ogc:Literal>
               </ogc:UpperBoundary>
             </ogc:PropertyIsBetween>
-          </ogc:Filter>            
-		  <MaxScaleDenominator>5000000</MaxScaleDenominator>
+          </ogc:Filter>     
+		  <MaxScaleDenominator>5000000</MaxScaleDenominator>			  
           <PolygonSymbolizer>	
 			<Geometry>  
 			<ogc:PropertyName>geom</ogc:PropertyName>				
