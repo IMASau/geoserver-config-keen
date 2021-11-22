@@ -17,8 +17,8 @@
 					<Abstract>A pink line with a 2 pixel width</Abstract>
 					<LineSymbolizer>
 						<Stroke>
-							<CssParameter name="stroke">#ff00ff</CssParameter>
-							<CssParameter name="stroke-width">1.5</CssParameter>                          
+							<CssParameter name="stroke">#751aff</CssParameter>
+							<CssParameter name="stroke-width">1</CssParameter>                          
 						</Stroke>
 					</LineSymbolizer>
 				</Rule>
