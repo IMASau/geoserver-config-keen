@@ -13,9 +13,9 @@
 
 <i><u>Kelp community structure</u></i><BR><BR>
   
-  <b>Focal kelp abundance </b> ${feature.focalKelp.rawValue?string("0.00")}<BR>
-  <b>Stipe density: </b> ${feature.Stipe_Density_num_per_sq_m.rawValue?string("0.00")} stipes/m&#178<BR>
-  <b>Individual density: </b> ${feature.individual_per_sq_m.rawValue?string("0.00")} individuals/m&#178<BR>  
+  <b>Focal kelp abundance </b> ${feature.focalKelp.value}<BR>
+  <b>Stipe density: </b> ${feature.Stipe_Density_num_per_sq_m.value} stipes/m&#178<BR>
+  <b>Individual density: </b> ${feature.individual_per_sq_m.value} individuals/m&#178<BR>  
   <b>Percent cover: </b> ${feature.percent_cover.value}&#37<BR><BR>      
 
    
