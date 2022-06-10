@@ -23504,3 +23504,28 @@ Request: getMap
 	ViewParams = null
 	Width = 256
 2022-06-10 18:22:26,496 INFO [geoserver.filters] - 86.134.241.218 "GET /geoserver/wms?LAYERS=TRB%3ATRB_KEEN_kelp_timeseries_aggregated_GV2&TRANSPARENT=TRUE&VERSION=1.3.0&FORMAT=image%2Fpng&EXCEPTIONS=application%2Fvnd.ogc.se_xml&TILED=true&SERVICE=WMS&REQUEST=GetMap&STYLES=&QUERYABLE=true&CRS=EPSG%3A4326&BBOX=-67.5,-22.5,-45,0&WIDTH=256&HEIGHT=256" took 96ms
+2022-06-10 19:54:05,940 INFO [geoserver.filters] - 86.134.241.218 "GET /geoserver/wfs?request=GetCapabilities&service=WFS&version=1.1.0" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" "https://catalogue-temperatereefbase.imas.utas.edu.au/" "" 
+2022-06-10 19:54:05,943 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-06-10 19:54:05,943 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-06-10 19:54:05,943 INFO [geoserver.wfs] - 
+Request: getCapabilities
+    acceptVersions:
+        version[0] = 1.1.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    service = WFS
+2022-06-10 19:54:05,965 INFO [geoserver.filters] - 86.134.241.218 "GET /geoserver/wfs?request=GetCapabilities&service=WFS&version=1.1.0" took 25ms
+2022-06-10 19:54:38,555 INFO [geoserver.filters] - 86.134.241.218 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV&outputFormat=csv" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" "https://catalogue-temperatereefbase.imas.utas.edu.au/" "" 
+2022-06-10 19:54:38,558 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-06-10 19:54:38,558 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-06-10 19:54:38,559 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_kelp_timeseries_aggregated_GV
+    outputFormat = csv
+    resultType = results
+2022-06-10 19:54:38,837 INFO [geoserver.filters] - 86.134.241.218 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV&outputFormat=csv" took 282ms
