@@ -25841,3 +25841,17 @@ org.geoserver.platform.ServiceException: Could not determine geoserver request f
 2022-06-12 12:21:02,838 INFO [geoserver.filters] - 66.249.64.173 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=A948F11B55021994D7DED647CBB4FEE8?59-6.IBehaviorListener.0-form-backward&fromSRS=EPSG:2094" took 47ms
 2022-06-12 12:21:03,792 INFO [geoserver.filters] - 66.249.64.175 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=9A92785BBADE8F32D51F01BA6F16777E?0&fromSRS=EPSG:2094" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
 2022-06-12 12:21:03,796 INFO [geoserver.filters] - 66.249.64.175 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=9A92785BBADE8F32D51F01BA6F16777E?0&fromSRS=EPSG:2094" took 4ms
+2022-06-12 19:29:50,639 INFO [geoserver.filters] - 66.249.64.173 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_KEEN_Survey_Data_Swath_GV" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2022-06-12 19:29:50,643 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-06-12 19:29:50,644 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-06-12 19:29:50,645 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_Survey_Data_Swath_GV
+    outputFormat = GML2
+    resultType = results
+2022-06-12 19:29:50,684 INFO [geoserver.filters] - 66.249.64.173 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_KEEN_Survey_Data_Swath_GV" took 45ms
