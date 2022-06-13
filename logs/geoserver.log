@@ -29290,3 +29290,28 @@ Request: getFeature
 2022-06-13 22:24:03,078 INFO [geoserver.filters] - 66.249.64.175 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=D2136E15F36F1CC41D0D6393EB44AB73?284-8.IBehaviorListener.0-srsListPanel-table-listContainer-sortableLinks-1-header-link" took 90ms
 2022-06-13 22:24:03,774 INFO [geoserver.filters] - 66.249.64.177 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=3128470BBAF9E88AABF5B41DA1C445F1?0" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.61 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
 2022-06-13 22:24:03,778 INFO [geoserver.filters] - 66.249.64.177 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=3128470BBAF9E88AABF5B41DA1C445F1?0" took 4ms
+2022-06-13 23:45:50,026 INFO [geoserver.filters] - 86.134.241.218 "GET /geoserver/wfs?request=GetCapabilities&service=WFS&version=1.1.0" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" "https://catalogue-temperatereefbase.imas.utas.edu.au/" "" 
+2022-06-13 23:45:50,030 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-06-13 23:45:50,030 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-06-13 23:45:50,031 INFO [geoserver.wfs] - 
+Request: getCapabilities
+    acceptVersions:
+        version[0] = 1.1.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    service = WFS
+2022-06-13 23:45:50,052 INFO [geoserver.filters] - 86.134.241.218 "GET /geoserver/wfs?request=GetCapabilities&service=WFS&version=1.1.0" took 26ms
+2022-06-13 23:46:49,109 INFO [geoserver.filters] - 86.134.241.218 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV&outputFormat=csv" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" "https://catalogue-temperatereefbase.imas.utas.edu.au/" "" 
+2022-06-13 23:46:49,114 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-06-13 23:46:49,114 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-06-13 23:46:49,115 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_kelp_timeseries_aggregated_GV
+    outputFormat = csv
+    resultType = results
+2022-06-13 23:46:49,452 INFO [geoserver.filters] - 86.134.241.218 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV&outputFormat=csv" took 343ms
