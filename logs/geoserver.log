@@ -48348,3 +48348,18 @@ Request: getFeature
 2022-06-15 02:59:15,985 INFO [geoserver.filters] - 20.37.8.195 "POST /geoserver/index.html" took 2ms
 2022-06-15 04:52:45,117 INFO [geoserver.filters] - 13.76.132.231 "HEAD /geoserver" "Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1464.0 Safari/537.36" "https://www.bing.com" "" 
 2022-06-15 04:52:45,120 INFO [geoserver.filters] - 13.76.132.231 "HEAD /geoserver" took 3ms
+2022-06-15 08:52:07,254 INFO [geoserver.filters] - 185.191.171.2 "GET /geoserver/TRB/ows?maxFeatures=10&outputFormat=csv&request=GetFeature&service=WFS&typeName=TRB%3ATRB_JBoada_Algae_Urchin_2013&version=1.0.0" "Mozilla/5.0 (compatible; SemrushBot/7~bl; +http://www.semrush.com/bot.html)" "" "" 
+2022-06-15 08:52:07,257 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-06-15 08:52:07,258 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-06-15 08:52:07,259 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_JBoada_Algae_Urchin_2013
+    maxFeatures = 10
+    outputFormat = csv
+    resultType = results
+2022-06-15 08:52:07,286 INFO [geoserver.filters] - 185.191.171.2 "GET /geoserver/TRB/ows?maxFeatures=10&outputFormat=csv&request=GetFeature&service=WFS&typeName=TRB%3ATRB_JBoada_Algae_Urchin_2013&version=1.0.0" took 32ms
