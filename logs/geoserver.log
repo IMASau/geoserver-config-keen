@@ -48367,3 +48367,17 @@ Request: getFeature
 2022-06-15 11:46:00,029 INFO [geoserver.filters] - 104.143.83.241 "GET /geoserver" took 3ms
 2022-06-15 11:46:00,291 INFO [geoserver.filters] - 104.143.83.241 "GET /geoserver/index.html" "Mozilla/5.0 zgrab/0.x" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver" "" 
 2022-06-15 11:46:00,293 INFO [geoserver.filters] - 104.143.83.241 "GET /geoserver/index.html" took 2ms
+2022-06-15 14:18:37,949 INFO [geoserver.filters] - 157.55.39.48 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3AKEEN_Obs_Sites_3857" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)" "" "" 
+2022-06-15 14:18:37,952 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-06-15 14:18:37,953 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-06-15 14:18:37,962 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}KEEN_Obs_Sites_3857
+    outputFormat = GML2
+    resultType = results
+2022-06-15 14:18:38,040 INFO [geoserver.filters] - 157.55.39.48 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3AKEEN_Obs_Sites_3857" took 91ms
