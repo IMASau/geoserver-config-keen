@@ -8551,3 +8551,76 @@ Request: getFeature
         typeName[0] = {TRB}FloatingForests_DATA
     outputFormat = GML2
     resultType = results
+2022-08-01 15:00:12,643 INFO [geoserver.servlets] - OutputStream was successfully aborted.
+2022-08-01 15:00:12,643 INFO [geoserver.filters] - 66.249.65.69 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3AFloatingForests_DATA" took 12008ms
+2022-08-01 15:05:25,005 INFO [geoserver.filters] - 51.222.97.96 "HEAD /geoserver" "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.16 Safari/537.36" "https://www.bing.com" "" 
+2022-08-01 15:05:25,007 INFO [geoserver.filters] - 51.222.97.96 "HEAD /geoserver" took 2ms
+2022-08-01 15:07:30,749 INFO [geoserver.filters] - 66.249.65.73 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_KEEN_Survey_Data_Quads_GV" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2022-08-01 15:07:30,752 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-08-01 15:07:30,753 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-08-01 15:07:30,754 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_Survey_Data_Quads_GV
+    outputFormat = GML2
+    resultType = results
+2022-08-01 15:07:30,810 INFO [geoserver.filters] - 66.249.65.73 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_KEEN_Survey_Data_Quads_GV" took 61ms
+2022-08-01 15:15:01,041 INFO [geoserver.filters] - 66.249.65.71 "GET /geoserver/TRB/wms/kml?layers=TRB:TRB_KEEN_Survey_Data_Quads_GV" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2022-08-01 15:15:01,044 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-08-01 15:15:01,045 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-08-01 15:15:01,047 INFO [geoserver.wms] - 
+Request: kml
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = null
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = null
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = null
+	FormatOptions = {}
+	Get = true
+	Height = 0
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@9ebe03a4]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {LAYERS=TRB:TRB_KEEN_Survey_Data_Quads_GV}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = null
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=point_orange]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = null
+	ViewParams = null
+	Width = 0
+2022-08-01 15:15:01,060 INFO [geoserver.filters] - 66.249.65.71 "GET /geoserver/TRB/wms/kml?layers=TRB:TRB_KEEN_Survey_Data_Quads_GV" took 19ms
