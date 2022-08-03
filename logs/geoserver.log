@@ -11231,3 +11231,17 @@ org.geoserver.platform.ServiceException: Could not determine geoserver request f
 2022-08-03 09:14:41,895 INFO [geoserver.filters] - 20.193.46.81 "GET /geoserver/web/wicket/resource/org.geoserver.web.GeoServerBasePage/img/page-bg.png" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/web/wicket/resource/org.geoserver.web.GeoServerBasePage/css/geoserver-ver-816F8EB03F03C35A4F2A2A150DE48E9E.css" "" 
 2022-08-03 09:14:41,897 INFO [geoserver.filters] - 20.193.46.81 "GET /geoserver/web/wicket/resource/org.geoserver.web.GeoServerBasePage/img/page-header-bg.png" took 4ms
 2022-08-03 09:14:41,898 INFO [geoserver.filters] - 20.193.46.81 "GET /geoserver/web/wicket/resource/org.geoserver.web.GeoServerBasePage/img/page-bg.png" took 3ms
+2022-08-03 10:58:11,690 INFO [geoserver.filters] - 66.249.71.49 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3AKEEN_Obs_Sites_3857" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2022-08-03 10:58:11,694 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-08-03 10:58:11,694 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-08-03 10:58:11,704 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}KEEN_Obs_Sites_3857
+    outputFormat = GML2
+    resultType = results
+2022-08-03 10:58:11,742 INFO [geoserver.filters] - 66.249.71.49 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3AKEEN_Obs_Sites_3857" took 52ms
