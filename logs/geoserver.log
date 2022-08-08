@@ -34103,3 +34103,18 @@ Request: getFeature
 2022-08-09 08:20:13,220 INFO [geoserver.filters] - 66.249.66.143 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.wcs.web.demo.WCSRequestBuilder;jsessionid=FD965624E746E347ECD1FD41FA5D3DCE" took 55ms
 2022-08-09 08:20:14,011 INFO [geoserver.filters] - 66.249.66.15 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.wcs.web.demo.WCSRequestBuilder;jsessionid=1F6FE03423756CEAEC411169523C9CE6?0" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
 2022-08-09 08:20:14,015 INFO [geoserver.filters] - 66.249.66.15 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.wcs.web.demo.WCSRequestBuilder;jsessionid=1F6FE03423756CEAEC411169523C9CE6?0" took 4ms
+2022-08-09 09:03:03,118 INFO [geoserver.filters] - 185.191.171.10 "GET /geoserver/TRB/ows?outputFormat=csv&request=GetFeature&service=WFS&typeName=TRB%3AFloatingForests_DATA&version=1.0.0" "Mozilla/5.0 (compatible; SemrushBot/7~bl; +http://www.semrush.com/bot.html)" "" "" 
+2022-08-09 09:03:03,121 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-08-09 09:03:03,121 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-08-09 09:03:03,123 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}FloatingForests_DATA
+    outputFormat = csv
+    resultType = results
+2022-08-09 09:03:04,445 INFO [geoserver.servlets] - OutputStream was successfully aborted.
+2022-08-09 09:03:04,445 INFO [geoserver.filters] - 185.191.171.10 "GET /geoserver/TRB/ows?outputFormat=csv&request=GetFeature&service=WFS&typeName=TRB%3AFloatingForests_DATA&version=1.0.0" took 1327ms
