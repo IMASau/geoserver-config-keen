@@ -34118,3 +34118,68 @@ Request: getFeature
     resultType = results
 2022-08-09 09:03:04,445 INFO [geoserver.servlets] - OutputStream was successfully aborted.
 2022-08-09 09:03:04,445 INFO [geoserver.filters] - 185.191.171.10 "GET /geoserver/TRB/ows?outputFormat=csv&request=GetFeature&service=WFS&typeName=TRB%3AFloatingForests_DATA&version=1.0.0" took 1327ms
+2022-08-09 09:40:22,471 INFO [geoserver.filters] - 207.46.13.178 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3AFloatingForests_MAP&bbox=-124.53063529729843%2C34.97161543369293%2C-120.63346874713898%2C41.23391318321228&width=477&height=768&srs=EPSG%3A4326&format=application/openlayers" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)" "" "" 
+2022-08-09 09:40:22,476 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-08-09 09:40:22,477 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-08-09 09:40:22,514 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[-124.53063529729843 : -120.63346874713898, 34.97161543369293 : 41.23391318321228]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@55ea082a]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=-124.53063529729843,34.97161543369293,-120.63346874713898,41.23391318321228, VERSION=1.1.0, SERVICE=WMS, WIDTH=477, HEIGHT=768, LAYERS=TRB:FloatingForests_MAP}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=FloatingForests]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 477
+2022-08-09 09:40:22,515 INFO [geoserver.filters] - 207.46.13.178 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3AFloatingForests_MAP&bbox=-124.53063529729843%2C34.97161543369293%2C-120.63346874713898%2C41.23391318321228&width=477&height=768&srs=EPSG%3A4326&format=application/openlayers" took 44ms
+2022-08-09 09:54:37,237 INFO [geoserver.filters] - 34.168.220.228 "GET /geoserver" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0" "" "" 
+2022-08-09 09:54:37,239 INFO [geoserver.filters] - 34.168.220.228 "GET /geoserver" took 2ms
