@@ -34404,3 +34404,17 @@ Request: getFeature
 2022-08-11 21:56:55,446 INFO [geoserver.filters] - 66.249.70.217 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=D2136E15F36F1CC41D0D6393EB44AB73?1103-3.IBehaviorListener.0-srsListPanel-table-listContainer-items-71-itemProperties-0-component-link" took 61ms
 2022-08-11 21:56:56,384 INFO [geoserver.filters] - 66.249.70.217 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=C053D2273C52753FCFA19F7210C8832C?0" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
 2022-08-11 21:56:56,388 INFO [geoserver.filters] - 66.249.70.217 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=C053D2273C52753FCFA19F7210C8832C?0" took 4ms
+2022-08-11 22:02:20,351 INFO [geoserver.filters] - 114.119.141.9 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_Survey_Data_Swath_GV" "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage" "" 
+2022-08-11 22:02:20,354 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-08-11 22:02:20,355 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-08-11 22:02:20,356 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_Survey_Data_Swath_GV
+    outputFormat = GML2
+    resultType = results
+2022-08-11 22:02:20,412 INFO [geoserver.filters] - 114.119.141.9 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_Survey_Data_Swath_GV" took 61ms
