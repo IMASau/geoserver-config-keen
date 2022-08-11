@@ -34311,3 +34311,69 @@ org.geoserver.platform.ServiceException: Could not determine geoserver request f
 2022-08-11 07:26:13,213 INFO [geoserver.filters] - 66.249.79.17 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=D2136E15F36F1CC41D0D6393EB44AB73?935-2.ILinkListener-srsListPanel-table-filterForm-navigatorTop-navigator-navigation-4-pageLink" took 56ms
 2022-08-11 07:26:13,844 INFO [geoserver.filters] - 66.249.79.15 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=8F47618E9EB1A1C912CCCEC9B18EC880?0" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
 2022-08-11 07:26:13,850 INFO [geoserver.filters] - 66.249.79.15 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=8F47618E9EB1A1C912CCCEC9B18EC880?0" took 6ms
+2022-08-11 16:30:49,910 INFO [geoserver.filters] - 114.119.146.77 "GET /geoserver/ows?service=wfs&version=1.1.0&request=GetCapabilities" "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/web/" "" 
+2022-08-11 16:30:49,913 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-08-11 16:30:49,922 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-08-11 16:30:49,924 INFO [geoserver.wfs] - 
+Request: getCapabilities
+    acceptVersions:
+        version[0] = 1.1.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    service = wfs
+2022-08-11 16:30:49,959 INFO [geoserver.filters] - 114.119.146.77 "GET /geoserver/ows?service=wfs&version=1.1.0&request=GetCapabilities" took 49ms
+2022-08-11 16:33:55,088 INFO [geoserver.filters] - 114.119.150.16 "GET /geoserver/TRB/wms/kml?layers=TRB:TRB_KEEN_fish_community_responses_GV" "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage" "" 
+2022-08-11 16:33:55,091 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-08-11 16:33:55,091 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-08-11 16:33:55,093 INFO [geoserver.wms] - 
+Request: kml
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = null
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = null
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = null
+	FormatOptions = {}
+	Get = true
+	Height = 0
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@8134b253]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {LAYERS=TRB:TRB_KEEN_fish_community_responses_GV}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = null
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=point]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = null
+	ViewParams = null
+	Width = 0
+2022-08-11 16:33:55,106 INFO [geoserver.filters] - 114.119.150.16 "GET /geoserver/TRB/wms/kml?layers=TRB:TRB_KEEN_fish_community_responses_GV" took 18ms
