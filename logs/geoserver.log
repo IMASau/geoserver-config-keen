@@ -34492,3 +34492,32 @@ Request: kml
 2022-08-11 23:15:29,675 INFO [geoserver.filters] - 114.119.145.79 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.wcs.web.demo.WCSRequestBuilder" took 58ms
 2022-08-11 23:15:31,710 INFO [geoserver.filters] - 114.119.145.79 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.wcs.web.demo.WCSRequestBuilder;jsessionid=7F91B3FD0B2A88C0E868BCF450831A43?0" "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/web/wicket/bookmarkable/org.geoserver.web.DemoPage" "" 
 2022-08-11 23:15:31,714 INFO [geoserver.filters] - 114.119.145.79 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.wcs.web.demo.WCSRequestBuilder;jsessionid=7F91B3FD0B2A88C0E868BCF450831A43?0" took 4ms
+2022-08-11 23:34:12,113 INFO [geoserver.filters] - 114.119.149.150 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_Survey_Data_Pointcount_GV" "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage" "" 
+2022-08-11 23:34:12,117 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-08-11 23:34:12,118 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-08-11 23:34:12,119 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_Survey_Data_Pointcount_GV
+    outputFormat = GML2
+    resultType = results
+2022-08-11 23:34:12,181 INFO [geoserver.filters] - 114.119.149.150 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_Survey_Data_Pointcount_GV" took 68ms
+2022-08-11 23:44:23,130 INFO [geoserver.filters] - 114.119.142.84 "GET /geoserver/ows?service=wfs&version=1.0.0&request=GetCapabilities" "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/web/" "" 
+2022-08-11 23:44:23,134 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-08-11 23:44:23,134 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-08-11 23:44:23,134 INFO [geoserver.wfs] - 
+Request: getCapabilities
+    acceptVersions:
+        version[0] = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    service = wfs
+2022-08-11 23:44:23,157 INFO [geoserver.filters] - 114.119.142.84 "GET /geoserver/ows?service=wfs&version=1.0.0&request=GetCapabilities" took 27ms
+2022-08-11 23:56:29,913 INFO [geoserver.filters] - 114.119.153.25 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage?0-1.ILinkListener-srsListPanel-table-filterForm-navigatorTop-navigator-navigation-1-pageLink" "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage?0-1.ILinkListener-srsListPanel-table-navigatorBottom-navigator-last" "" 
+2022-08-11 23:56:29,973 INFO [geoserver.filters] - 114.119.153.25 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage?0-1.ILinkListener-srsListPanel-table-filterForm-navigatorTop-navigator-navigation-1-pageLink" took 60ms
+2022-08-11 23:56:30,659 INFO [geoserver.filters] - 114.119.153.25 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=C53542FE4F748C128BEEF3490BF1A999?0" "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage?0-1.ILinkListener-srsListPanel-table-navigatorBottom-navigator-last" "" 
+2022-08-11 23:56:30,663 INFO [geoserver.filters] - 114.119.153.25 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=C53542FE4F748C128BEEF3490BF1A999?0" took 4ms
