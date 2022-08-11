@@ -34381,3 +34381,17 @@ Request: kml
 2022-08-11 17:50:09,398 INFO [geoserver.filters] - 114.119.142.20 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage?toSRS=EPSG:2204" took 52ms
 2022-08-11 17:50:11,428 INFO [geoserver.filters] - 114.119.142.20 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=E8274C1A66DC5E7E39F354F681E1591B?0&toSRS=EPSG:2204" "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSDescriptionPage?0-1.ILinkListener-wktTabs-tabs~container-tabs-1-link&code=EPSG%3A2204" "" 
 2022-08-11 17:50:11,431 INFO [geoserver.filters] - 114.119.142.20 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=E8274C1A66DC5E7E39F354F681E1591B?0&toSRS=EPSG:2204" took 3ms
+2022-08-11 19:13:47,734 INFO [geoserver.filters] - 114.119.146.215 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:KEEN_Obs_Sites" "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage" "" 
+2022-08-11 19:13:47,738 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-08-11 19:13:47,738 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-08-11 19:13:47,739 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}KEEN_Obs_Sites
+    outputFormat = GML2
+    resultType = results
+2022-08-11 19:13:47,812 INFO [geoserver.filters] - 114.119.146.215 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:KEEN_Obs_Sites" took 78ms
