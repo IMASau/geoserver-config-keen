@@ -66334,3 +66334,33 @@ Request: getMap
 2022-08-15 08:03:24,333 INFO [geoserver.filters] - 66.249.71.47 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=D2136E15F36F1CC41D0D6393EB44AB73?819-3.ILinkListener-srsListPanel-table-navigatorBottom-navigator-navigation-0-pageLink" took 79ms
 2022-08-15 08:03:25,245 INFO [geoserver.filters] - 66.249.71.49 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=D3BBE7423A560F861046EE0C764E4AD9?0" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
 2022-08-15 08:03:25,250 INFO [geoserver.filters] - 66.249.71.49 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=D3BBE7423A560F861046EE0C764E4AD9?0" took 5ms
+2022-08-15 08:39:42,316 INFO [geoserver.filters] - 66.249.71.47 "GET /geoserver/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=TRB%3ATG2021" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.79 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2022-08-15 08:39:42,320 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-08-15 08:39:42,322 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-08-15 08:39:42,323 INFO [geoserver.wms] - 
+Request: getLegendGraphic
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Env = {}
+	Exceptions = SE_XML
+	FeatureType = null
+	Format = image/png
+	Get = false
+	Height = 20
+	Kvp = {REQUEST=GetLegendGraphic, FORMAT=image/png, SERVICE=WMS, WIDTH=20, HEIGHT=20, LAYER=TRB:TG2021}
+	Layers = [SimpleFeatureTypeImpl TRB:TG2021 identified extends Feature(geom:geom,Name:Name,description:description,timestamp:timestamp,begin:begin,end:end,altitudeMode:altitudeMode,tessellate:tessellate,extrude:extrude,visibility:visibility,drawOrder:drawOrder,icon:icon)]
+	LegendOptions = {}
+	Legends = [LegendRequest [layer=TRB:TG2021, name=TRB:TG2021 styleName=line_red, title=TG final 2021, legendInfo=null]]
+	Locale = null
+	RawKvp = {REQUEST=GetLegendGraphic, FORMAT=image/png, SERVICE=WMS, WIDTH=20, HEIGHT=20, LAYER=TRB:TG2021}
+	Request = GetLegendGraphic
+	RequestCharset = null
+	Rules = [null]
+	Scale = -1.0
+	Strict = true
+	Styles = [StyleImpl[ name=line_red]]
+	Transparent = false
+	Version = 1.1.1
+	Width = 20
+	Wms = org.geoserver.wms.WMS@32f5b662
+2022-08-15 08:39:42,324 INFO [geoserver.filters] - 66.249.71.47 "GET /geoserver/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=TRB%3ATG2021" took 8ms
