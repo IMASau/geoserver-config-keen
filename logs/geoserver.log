@@ -36964,3 +36964,12 @@ org.geoserver.platform.ServiceException: Could not determine geoserver request f
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:750)
 2022-09-12 19:54:09,388 INFO [geoserver.filters] - 66.249.79.17 "GET /geoserver/wcs?" took 5ms
+2022-09-12 21:23:49,609 INFO [geoserver.filters] - 66.249.79.17 "GET /geoserver/ows?service=wcs&version=1.1&request=GetCapabilities" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.101 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2022-09-12 21:23:49,614 INFO [geoserver.wcs] - 
+Request: getServiceInfo
+2022-09-12 21:23:49,614 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-12 21:23:49,614 INFO [geoserver.wcs] - 
+Request: getCapabilities
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    service = wcs
+2022-09-12 21:23:49,633 INFO [geoserver.filters] - 66.249.79.17 "GET /geoserver/ows?service=wcs&version=1.1&request=GetCapabilities" took 24ms
