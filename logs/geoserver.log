@@ -85501,3 +85501,33 @@ Request: getMap
 2022-09-13 01:52:01,115 INFO [geoserver.filters] - 66.249.79.17 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=4AB5FB8123D971B81C495B5E10CD30CD?0-1.IBehaviorListener.0-srsListPanel-table-listContainer-items-6-itemProperties-0-component-link" took 121ms
 2022-09-13 01:52:01,942 INFO [geoserver.filters] - 66.249.79.17 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=39AA50A4005E9FEEF9F951DEBF09EFB5?0" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.101 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
 2022-09-13 01:52:01,946 INFO [geoserver.filters] - 66.249.79.17 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=39AA50A4005E9FEEF9F951DEBF09EFB5?0" took 4ms
+2022-09-13 03:13:05,775 INFO [geoserver.filters] - 66.249.79.15 "GET /geoserver/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=TRB%3AKEEN_Obs_Sites_3857" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.101 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2022-09-13 03:13:05,779 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-13 03:13:05,782 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-13 03:13:05,784 INFO [geoserver.wms] - 
+Request: getLegendGraphic
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Env = {}
+	Exceptions = SE_XML
+	FeatureType = null
+	Format = image/png
+	Get = false
+	Height = 20
+	Kvp = {REQUEST=GetLegendGraphic, FORMAT=image/png, SERVICE=WMS, WIDTH=20, HEIGHT=20, LAYER=TRB:KEEN_Obs_Sites_3857}
+	Layers = [SimpleFeatureTypeImpl TRB:KEEN_Obs_Sites_3857 identified extends Feature(geom:geom,NETWORK:NETWORK,PI:PI,YEAR:YEAR,MONTH:MONTH,DAY:DAY,SITE:SITE,TRANSECT:TRANSECT,START_LATITUDE:START_LATITUDE,START_LONGITUDE:START_LONGITUDE,END_LATITUDE:END_LATITUDE,END_LONGITUDE:END_LONGITUDE,START_DEPTH_M:START_DEPTH_M,END_DEPTH_M:END_DEPTH_M,TEMPERATURE_C:TEMPERATURE_C,VISIBILITY_M:VISIBILITY_M)]
+	LegendOptions = {}
+	Legends = [LegendRequest [layer=TRB:KEEN_Obs_Sites_3857, name=TRB:KEEN_Obs_Sites_3857 styleName=point, title=KEEN_Obs_Sites, legendInfo=null]]
+	Locale = null
+	RawKvp = {REQUEST=GetLegendGraphic, FORMAT=image/png, SERVICE=WMS, WIDTH=20, HEIGHT=20, LAYER=TRB:KEEN_Obs_Sites_3857}
+	Request = GetLegendGraphic
+	RequestCharset = null
+	Rules = [null]
+	Scale = -1.0
+	Strict = true
+	Styles = [StyleImpl[ name=point]]
+	Transparent = false
+	Version = 1.1.1
+	Width = 20
+	Wms = org.geoserver.wms.WMS@4e0077a5
+2022-09-13 03:13:05,785 INFO [geoserver.filters] - 66.249.79.15 "GET /geoserver/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=TRB%3AKEEN_Obs_Sites_3857" took 10ms
