@@ -87984,3 +87984,125 @@ org.geoserver.platform.ServiceException: Could not determine geoserver request f
 2022-09-13 14:44:05,203 INFO [geoserver.filters] - 66.249.79.13 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=3F712A8424A53BF5F5AF9E2189824891?0-1.IBehaviorListener.0-srsListPanel-table-filterForm-navigatorTop-navigator-navigation-2-pageLink" took 59ms
 2022-09-13 14:44:05,772 INFO [geoserver.filters] - 66.249.79.13 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=5625BC5E54AC50D76651C4754FFBB5D0?0" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.101 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
 2022-09-13 14:44:05,777 INFO [geoserver.filters] - 66.249.79.13 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=5625BC5E54AC50D76651C4754FFBB5D0?0" took 5ms
+2022-09-13 15:00:18,322 INFO [geoserver.filters] - 207.46.13.93 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3ATRB_KEEN_fish_community_responses_GV2&bbox=-134.645834%2C-55.039972999999996%2C177.000001%2C58.381381&width=768&height=330&srs=EPSG%3A4326&format=application/openlayers" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)" "" "" 
+2022-09-13 15:00:18,325 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-13 15:00:18,326 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-13 15:00:18,350 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[-134.645834 : 177.000001, -55.039972999999996 : 58.381381]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 330
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@a5612d7d]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=-134.645834,-55.039972999999996,177.000001,58.381381, VERSION=1.1.0, SERVICE=WMS, WIDTH=768, HEIGHT=330, LAYERS=TRB:TRB_KEEN_fish_community_responses_GV2}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=point_orange_star]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 768
+2022-09-13 15:00:18,351 INFO [geoserver.filters] - 207.46.13.93 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3ATRB_KEEN_fish_community_responses_GV2&bbox=-134.645834%2C-55.039972999999996%2C177.000001%2C58.381381&width=768&height=330&srs=EPSG%3A4326&format=application/openlayers" took 29ms
+2022-09-13 15:25:53,676 INFO [geoserver.filters] - 66.249.79.15 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=F6BA6B5F116802312A8D0AFA9A40616B?0-1.IBehaviorListener.0-form-targetCRS-find&fromSRS=EPSG:62086405" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.101 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2022-09-13 15:25:53,712 INFO [geoserver.filters] - 66.249.79.15 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=F6BA6B5F116802312A8D0AFA9A40616B?0-1.IBehaviorListener.0-form-targetCRS-find&fromSRS=EPSG:62086405" took 36ms
+2022-09-13 15:25:54,825 INFO [geoserver.filters] - 66.249.79.17 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=7DDA4139F9C5FC1EA2FA9C8753B02986?0&fromSRS=EPSG:62086405" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.101 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2022-09-13 15:25:54,830 INFO [geoserver.filters] - 66.249.79.17 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=7DDA4139F9C5FC1EA2FA9C8753B02986?0&fromSRS=EPSG:62086405" took 5ms
+2022-09-13 15:29:22,011 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/wp-includes/wlwmanifest.xml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "" "" 
+2022-09-13 15:29:22,013 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/wp-includes/wlwmanifest.xml
+2022-09-13 15:29:22,013 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/wp-includes/wlwmanifest.xml" took 2ms
+2022-09-13 15:29:22,041 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/xmlrpc.php?rsd" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "" "" 
+2022-09-13 15:29:22,044 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/xmlrpc.php
+2022-09-13 15:29:22,044 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/xmlrpc.php?rsd" took 3ms
+2022-09-13 15:29:22,071 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "" "" 
+2022-09-13 15:29:22,073 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver" took 2ms
+2022-09-13 15:29:22,100 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/blog/wp-includes/wlwmanifest.xml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "" "" 
+2022-09-13 15:29:22,102 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/blog/wp-includes/wlwmanifest.xml
+2022-09-13 15:29:22,102 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/blog/wp-includes/wlwmanifest.xml" took 2ms
+2022-09-13 15:29:22,129 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/web/wp-includes/wlwmanifest.xml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "" "" 
+2022-09-13 15:29:22,132 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/web/wp-includes/wlwmanifest.xml" took 3ms
+2022-09-13 15:29:22,160 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/wordpress/wp-includes/wlwmanifest.xml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "" "" 
+2022-09-13 15:29:22,162 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/wordpress/wp-includes/wlwmanifest.xml
+2022-09-13 15:29:22,162 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/wordpress/wp-includes/wlwmanifest.xml" took 2ms
+2022-09-13 15:29:22,221 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/website/wp-includes/wlwmanifest.xml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "" "" 
+2022-09-13 15:29:22,224 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/website/wp-includes/wlwmanifest.xml
+2022-09-13 15:29:22,224 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/website/wp-includes/wlwmanifest.xml" took 3ms
+2022-09-13 15:29:22,251 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/wp/wp-includes/wlwmanifest.xml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "" "" 
+2022-09-13 15:29:22,253 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/wp/wp-includes/wlwmanifest.xml
+2022-09-13 15:29:22,253 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/wp/wp-includes/wlwmanifest.xml" took 2ms
+2022-09-13 15:29:22,280 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/news/wp-includes/wlwmanifest.xml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "" "" 
+2022-09-13 15:29:22,282 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/news/wp-includes/wlwmanifest.xml
+2022-09-13 15:29:22,282 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/news/wp-includes/wlwmanifest.xml" took 2ms
+2022-09-13 15:29:22,309 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/2018/wp-includes/wlwmanifest.xml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "" "" 
+2022-09-13 15:29:22,311 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/2018/wp-includes/wlwmanifest.xml
+2022-09-13 15:29:22,311 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/2018/wp-includes/wlwmanifest.xml" took 2ms
+2022-09-13 15:29:22,338 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/2019/wp-includes/wlwmanifest.xml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "" "" 
+2022-09-13 15:29:22,340 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/2019/wp-includes/wlwmanifest.xml
+2022-09-13 15:29:22,340 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/2019/wp-includes/wlwmanifest.xml" took 2ms
+2022-09-13 15:29:22,393 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/shop/wp-includes/wlwmanifest.xml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "" "" 
+2022-09-13 15:29:22,396 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/shop/wp-includes/wlwmanifest.xml
+2022-09-13 15:29:22,396 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/shop/wp-includes/wlwmanifest.xml" took 3ms
+2022-09-13 15:29:22,423 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/wp1/wp-includes/wlwmanifest.xml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "" "" 
+2022-09-13 15:29:22,425 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/wp1/wp-includes/wlwmanifest.xml
+2022-09-13 15:29:22,425 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/wp1/wp-includes/wlwmanifest.xml" took 2ms
+2022-09-13 15:29:22,452 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/test/wp-includes/wlwmanifest.xml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "" "" 
+2022-09-13 15:29:22,455 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/test/wp-includes/wlwmanifest.xml
+2022-09-13 15:29:22,455 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/test/wp-includes/wlwmanifest.xml" took 3ms
+2022-09-13 15:29:22,503 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/media/wp-includes/wlwmanifest.xml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "" "" 
+2022-09-13 15:29:22,505 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/media/wp-includes/wlwmanifest.xml
+2022-09-13 15:29:22,505 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/media/wp-includes/wlwmanifest.xml" took 2ms
+2022-09-13 15:29:22,549 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/wp2/wp-includes/wlwmanifest.xml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "" "" 
+2022-09-13 15:29:22,551 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/wp2/wp-includes/wlwmanifest.xml
+2022-09-13 15:29:22,552 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/wp2/wp-includes/wlwmanifest.xml" took 3ms
+2022-09-13 15:29:22,578 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/site/wp-includes/wlwmanifest.xml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "" "" 
+2022-09-13 15:29:22,581 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/site/wp-includes/wlwmanifest.xml
+2022-09-13 15:29:22,581 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/site/wp-includes/wlwmanifest.xml" took 3ms
+2022-09-13 15:29:22,608 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/cms/wp-includes/wlwmanifest.xml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "" "" 
+2022-09-13 15:29:22,610 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/cms/wp-includes/wlwmanifest.xml
+2022-09-13 15:29:22,610 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/cms/wp-includes/wlwmanifest.xml" took 2ms
+2022-09-13 15:29:22,637 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/sito/wp-includes/wlwmanifest.xml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "" "" 
+2022-09-13 15:29:22,639 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/sito/wp-includes/wlwmanifest.xml
+2022-09-13 15:29:22,639 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/sito/wp-includes/wlwmanifest.xml" took 2ms
