@@ -88106,3 +88106,21 @@ Request: getMap
 2022-09-13 15:29:22,637 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/sito/wp-includes/wlwmanifest.xml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" "" "" 
 2022-09-13 15:29:22,639 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/sito/wp-includes/wlwmanifest.xml
 2022-09-13 15:29:22,639 INFO [geoserver.filters] - 20.70.169.3 "GET /geoserver/sito/wp-includes/wlwmanifest.xml" took 2ms
+2022-09-13 16:00:20,364 INFO [geoserver.filters] - 185.191.171.17 "GET /geoserver/TRB/ows?outputFormat=csv&request=GetFeature&service=WFS&typeName=TRB%3ATRB_KEEN_fish_community_responses_GV&version=1.0.0" "Mozilla/5.0 (compatible; SemrushBot/7~bl; +http://www.semrush.com/bot.html)" "" "" 
+2022-09-13 16:00:20,368 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-09-13 16:00:20,368 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-13 16:00:20,369 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_fish_community_responses_GV
+    outputFormat = csv
+    resultType = results
+2022-09-13 16:00:20,448 INFO [geoserver.filters] - 185.191.171.17 "GET /geoserver/TRB/ows?outputFormat=csv&request=GetFeature&service=WFS&typeName=TRB%3ATRB_KEEN_fish_community_responses_GV&version=1.0.0" took 84ms
+2022-09-13 16:26:26,103 INFO [geoserver.filters] - 66.249.79.13 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=1F9A74B28DD564BD71A0A5B62CA81B5E?0-1.ILinkListener-srsListPanel-table-navigatorBottom-navigator-last" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.101 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2022-09-13 16:26:26,163 INFO [geoserver.filters] - 66.249.79.13 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=1F9A74B28DD564BD71A0A5B62CA81B5E?0-1.ILinkListener-srsListPanel-table-navigatorBottom-navigator-last" took 59ms
+2022-09-13 16:26:27,106 INFO [geoserver.filters] - 66.249.79.15 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=394DD0A54BC9FF73D23C8ACFD9428C2B?0" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.101 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2022-09-13 16:26:27,110 INFO [geoserver.filters] - 66.249.79.15 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=394DD0A54BC9FF73D23C8ACFD9428C2B?0" took 4ms
