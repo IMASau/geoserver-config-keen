@@ -18241,3 +18241,17 @@ Request: getMap
 2022-09-22 08:41:15,598 INFO [geoserver.filters] - 66.249.64.209 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=A948F11B55021994D7DED647CBB4FEE8?1-2.IBehaviorListener.0-form-forward&fromSRS=EPSG:2094" took 54ms
 2022-09-22 08:41:16,433 INFO [geoserver.filters] - 66.249.64.205 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=37B9D1BB92A3772173F9C29909AC441B?0&fromSRS=EPSG:2094" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.5195.102 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
 2022-09-22 08:41:16,437 INFO [geoserver.filters] - 66.249.64.205 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=37B9D1BB92A3772173F9C29909AC441B?0&fromSRS=EPSG:2094" took 4ms
+2022-09-22 09:23:10,153 INFO [geoserver.filters] - 114.119.152.114 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:FloatingForests_DATA" "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage" "" 
+2022-09-22 09:23:10,157 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-09-22 09:23:10,158 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-22 09:23:10,255 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}FloatingForests_DATA
+    outputFormat = GML2
+    resultType = results
+2022-09-22 09:23:19,724 INFO [geoserver.filters] - 114.119.152.114 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:FloatingForests_DATA" took 9571ms
