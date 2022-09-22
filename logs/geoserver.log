@@ -18538,3 +18538,21 @@ Request: getMap
 	ViewParams = null
 	Width = 256
 2022-09-22 17:25:44,009 INFO [geoserver.filters] - 66.249.64.209 "GET /geoserver/wms?LAYERS=TRB%3ATRB_KEEN_kelp_timeseries_aggregated_GV2&TRANSPARENT=TRUE&VERSION=1.3.0&FORMAT=image%2Fpng&EXCEPTIONS=application%2Fvnd.ogc.se_xml&TILED=true&SERVICE=WMS&REQUEST=GetMap&STYLES=&QUERYABLE=true&CRS=EPSG%3A4326&BBOX=-90,0,-45,45&WIDTH=256&HEIGHT=256" took 75ms
+2022-09-22 17:35:37,890 INFO [geoserver.filters] - 51.222.253.5 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_fish_community_responses_GV&outputFormat=csv" "Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)" "" "" 
+2022-09-22 17:35:37,893 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-09-22 17:35:37,894 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-22 17:35:37,954 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_fish_community_responses_GV
+    outputFormat = csv
+    resultType = results
+2022-09-22 17:35:38,012 INFO [geoserver.filters] - 51.222.253.5 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_fish_community_responses_GV&outputFormat=csv" took 122ms
+2022-09-22 17:43:52,530 INFO [geoserver.filters] - 66.249.64.207 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=911981B9643B3734F4F15CF0E3A36C11?38-5.IBehaviorListener.0-form-forward&fromSRS=EPSG:63196405" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.5195.125 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2022-09-22 17:43:52,579 INFO [geoserver.filters] - 66.249.64.207 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=911981B9643B3734F4F15CF0E3A36C11?38-5.IBehaviorListener.0-form-forward&fromSRS=EPSG:63196405" took 49ms
+2022-09-22 17:43:53,289 INFO [geoserver.filters] - 66.249.64.209 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=6D297ABD5171F3642025EE3FB542AA85?0&fromSRS=EPSG:63196405" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.5195.125 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2022-09-22 17:43:53,294 INFO [geoserver.filters] - 66.249.64.209 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=6D297ABD5171F3642025EE3FB542AA85?0&fromSRS=EPSG:63196405" took 5ms
