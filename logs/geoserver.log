@@ -34186,3 +34186,66 @@ Request: getFeature
     outputFormat = GML2
     resultType = results
 2022-09-23 16:51:06,704 INFO [geoserver.filters] - 66.249.64.205 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_KEEN_Survey_Data_Quads_GV" took 45ms
+2022-09-23 17:23:41,179 INFO [geoserver.filters] - 66.249.64.205 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3ATRB_KEEN_Survey_Data_Quads_GV&bbox=-70.613884985%2C42.989986014%2C-70.610729965%2C42.99307004&width=768&height=750&srs=EPSG%3A4326&format=application/openlayers" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.5195.125 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2022-09-23 17:23:41,183 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-23 17:23:41,184 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-23 17:23:41,208 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[-70.613884985 : -70.610729965, 42.989986014 : 42.99307004]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 750
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@9ebe03a4]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=-70.613884985,42.989986014,-70.610729965,42.99307004, VERSION=1.1.0, SERVICE=WMS, WIDTH=768, HEIGHT=750, LAYERS=TRB:TRB_KEEN_Survey_Data_Quads_GV}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=point_orange_star]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 768
+2022-09-23 17:23:41,210 INFO [geoserver.filters] - 66.249.64.205 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3ATRB_KEEN_Survey_Data_Quads_GV&bbox=-70.613884985%2C42.989986014%2C-70.610729965%2C42.99307004&width=768&height=750&srs=EPSG%3A4326&format=application/openlayers" took 31ms
