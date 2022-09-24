@@ -34436,3 +34436,66 @@ Request: getMap
 2022-09-24 19:11:06,161 INFO [geoserver.filters] - 66.249.64.203 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=D2136E15F36F1CC41D0D6393EB44AB73?284-8.IBehaviorListener.0-srsListPanel-table-filterForm-navigatorTop-navigator-next" took 61ms
 2022-09-24 19:11:07,142 INFO [geoserver.filters] - 66.249.64.203 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=0C52A78D2EDF780799D665CCB7B09342?0" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.5195.125 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
 2022-09-24 19:11:07,147 INFO [geoserver.filters] - 66.249.64.203 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=0C52A78D2EDF780799D665CCB7B09342?0" took 5ms
+2022-09-24 20:20:38,737 INFO [geoserver.filters] - 207.46.13.95 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3ATRB_KEEN_fish_community_responses_GV&bbox=-134.645834%2C-55.039972999999996%2C177.000001%2C58.381381&width=768&height=330&srs=EPSG%3A4326&format=application/openlayers" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/103.0.5060.134 Safari/537.36" "" "" 
+2022-09-24 20:20:38,741 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-24 20:20:38,742 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-24 20:20:38,767 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[-134.645834 : 177.000001, -55.039972999999996 : 58.381381]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 330
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@8134b253]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=-134.645834,-55.039972999999996,177.000001,58.381381, VERSION=1.1.0, SERVICE=WMS, WIDTH=768, HEIGHT=330, LAYERS=TRB:TRB_KEEN_fish_community_responses_GV}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=point]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 768
+2022-09-24 20:20:38,768 INFO [geoserver.filters] - 207.46.13.95 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3ATRB_KEEN_fish_community_responses_GV&bbox=-134.645834%2C-55.039972999999996%2C177.000001%2C58.381381&width=768&height=330&srs=EPSG%3A4326&format=application/openlayers" took 31ms
