@@ -70885,3 +70885,4128 @@ Request: getMap
 2022-09-27 12:18:35,742 INFO [geoserver.filters] - 66.249.65.95 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=8A631AE15560F1A2BF265F75EDD726EE?0&toSRS=EPSG:66676405" took 4ms
 2022-09-27 12:51:58,540 INFO [geoserver.filters] - 104.143.83.241 "GET /geoserver" "Mozilla/5.0 zgrab/0.x" "https://geoserver-temperatereefbase.imas.utas.edu.au/" "" 
 2022-09-27 12:51:58,543 INFO [geoserver.filters] - 104.143.83.241 "GET /geoserver" took 3ms
+2022-09-27 14:07:55,390 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16432990.81938,-5047614.8099286,16444348.884052,-5041351.7509232&WIDTH=2377&HEIGHT=1311" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:07:55,395 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:07:55,396 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:07:55,499 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.643299081938E7 : 1.6444348884052E7, -5047614.8099286 : -5041351.7509232]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1311
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1311, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16432990.81938,-5047614.8099286,16444348.884052,-5041351.7509232, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:07:55,563 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16432990.81938,-5047614.8099286,16444348.884052,-5041351.7509232&WIDTH=2377&HEIGHT=1311" took 173ms
+2022-09-27 14:08:22,697 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16427311.787045,-5050746.339431,16450027.916387,-5038220.2214208&WIDTH=2377&HEIGHT=1311" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:08:22,699 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:08:22,700 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:08:22,778 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6427311787045E7 : 1.6450027916387E7, -5050746.339431 : -5038220.2214208]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1311
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1311, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16427311.787045,-5050746.339431,16450027.916387,-5038220.2214208, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:08:22,844 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16427311.787045,-5050746.339431,16450027.916387,-5038220.2214208&WIDTH=2377&HEIGHT=1311" took 147ms
+2022-09-27 14:08:23,033 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16415953.722373,-5057009.398436,16461385.98106,-5031957.1624157&WIDTH=2377&HEIGHT=1311" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:08:23,035 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:08:23,036 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:08:23,158 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6415953722373E7 : 1.646138598106E7, -5057009.398436 : -5031957.1624157]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1311
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1311, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16415953.722373,-5057009.398436,16461385.98106,-5031957.1624157, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:08:23,227 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16415953.722373,-5057009.398436,16461385.98106,-5031957.1624157&WIDTH=2377&HEIGHT=1311" took 194ms
+2022-09-27 14:08:25,076 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16414862.437383,-5061366.5521146,16460294.696069,-5036314.3160942&WIDTH=2377&HEIGHT=1311" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:08:25,078 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:08:25,079 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:08:25,192 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6414862437383E7 : 1.6460294696069E7, -5061366.5521146 : -5036314.3160942]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1311
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1311, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16414862.437383,-5061366.5521146,16460294.696069,-5036314.3160942, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:08:25,260 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16414862.437383,-5061366.5521146,16460294.696069,-5036314.3160942&WIDTH=2377&HEIGHT=1311" took 184ms
+2022-09-27 14:08:37,743 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16392146.308039,-5073892.6701249,16483010.825413,-5023788.1980839&WIDTH=2377&HEIGHT=1311" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:08:37,746 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:08:37,746 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:08:37,917 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6392146308039E7 : 1.6483010825413E7, -5073892.6701249 : -5023788.1980839]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1311
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1311, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16392146.308039,-5073892.6701249,16483010.825413,-5023788.1980839, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:08:37,987 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16392146.308039,-5073892.6701249,16483010.825413,-5023788.1980839&WIDTH=2377&HEIGHT=1311" took 244ms
+2022-09-27 14:08:38,015 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16346714.049352,-5098944.9061453,16528443.0841,-4998735.9620635&WIDTH=2377&HEIGHT=1311" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:08:38,017 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:08:38,018 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:08:38,215 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6346714049352E7 : 1.65284430841E7, -5098944.9061453 : -4998735.9620635]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1311
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1311, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16346714.049352,-5098944.9061453,16528443.0841,-4998735.9620635, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:08:38,287 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16346714.049352,-5098944.9061453,16528443.0841,-4998735.9620635&WIDTH=2377&HEIGHT=1311" took 272ms
+2022-09-27 14:08:39,968 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16346714.049352,-5100320.7726544,16528443.0841,-4997360.0955544&WIDTH=2377&HEIGHT=1347" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:08:39,970 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:08:39,971 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:08:40,092 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16346714.049352,-5102212.5891044,16528443.0841,-4995468.2791044&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:08:40,095 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:08:40,095 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:08:40,255 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6346714049352E7 : 1.65284430841E7, -5100320.7726544 : -4997360.0955544]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1347
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1347, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16346714.049352,-5100320.7726544,16528443.0841,-4997360.0955544, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:08:40,393 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16346714.049352,-5100320.7726544,16528443.0841,-4997360.0955544&WIDTH=2377&HEIGHT=1347" took 425ms
+2022-09-27 14:08:40,419 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6346714049352E7 : 1.65284430841E7, -5102212.5891044 : -4995468.2791044]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16346714.049352,-5102212.5891044,16528443.0841,-4995468.2791044, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:08:40,496 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16346714.049352,-5102212.5891044,16528443.0841,-4995468.2791044&WIDTH=2377&HEIGHT=1396" took 404ms
+2022-09-27 14:09:30,770 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16368821.412984,-5124837.939656,16550550.447732,-5018093.6296558&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:09:30,772 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:09:30,773 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:09:30,944 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6368821412984E7 : 1.6550550447732E7, -5124837.939656 : -5018093.6296558]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16368821.412984,-5124837.939656,16550550.447732,-5018093.6296558, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:09:31,021 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16368821.412984,-5124837.939656,16550550.447732,-5018093.6296558&WIDTH=2377&HEIGHT=1396" took 251ms
+2022-09-27 14:09:35,467 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16256248.76904,-5194720.7456528,16619706.838536,-4981232.1256523&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:09:35,469 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:09:35,470 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:09:35,792 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.625624876904E7 : 1.6619706838536E7, -5194720.7456528 : -4981232.1256523]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16256248.76904,-5194720.7456528,16619706.838536,-4981232.1256523, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:09:35,872 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16256248.76904,-5194720.7456528,16619706.838536,-4981232.1256523&WIDTH=2377&HEIGHT=1396" took 405ms
+2022-09-27 14:09:36,160 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16074519.734292,-5301465.0556529,16801435.873284,-4874487.8156522&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:09:36,162 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:09:36,163 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:09:36,763 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6074519734292E7 : 1.6801435873284E7, -5301465.0556529 : -4874487.8156522]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16074519.734292,-5301465.0556529,16801435.873284,-4874487.8156522, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:09:36,841 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16074519.734292,-5301465.0556529,16801435.873284,-4874487.8156522&WIDTH=2377&HEIGHT=1396" took 681ms
+2022-09-27 14:09:37,559 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=15883559.152617,-5406596.3648644,16610475.291609,-4979619.1248637&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:09:37,561 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:09:37,562 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:09:38,295 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.5883559152617E7 : 1.6610475291609E7, -5406596.3648644 : -4979619.1248637]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=15883559.152617,-5406596.3648644,16610475.291609,-4979619.1248637, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:09:38,378 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=15883559.152617,-5406596.3648644,16610475.291609,-4979619.1248637&WIDTH=2377&HEIGHT=1396" took 819ms
+2022-09-27 14:09:38,484 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16059325.817585,-5278113.7865795,16422783.887081,-5064625.1665791&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:09:38,486 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:09:38,487 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:09:38,879 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6059325817585E7 : 1.6422783887081E7, -5278113.7865795 : -5064625.1665791]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16059325.817585,-5278113.7865795,16422783.887081,-5064625.1665791, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:09:38,960 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16059325.817585,-5278113.7865795,16422783.887081,-5064625.1665791&WIDTH=2377&HEIGHT=1396" took 476ms
+2022-09-27 14:09:44,104 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16115122.7909,-5211556.487269,16296851.825648,-5104812.177269&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:09:44,106 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:09:44,107 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:09:44,272 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.61151227909E7 : 1.6296851825648E7, -5211556.487269 : -5104812.177269]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16115122.7909,-5211556.487269,16296851.825648,-5104812.177269, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:09:44,342 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16115122.7909,-5211556.487269,16296851.825648,-5104812.177269&WIDTH=2377&HEIGHT=1396" took 238ms
+2022-09-27 14:09:46,073 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16156501.829751,-5164595.7310828,16247366.347125,-5111223.5760826&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:09:46,075 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:09:46,076 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:09:46,150 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6156501829751E7 : 1.6247366347125E7, -5164595.7310828 : -5111223.5760826]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16156501.829751,-5164595.7310828,16247366.347125,-5111223.5760826, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:09:46,221 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16156501.829751,-5164595.7310828,16247366.347125,-5111223.5760826&WIDTH=2377&HEIGHT=1396" took 148ms
+2022-09-27 14:09:46,785 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16178537.523131,-5150058.6068321,16223969.781818,-5123372.5293321&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:09:46,787 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:09:46,788 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:09:46,862 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6178537523131E7 : 1.6223969781818E7, -5150058.6068321 : -5123372.5293321]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16178537.523131,-5150058.6068321,16223969.781818,-5123372.5293321, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:09:46,930 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16178537.523131,-5150058.6068321,16223969.781818,-5123372.5293321&WIDTH=2377&HEIGHT=1396" took 145ms
+2022-09-27 14:09:47,707 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16189506.568012,-5142302.8801845,16212222.697354,-5128959.8414347&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:09:47,710 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:09:47,710 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:09:47,788 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6189506568012E7 : 1.6212222697354E7, -5142302.8801845 : -5128959.8414347]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16189506.568012,-5142302.8801845,16212222.697354,-5128959.8414347, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:09:47,855 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16189506.568012,-5142302.8801845,16212222.697354,-5128959.8414347&WIDTH=2377&HEIGHT=1396" took 148ms
+2022-09-27 14:09:49,021 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16194875.406241,-5138468.1342224,16206233.470911,-5131796.6148474&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:09:49,023 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:09:49,024 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:09:49,069 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6194875406241E7 : 1.6206233470911E7, -5138468.1342224 : -5131796.6148474]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16194875.406241,-5138468.1342224,16206233.470911,-5131796.6148474, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:09:49,135 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16194875.406241,-5138468.1342224,16206233.470911,-5131796.6148474&WIDTH=2377&HEIGHT=1396" took 114ms
+2022-09-27 14:10:01,024 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16196866.086157,-5136758.6959867,16202545.118495,-5133422.9362991&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:10:01,027 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:10:01,027 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:10:01,070 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6196866086157E7 : 1.6202545118495E7, -5136758.6959867 : -5133422.9362991]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16196866.086157,-5136758.6959867,16202545.118495,-5133422.9362991, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:10:01,135 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16196866.086157,-5136758.6959867,16202545.118495,-5133422.9362991&WIDTH=2377&HEIGHT=1396" took 111ms
+2022-09-27 14:12:14,167 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16196259.698607,-5136381.5312674,16201938.730943,-5133045.7715797&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:12:14,170 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:12:14,171 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:12:14,230 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6196259698607E7 : 1.6201938730943E7, -5136381.5312674 : -5133045.7715797]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16196259.698607,-5136381.5312674,16201938.730943,-5133045.7715797, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:12:14,300 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16196259.698607,-5136381.5312674,16201938.730943,-5133045.7715797&WIDTH=2377&HEIGHT=1396" took 133ms
+2022-09-27 14:12:15,491 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16193420.18244,-5138049.4111111,16204778.24711,-5131377.8917361&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:12:15,494 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:12:15,494 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:12:15,542 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.619342018244E7 : 1.620477824711E7, -5138049.4111111 : -5131377.8917361]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16193420.18244,-5138049.4111111,16204778.24711,-5131377.8917361, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:12:15,609 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16193420.18244,-5138049.4111111,16204778.24711,-5131377.8917361&WIDTH=2377&HEIGHT=1396" took 118ms
+2022-09-27 14:12:15,696 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16187741.150104,-5141385.1707986,16210457.279446,-5128042.1320486&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:12:15,698 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:12:15,699 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:12:15,824 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6187741150104E7 : 1.6210457279446E7, -5141385.1707986 : -5128042.1320486]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16187741.150104,-5141385.1707986,16210457.279446,-5128042.1320486, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:12:15,891 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16187741.150104,-5141385.1707986,16210457.279446,-5128042.1320486&WIDTH=2377&HEIGHT=1396" took 195ms
+2022-09-27 14:12:16,274 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16176383.085431,-5148056.6901736,16221815.344119,-5121370.6126735&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:12:16,277 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:12:16,277 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:12:16,354 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6176383085431E7 : 1.6221815344119E7, -5148056.6901736 : -5121370.6126735]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16176383.085431,-5148056.6901736,16221815.344119,-5121370.6126735, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:12:16,422 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16176383.085431,-5148056.6901736,16221815.344119,-5121370.6126735&WIDTH=2377&HEIGHT=1396" took 148ms
+2022-09-27 14:12:18,477 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16196732.368444,-5183734.0083518,16242164.627131,-5157047.9308518&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:12:18,480 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:12:18,480 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:12:18,547 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6196732368444E7 : 1.6242164627131E7, -5183734.0083518 : -5157047.9308518]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16196732.368444,-5183734.0083518,16242164.627131,-5157047.9308518, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:12:18,614 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16196732.368444,-5183734.0083518,16242164.627131,-5157047.9308518&WIDTH=2377&HEIGHT=1396" took 137ms
+2022-09-27 14:12:19,291 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16193141.023775,-5189576.875387,16238573.282463,-5162890.7978868&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:12:19,294 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:12:19,294 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:12:19,359 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6193141023775E7 : 1.6238573282463E7, -5189576.875387 : -5162890.7978868]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16193141.023775,-5189576.875387,16238573.282463,-5162890.7978868, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:12:19,427 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16193141.023775,-5189576.875387,16238573.282463,-5162890.7978868&WIDTH=2377&HEIGHT=1396" took 136ms
+2022-09-27 14:12:20,646 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16170424.894432,-5202919.914137,16261289.411806,-5149547.7591368&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:12:20,649 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:12:20,649 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:12:20,728 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6170424894432E7 : 1.6261289411806E7, -5202919.914137 : -5149547.7591368]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16170424.894432,-5202919.914137,16261289.411806,-5149547.7591368, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:12:20,796 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16170424.894432,-5202919.914137,16261289.411806,-5149547.7591368&WIDTH=2377&HEIGHT=1396" took 150ms
+2022-09-27 14:12:22,527 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16129550.949215,-5234015.1277975,16311279.983963,-5127270.8177973&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:12:22,530 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:12:22,530 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:12:22,714 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6129550949215E7 : 1.6311279983963E7, -5234015.1277975 : -5127270.8177973]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16129550.949215,-5234015.1277975,16311279.983963,-5127270.8177973, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:12:22,785 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16129550.949215,-5234015.1277975,16311279.983963,-5127270.8177973&WIDTH=2377&HEIGHT=1396" took 258ms
+2022-09-27 14:12:22,924 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16038686.431841,-5287387.2827977,16402144.501337,-5073898.6627972&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:12:22,926 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:12:22,927 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:12:23,349 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6038686431841E7 : 1.6402144501337E7, -5287387.2827977 : -5073898.6627972]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16038686.431841,-5287387.2827977,16402144.501337,-5073898.6627972, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:12:23,427 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16038686.431841,-5287387.2827977,16402144.501337,-5073898.6627972&WIDTH=2377&HEIGHT=1396" took 503ms
+2022-09-27 14:12:23,985 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16062983.354445,-5251765.3058701,16426441.423941,-5038276.6858697&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:12:23,988 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:12:23,988 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:12:24,414 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6062983354445E7 : 1.6426441423941E7, -5251765.3058701 : -5038276.6858697]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16062983.354445,-5251765.3058701,16426441.423941,-5038276.6858697, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:12:24,492 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16062983.354445,-5251765.3058701,16426441.423941,-5038276.6858697&WIDTH=2377&HEIGHT=1396" took 507ms
+2022-09-27 14:12:36,040 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16058844.640717,-5216301.0895613,16422302.710213,-5002812.4695607&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:12:36,043 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:12:36,043 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:12:36,304 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6058844640717E7 : 1.6422302710213E7, -5216301.0895613 : -5002812.4695607]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16058844.640717,-5216301.0895613,16422302.710213,-5002812.4695607, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:12:36,382 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16058844.640717,-5216301.0895613,16422302.710213,-5002812.4695607&WIDTH=2377&HEIGHT=1396" took 342ms
+2022-09-27 14:13:15,920 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=15929732.198952,-5476390.3566509,16656648.337944,-5049413.1166502&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:13:15,923 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:13:15,923 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:13:16,660 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.5929732198952E7 : 1.6656648337944E7, -5476390.3566509 : -5049413.1166502]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=15929732.198952,-5476390.3566509,16656648.337944,-5049413.1166502, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:13:16,740 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=15929732.198952,-5476390.3566509,16656648.337944,-5049413.1166502&WIDTH=2377&HEIGHT=1396" took 820ms
+2022-09-27 14:14:03,257 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16145628.585344,-5353059.2115128,16509086.65484,-5139570.5915123&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:14:03,260 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:14:03,260 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:14:03,819 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6145628585344E7 : 1.650908665484E7, -5353059.2115128 : -5139570.5915123]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16145628.585344,-5353059.2115128,16509086.65484,-5139570.5915123, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:14:03,906 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16145628.585344,-5353059.2115128,16509086.65484,-5139570.5915123&WIDTH=2377&HEIGHT=1396" took 649ms
+2022-09-27 14:14:09,558 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16133873.930652,-5310807.0545,16497332.000148,-5097318.4344995&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:14:09,561 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:14:09,561 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:14:10,168 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6133873930652E7 : 1.6497332000148E7, -5310807.0545 : -5097318.4344995]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16133873.930652,-5310807.0545,16497332.000148,-5097318.4344995, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:14:10,252 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16133873.930652,-5310807.0545,16497332.000148,-5097318.4344995&WIDTH=2377&HEIGHT=1396" took 694ms
+2022-09-27 14:14:10,645 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16143620.836453,-5273707.6735574,16507078.905949,-5060219.0535569&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:14:10,648 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:14:10,648 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:14:11,134 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6143620836453E7 : 1.6507078905949E7, -5273707.6735574 : -5060219.0535569]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16143620.836453,-5273707.6735574,16507078.905949,-5060219.0535569, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:14:11,218 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16143620.836453,-5273707.6735574,16507078.905949,-5060219.0535569&WIDTH=2377&HEIGHT=1396" took 573ms
+2022-09-27 14:14:11,314 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16240102.69497,-5207160.2768422,16421831.729718,-5100415.9668422&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:14:11,316 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:14:11,317 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:14:11,528 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.624010269497E7 : 1.6421831729718E7, -5207160.2768422 : -5100415.9668422]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16240102.69497,-5207160.2768422,16421831.729718,-5100415.9668422, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:14:11,603 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16240102.69497,-5207160.2768422,16421831.729718,-5100415.9668422&WIDTH=2377&HEIGHT=1396" took 289ms
+2022-09-27 14:14:12,198 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16283774.84467,-5171856.1674694,16374639.362044,-5118484.0124692&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:14:12,201 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:14:12,201 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:14:12,348 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.628377484467E7 : 1.6374639362044E7, -5171856.1674694 : -5118484.0124692]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16283774.84467,-5171856.1674694,16374639.362044,-5118484.0124692, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:14:12,417 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16283774.84467,-5171856.1674694,16374639.362044,-5118484.0124692&WIDTH=2377&HEIGHT=1396" took 219ms
+2022-09-27 14:14:13,513 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16282321.896879,-5159441.0457719,16373186.414253,-5106068.8907717&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:14:13,516 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:14:13,516 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:14:13,686 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6282321896879E7 : 1.6373186414253E7, -5159441.0457719 : -5106068.8907717]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16282321.896879,-5159441.0457719,16373186.414253,-5106068.8907717, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:14:13,755 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16282321.896879,-5159441.0457719,16373186.414253,-5106068.8907717&WIDTH=2377&HEIGHT=1396" took 242ms
+2022-09-27 14:14:16,153 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16302428.199549,-5155083.2601413,16347860.458237,-5128397.1826413&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:14:16,155 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:14:16,156 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:14:16,286 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6302428199549E7 : 1.6347860458237E7, -5155083.2601413 : -5128397.1826413]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16302428.199549,-5155083.2601413,16347860.458237,-5128397.1826413, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:14:16,353 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16302428.199549,-5155083.2601413,16347860.458237,-5128397.1826413&WIDTH=2377&HEIGHT=1396" took 200ms
+2022-09-27 14:14:17,486 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16302292.377414,-5150439.9537394,16347724.636101,-5123753.8762392&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:14:17,489 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:14:17,489 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:14:17,623 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6302292377414E7 : 1.6347724636101E7, -5150439.9537394 : -5123753.8762392]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16302292.377414,-5150439.9537394,16347724.636101,-5123753.8762392, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:14:17,690 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16302292.377414,-5150439.9537394,16347724.636101,-5123753.8762392&WIDTH=2377&HEIGHT=1396" took 204ms
+2022-09-27 14:14:21,442 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16305025.001175,-5132725.6724342,16350457.259862,-5106039.5949342&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:14:21,445 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:14:21,445 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:14:21,598 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6305025001175E7 : 1.6350457259862E7, -5132725.6724342 : -5106039.5949342]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16305025.001175,-5132725.6724342,16350457.259862,-5106039.5949342, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:14:21,672 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16305025.001175,-5132725.6724342,16350457.259862,-5106039.5949342&WIDTH=2377&HEIGHT=1396" took 230ms
+2022-09-27 14:14:23,987 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16318566.298467,-5123526.9538114,16341282.427809,-5110183.9150616&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:14:23,990 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:14:23,990 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:14:24,067 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6318566298467E7 : 1.6341282427809E7, -5123526.9538114 : -5110183.9150616]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16318566.298467,-5123526.9538114,16341282.427809,-5110183.9150616, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:14:24,134 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16318566.298467,-5123526.9538114,16341282.427809,-5110183.9150616&WIDTH=2377&HEIGHT=1396" took 147ms
+2022-09-27 14:14:26,346 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16325435.213375,-5119118.9301371,16336793.278047,-5112447.4107621&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:14:26,349 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:14:26,349 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:14:26,427 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6325435213375E7 : 1.6336793278047E7, -5119118.9301371 : -5112447.4107621]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16325435.213375,-5119118.9301371,16336793.278047,-5112447.4107621, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:14:26,493 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16325435.213375,-5119118.9301371,16336793.278047,-5112447.4107621&WIDTH=2377&HEIGHT=1396" took 147ms
+2022-09-27 14:15:05,840 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16324470.527254,-5121450.5026076,16335828.591924,-5114778.9832326&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:15:05,843 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:15:05,843 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:15:05,951 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6324470527254E7 : 1.6335828591924E7, -5121450.5026076 : -5114778.9832326]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16324470.527254,-5121450.5026076,16335828.591924,-5114778.9832326, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:15:06,017 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16324470.527254,-5121450.5026076,16335828.591924,-5114778.9832326&WIDTH=2377&HEIGHT=1396" took 177ms
+2022-09-27 14:15:06,870 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16324771.498052,-5122864.5876311,16336129.562724,-5116193.0682559&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:15:06,873 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:15:06,873 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:15:06,975 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6324771498052E7 : 1.6336129562724E7, -5122864.5876311 : -5116193.0682559]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16324771.498052,-5122864.5876311,16336129.562724,-5116193.0682559, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:15:07,041 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16324771.498052,-5122864.5876311,16336129.562724,-5116193.0682559&WIDTH=2377&HEIGHT=1396" took 171ms
+2022-09-27 14:15:12,266 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16328094.717289,-5122375.5100829,16333773.749626,-5119039.7503953&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:15:12,269 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:15:12,269 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:15:12,343 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6328094717289E7 : 1.6333773749626E7, -5122375.5100829 : -5119039.7503953]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16328094.717289,-5122375.5100829,16333773.749626,-5119039.7503953, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:15:12,409 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16328094.717289,-5122375.5100829,16333773.749626,-5119039.7503953&WIDTH=2377&HEIGHT=1396" took 143ms
+2022-09-27 14:18:01,415 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16328950.187905,-5122984.9050828,16334629.220242,-5119649.1453952&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:18:01,418 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:18:01,419 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:18:01,513 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6328950187905E7 : 1.6334629220242E7, -5122984.9050828 : -5119649.1453952]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16328950.187905,-5122984.9050828,16334629.220242,-5119649.1453952, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:18:01,580 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16328950.187905,-5122984.9050828,16334629.220242,-5119649.1453952&WIDTH=2377&HEIGHT=1396" took 165ms
+2022-09-27 14:18:05,414 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16326110.671737,-5124652.7849266,16337468.736409,-5117981.2655514&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:18:05,417 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:18:05,417 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:18:05,493 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6326110671737E7 : 1.6337468736409E7, -5124652.7849266 : -5117981.2655514]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16326110.671737,-5124652.7849266,16337468.736409,-5117981.2655514, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:18:05,557 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16326110.671737,-5124652.7849266,16337468.736409,-5117981.2655514&WIDTH=2377&HEIGHT=1396" took 142ms
+2022-09-27 14:18:09,215 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16327587.193207,-5123191.3340885,16338945.257877,-5116519.8147135&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:18:09,218 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:18:09,218 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:18:09,296 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6327587193207E7 : 1.6338945257877E7, -5123191.3340885 : -5116519.8147135]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16327587.193207,-5123191.3340885,16338945.257877,-5116519.8147135, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:18:09,361 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16327587.193207,-5123191.3340885,16338945.257877,-5116519.8147135&WIDTH=2377&HEIGHT=1396" took 146ms
+2022-09-27 14:18:16,309 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16329865.972113,-5123468.2540959,16341224.036783,-5116796.7347207&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:18:16,312 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:18:16,312 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:18:16,394 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6329865972113E7 : 1.6341224036783E7, -5123468.2540959 : -5116796.7347207]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16329865.972113,-5123468.2540959,16341224.036783,-5116796.7347207, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:18:16,459 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16329865.972113,-5123468.2540959,16341224.036783,-5116796.7347207&WIDTH=2377&HEIGHT=1396" took 150ms
+2022-09-27 14:18:18,531 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16324186.939777,-5126804.0137833,16346903.069119,-5113460.9750334&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:18:18,534 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:18:18,534 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:18:18,617 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6324186939777E7 : 1.6346903069119E7, -5126804.0137833 : -5113460.9750334]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16324186.939777,-5126804.0137833,16346903.069119,-5113460.9750334, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:18:18,682 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16324186.939777,-5126804.0137833,16346903.069119,-5113460.9750334&WIDTH=2377&HEIGHT=1396" took 151ms
+2022-09-27 14:18:21,506 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16312828.875104,-5133475.5331583,16358261.133792,-5106789.4556583&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:18:21,509 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:18:21,509 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:18:21,630 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6312828875104E7 : 1.6358261133792E7, -5133475.5331583 : -5106789.4556583]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16312828.875104,-5133475.5331583,16358261.133792,-5106789.4556583, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:18:21,698 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16312828.875104,-5133475.5331583,16358261.133792,-5106789.4556583&WIDTH=2377&HEIGHT=1396" took 192ms
+2022-09-27 14:18:24,440 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16283348.306197,-5145902.5629708,16374212.823571,-5092530.4079706&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:18:24,443 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:18:24,443 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:18:24,646 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6283348306197E7 : 1.6374212823571E7, -5145902.5629708 : -5092530.4079706]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16283348.306197,-5145902.5629708,16374212.823571,-5092530.4079706, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:18:24,672 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16237916.04751,-5172588.6404708,16419645.082258,-5065844.3304706&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:18:24,674 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:18:24,674 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:18:24,741 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16283348.306197,-5145902.5629708,16374212.823571,-5092530.4079706&WIDTH=2377&HEIGHT=1396" took 301ms
+2022-09-27 14:18:24,906 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.623791604751E7 : 1.6419645082258E7, -5172588.6404708 : -5065844.3304706]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16237916.04751,-5172588.6404708,16419645.082258,-5065844.3304706, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:18:24,980 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16237916.04751,-5172588.6404708,16419645.082258,-5065844.3304706&WIDTH=2377&HEIGHT=1396" took 308ms
+2022-09-27 14:18:25,722 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16147051.530136,-5225960.7954709,16510509.599632,-5012472.1754705&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:18:25,725 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:18:25,725 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:18:26,119 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.6147051530136E7 : 1.6510509599632E7, -5225960.7954709 : -5012472.1754705]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=16147051.530136,-5225960.7954709,16510509.599632,-5012472.1754705, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:18:26,204 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16147051.530136,-5225960.7954709,16510509.599632,-5012472.1754705&WIDTH=2377&HEIGHT=1396" took 482ms
+2022-09-27 14:18:27,071 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=15965322.495388,-5332705.1054711,16692238.63438,-4905727.8654703&WIDTH=2377&HEIGHT=1396" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" "https://maps.thelist.tas.gov.au/listmap/app/list/map?bookmarkId=620646" "" 
+2022-09-27 14:18:27,074 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-09-27 14:18:27,074 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-09-27 14:18:27,809 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[1.5965322495388E7 : 1.669223863438E7, -5332705.1054711 : -4905727.8654703]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic latitude", NORTH], 
+    AXIS["Geodetic longitude", EAST], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = INIMAGE
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1396
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@1532af4e]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, CRS=EPSG:3857, OPACITY=1, STYLES=, WIDTH=2377, HEIGHT=1396, LAYERS=TRB:TG_KML_Em, EXCEPTIONS=INIMAGE, REQUEST=GetMap, BBOX=15965322.495388,-5332705.1054711,16692238.63438,-4905727.8654703, VERSION=1.3.0, SERVICE=WMS, TRANSPARENT=TRUE}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = urn:ogc:def:crs:EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_purble]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.3.0
+	ViewParams = null
+	Width = 2377
+2022-09-27 14:18:27,891 INFO [geoserver.filters] - 10.240.132.169 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=15965322.495388,-5332705.1054711,16692238.63438,-4905727.8654703&WIDTH=2377&HEIGHT=1396" took 820ms
