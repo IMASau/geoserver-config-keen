@@ -69273,3 +69273,18 @@ Request: getFeature
         typeName[0] = {TRB}FloatingForests_DATA
     outputFormat = csv
     resultType = results
+2022-11-04 11:00:23,183 INFO [geoserver.filters] - 207.241.235.149 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:FloatingForests_DATA&outputFormat=csv" took 222736ms
+2022-11-04 11:01:36,264 INFO [geoserver.filters] - 207.241.235.149 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV&outputFormat=csv" "Mozilla/5.0 (compatible; archive.org_bot/3.3.0 +http://pandora.nla.gov.au/crawl.html)" "https://catalogue-temperatereefbase.imas.utas.edu.au/geonetwork/srv/api/records/ecbe5cc3-3fbf-4569-b5e8-07c2201fcb9c" "" 
+2022-11-04 11:01:36,267 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-11-04 11:01:36,268 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-11-04 11:01:36,268 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_kelp_timeseries_aggregated_GV
+    outputFormat = csv
+    resultType = results
+2022-11-04 11:01:36,482 INFO [geoserver.filters] - 207.241.235.149 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV&outputFormat=csv" took 218ms
