@@ -18172,3 +18172,24 @@ org.geoserver.platform.ServiceException: GetMap requests must include a BBOX par
 2022-11-26 23:46:31,426 INFO [geoserver.filters] - 66.249.69.173 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=D2136E15F36F1CC41D0D6393EB44AB73?85-4.IBehaviorListener.0-srsListPanel-table-listContainer-items-78-itemProperties-0-component-link" took 59ms
 2022-11-26 23:46:32,243 INFO [geoserver.filters] - 66.249.71.207 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=6844D14762E71EF18F7A47C8D543D1EC?0" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.5304.110 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
 2022-11-26 23:46:32,247 INFO [geoserver.filters] - 66.249.71.207 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=6844D14762E71EF18F7A47C8D543D1EC?0" took 4ms
+2022-11-27 00:33:10,055 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:FloatingForests_DATA" "Java/1.8.0_352" "" "" 
+2022-11-27 00:33:10,058 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
+2022-11-27 00:33:10,058 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-11-27 00:33:10,076 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:FloatingForests_DATA" took 21ms
+2022-11-27 00:33:11,127 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=DescribeLayer&service=WMS&version=1.1.1&layers=TRB:FloatingForests_MAP" "Java/1.8.0_352" "" "" 
+2022-11-27 00:33:11,130 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2022-11-27 00:33:11,135 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-11-27 00:33:11,136 INFO [geoserver.wms] - 
+Request: describeLayer
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	ExeptionFormat = application/vnd.ogc.se_xml
+	Get = false
+	GetMapRequest = null
+	Layers = [org.geoserver.wms.MapLayerInfo@55ea082a]
+	OutputFormat = application/vnd.ogc.wms_xml
+	RawKvp = {REQUEST=DescribeLayer, VERSION=1.1.1, SERVICE=WMS, LAYERS=TRB:FloatingForests_MAP}
+	Request = DescribeLayer
+	RequestCharset = null
+	Version = 1.1.1
+2022-11-27 00:33:11,142 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=DescribeLayer&service=WMS&version=1.1.1&layers=TRB:FloatingForests_MAP" took 14ms
