@@ -66339,3 +66339,18 @@ Request: getMap
 2022-11-29 10:22:10,249 INFO [geoserver.filters] - 66.249.65.95 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=6844D14762E71EF18F7A47C8D543D1EC?0-1.ILinkListener-srsListPanel-table-filterForm-navigatorTop-navigator-next" took 62ms
 2022-11-29 10:22:11,738 INFO [geoserver.filters] - 66.249.65.93 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=CBEF350FE0809A9BB23DD12AF47251CF?0" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.5304.110 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
 2022-11-29 10:22:11,743 INFO [geoserver.filters] - 66.249.65.93 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=CBEF350FE0809A9BB23DD12AF47251CF?0" took 5ms
+2022-11-29 10:55:44,875 INFO [geoserver.filters] - 66.249.65.93 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:FloatingForests_DATA&outputFormat=csv" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.5304.110 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2022-11-29 10:55:44,879 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-11-29 10:55:44,880 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-11-29 10:55:44,882 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}FloatingForests_DATA
+    outputFormat = csv
+    resultType = results
+2022-11-29 10:55:58,622 INFO [geoserver.servlets] - OutputStream was successfully aborted.
+2022-11-29 10:55:58,622 INFO [geoserver.filters] - 66.249.65.93 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:FloatingForests_DATA&outputFormat=csv" took 13746ms
