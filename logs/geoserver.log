@@ -1195,3 +1195,18 @@ Request: getFeature
     outputFormat = GML2
     resultType = results
 2022-12-27 21:58:52,322 INFO [geoserver.filters] - 157.55.39.179 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3AFloatingForests_MAP" took 6615ms
+2022-12-28 03:30:17,092 INFO [geoserver.filters] - 157.55.39.233 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:FloatingForests_DATA&outputFormat=csv" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)" "" "" 
+2022-12-28 03:30:17,096 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-12-28 03:30:17,096 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-12-28 03:30:17,098 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}FloatingForests_DATA
+    outputFormat = csv
+    resultType = results
+2022-12-28 03:30:51,185 INFO [geoserver.servlets] - OutputStream was successfully aborted.
+2022-12-28 03:30:51,186 INFO [geoserver.filters] - 157.55.39.233 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:FloatingForests_DATA&outputFormat=csv" took 34094ms
