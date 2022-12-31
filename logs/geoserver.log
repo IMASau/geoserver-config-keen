@@ -5893,3 +5893,17 @@ Request: getFeature
     outputFormat = GML2
     resultType = results
 2022-12-31 09:38:32,698 INFO [geoserver.filters] - 157.55.39.233 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_JBoada_Algae_Urchin_2013_GV" took 67ms
+2022-12-31 11:55:54,356 INFO [geoserver.filters] - 207.46.13.76 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV&outputFormat=csv" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)" "" "" 
+2022-12-31 11:55:54,360 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2022-12-31 11:55:54,361 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2022-12-31 11:55:54,363 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_kelp_timeseries_aggregated_GV
+    outputFormat = csv
+    resultType = results
+2022-12-31 11:55:54,683 INFO [geoserver.filters] - 207.46.13.76 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV&outputFormat=csv" took 327ms
