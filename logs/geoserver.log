@@ -20775,3 +20775,33 @@ Request: getLegendGraphic
 	Width = 20
 	Wms = org.geoserver.wms.WMS@1bb853d0
 2023-01-14 16:18:42,801 INFO [geoserver.filters] - 66.249.65.66 "GET /geoserver/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=TRB%3ATRB_KEEN_Survey_Data_Pointcount_GV" took 6ms
+2023-01-14 18:06:37,429 INFO [geoserver.filters] - 66.249.65.66 "GET /geoserver/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=TRB%3AFloatingForests_DATA" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5414.74 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-01-14 18:06:37,433 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-01-14 18:06:37,434 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-01-14 18:06:37,437 INFO [geoserver.wms] - 
+Request: getLegendGraphic
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Env = {}
+	Exceptions = SE_XML
+	FeatureType = null
+	Format = image/png
+	Get = false
+	Height = 20
+	Kvp = {REQUEST=GetLegendGraphic, FORMAT=image/png, SERVICE=WMS, WIDTH=20, HEIGHT=20, LAYER=TRB:FloatingForests_DATA}
+	Layers = [SimpleFeatureTypeImpl TRB:FloatingForests_DATA identified extends Feature(geom:geom,threshold:threshold,zooniverse_id:zooniverse_id,scene:scene,classification_count:classification_count,image_url:image_url,tile_upper_left_x_ll:tile_upper_left_x_ll,tile_upper_left_y_ll:tile_upper_left_y_ll,tile_lower_left_x_ll:tile_lower_left_x_ll,tile_lower_left_y_ll:tile_lower_left_y_ll,tile_upper_right_x_ll:tile_upper_right_x_ll,tile_upper_right_y_ll:tile_upper_right_y_ll,tile_lower_right_x_ll:tile_lower_right_x_ll,tile_lower_right_y_ll:tile_lower_right_y_ll,scene_timestamp:scene_timestamp,created_at:created_at)]
+	LegendOptions = {}
+	Legends = [LegendRequest [layer=TRB:FloatingForests_DATA, name=TRB:FloatingForests_DATA styleName=FloatingForests_detail, title=Floating Forests - DATA, legendInfo=null]]
+	Locale = null
+	RawKvp = {REQUEST=GetLegendGraphic, FORMAT=image/png, SERVICE=WMS, WIDTH=20, HEIGHT=20, LAYER=TRB:FloatingForests_DATA}
+	Request = GetLegendGraphic
+	RequestCharset = null
+	Rules = [null]
+	Scale = -1.0
+	Strict = true
+	Styles = [StyleImpl[ name=FloatingForests_detail]]
+	Transparent = false
+	Version = 1.1.1
+	Width = 20
+	Wms = org.geoserver.wms.WMS@1bb853d0
+2023-01-14 18:06:37,443 INFO [geoserver.filters] - 66.249.65.66 "GET /geoserver/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=TRB%3AFloatingForests_DATA" took 14ms
