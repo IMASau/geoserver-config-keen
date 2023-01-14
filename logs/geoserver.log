@@ -20745,3 +20745,33 @@ Request: getLegendGraphic
 	Width = 20
 	Wms = org.geoserver.wms.WMS@1bb853d0
 2023-01-14 14:31:33,949 INFO [geoserver.filters] - 66.249.65.66 "GET /geoserver/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=TRB%3ATRB_KEEN_Survey_Data_Swath_GV" took 6ms
+2023-01-14 16:18:42,794 INFO [geoserver.filters] - 66.249.65.66 "GET /geoserver/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=TRB%3ATRB_KEEN_Survey_Data_Pointcount_GV" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5414.74 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-01-14 16:18:42,799 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-01-14 16:18:42,799 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-01-14 16:18:42,800 INFO [geoserver.wms] - 
+Request: getLegendGraphic
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Env = {}
+	Exceptions = SE_XML
+	FeatureType = null
+	Format = image/png
+	Get = false
+	Height = 20
+	Kvp = {REQUEST=GetLegendGraphic, FORMAT=image/png, SERVICE=WMS, WIDTH=20, HEIGHT=20, LAYER=TRB:TRB_KEEN_Survey_Data_Pointcount_GV}
+	Layers = [SimpleFeatureTypeImpl TRB:TRB_KEEN_Survey_Data_Pointcount_GV identified extends Feature(ID:ID,YEAR:YEAR,MONTH:MONTH,DAY:DAY,DATE:DATE,SITE:SITE,TRANSECT:TRANSECT,LATITUDE:LATITUDE,LONGITUDE:LONGITUDE,GEOM:GEOM,SIDE:SIDE,DISTANCE:DISTANCE,SPECIES_0:SPECIES_0,SPECIES_1:SPECIES_1,SPECIES_2:SPECIES_2,SPECIES_3:SPECIES_3,SPECIES_4:SPECIES_4,SPECIES_5:SPECIES_5,SUBSTRATE:SUBSTRATE,OBSERVER:OBSERVER,ENTERED_BY:ENTERED_BY,CHECKED_BY:CHECKED_BY,DEPTH_0M:DEPTH_0M,DEPTH_40M:DEPTH_40M,VISIBILITY:VISIBILITY,TEMPERATURE:TEMPERATURE)]
+	LegendOptions = {}
+	Legends = [LegendRequest [layer=TRB:TRB_KEEN_Survey_Data_Pointcount_GV, name=TRB:TRB_KEEN_Survey_Data_Pointcount_GV styleName=point_green, title=Temperate Reef survey data pointcount, legendInfo=null]]
+	Locale = null
+	RawKvp = {REQUEST=GetLegendGraphic, FORMAT=image/png, SERVICE=WMS, WIDTH=20, HEIGHT=20, LAYER=TRB:TRB_KEEN_Survey_Data_Pointcount_GV}
+	Request = GetLegendGraphic
+	RequestCharset = null
+	Rules = [null]
+	Scale = -1.0
+	Strict = true
+	Styles = [StyleImpl[ name=point_green]]
+	Transparent = false
+	Version = 1.1.1
+	Width = 20
+	Wms = org.geoserver.wms.WMS@1bb853d0
+2023-01-14 16:18:42,801 INFO [geoserver.filters] - 66.249.65.66 "GET /geoserver/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=TRB%3ATRB_KEEN_Survey_Data_Pointcount_GV" took 6ms
