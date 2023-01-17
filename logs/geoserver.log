@@ -51422,3 +51422,70 @@ Request: getFeature
 2023-01-17 04:20:46,898 INFO [geoserver.filters] - 66.249.79.13 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=4158193D14D474B6AF40B75E8BD83DDD?0-1.IBehaviorListener.0-form-targetCRS-srs&fromSRS=EPSG:62086405" took 94ms
 2023-01-17 04:20:48,307 INFO [geoserver.filters] - 66.249.79.13 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=A660BE15F28DD7212F62B4BF1BB6462C?0&fromSRS=EPSG:62086405" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5414.74 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
 2023-01-17 04:20:48,311 INFO [geoserver.filters] - 66.249.79.13 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=A660BE15F28DD7212F62B4BF1BB6462C?0&fromSRS=EPSG:62086405" took 4ms
+2023-01-17 11:21:08,255 INFO [geoserver.filters] - 66.249.79.17 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3ATRB_KEEN_kelp_timeseries_aggregated_GV2&bbox=-178.687481%2C-43.644509%2C179.426451%2C74.300001&width=768&height=330&srs=EPSG%3A4326&format=application/openlayers" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5414.74 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-01-17 11:21:08,258 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-01-17 11:21:08,259 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-01-17 11:21:08,452 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[-178.687481 : 179.426451, -43.644509 : 74.300001]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 330
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@e3145093]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=-178.687481,-43.644509,179.426451,74.300001, VERSION=1.1.0, SERVICE=WMS, WIDTH=768, HEIGHT=330, LAYERS=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV2}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=point_green_circle]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 768
+2023-01-17 11:21:08,455 INFO [geoserver.filters] - 66.249.79.17 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3ATRB_KEEN_kelp_timeseries_aggregated_GV2&bbox=-178.687481%2C-43.644509%2C179.426451%2C74.300001&width=768&height=330&srs=EPSG%3A4326&format=application/openlayers" took 200ms
+2023-01-17 11:21:22,305 INFO [geoserver.filters] - 66.249.79.13 "GET /geoserver/openlayers3/ol.js" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.130 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3ATRB_KEEN_kelp_timeseries_aggregated_GV2&bbox=-178.687481%2C-43.644509%2C179.426451%2C74.300001&width=768&height=330&srs=EPSG%3A4326&format=application/openlayers" "" 
+2023-01-17 11:21:22,316 INFO [geoserver.filters] - 66.249.79.13 "GET /geoserver/openlayers3/ol.js" took 11ms
+2023-01-17 11:21:24,780 INFO [geoserver.filters] - 66.249.79.15 "GET /geoserver/openlayers3/ol.css" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.130 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3ATRB_KEEN_kelp_timeseries_aggregated_GV2&bbox=-178.687481%2C-43.644509%2C179.426451%2C74.300001&width=768&height=330&srs=EPSG%3A4326&format=application/openlayers" "" 
+2023-01-17 11:21:24,782 INFO [geoserver.filters] - 66.249.79.15 "GET /geoserver/openlayers3/ol.css" took 2ms
