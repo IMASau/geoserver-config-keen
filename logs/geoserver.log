@@ -9544,3 +9544,33 @@ Request: getMap
 2023-02-13 14:20:25,625 INFO [geoserver.filters] - 66.249.69.45 "GET /geoserver" took 3ms
 2023-02-13 14:20:29,364 INFO [geoserver.filters] - 66.249.69.45 "GET /geoserver/web/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/109.0.5414.101 Safari/537.36" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/index.html" "" 
 2023-02-13 14:20:29,412 INFO [geoserver.filters] - 66.249.69.45 "GET /geoserver/web/" took 48ms
+2023-02-13 18:02:15,053 INFO [geoserver.filters] - 66.249.69.47 "GET /geoserver/wms?request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=TRB%3AKEEN_Obs_Sites_3857" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.5414.101 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-02-13 18:02:15,057 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-02-13 18:02:15,059 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-02-13 18:02:15,060 INFO [geoserver.wms] - 
+Request: getLegendGraphic
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Env = {}
+	Exceptions = SE_XML
+	FeatureType = null
+	Format = image/png
+	Get = false
+	Height = 20
+	Kvp = {REQUEST=GetLegendGraphic, FORMAT=image/png, WIDTH=20, HEIGHT=20, LAYER=TRB:KEEN_Obs_Sites_3857}
+	Layers = [SimpleFeatureTypeImpl TRB:KEEN_Obs_Sites_3857 identified extends Feature(geom:geom,NETWORK:NETWORK,PI:PI,YEAR:YEAR,MONTH:MONTH,DAY:DAY,SITE:SITE,TRANSECT:TRANSECT,START_LATITUDE:START_LATITUDE,START_LONGITUDE:START_LONGITUDE,END_LATITUDE:END_LATITUDE,END_LONGITUDE:END_LONGITUDE,START_DEPTH_M:START_DEPTH_M,END_DEPTH_M:END_DEPTH_M,TEMPERATURE_C:TEMPERATURE_C,VISIBILITY_M:VISIBILITY_M)]
+	LegendOptions = {}
+	Legends = [LegendRequest [layer=TRB:KEEN_Obs_Sites_3857, name=TRB:KEEN_Obs_Sites_3857 styleName=point, title=KEEN_Obs_Sites, legendInfo=null]]
+	Locale = null
+	RawKvp = {REQUEST=GetLegendGraphic, FORMAT=image/png, WIDTH=20, HEIGHT=20, LAYER=TRB:KEEN_Obs_Sites_3857}
+	Request = GetLegendGraphic
+	RequestCharset = null
+	Rules = [null]
+	Scale = -1.0
+	Strict = true
+	Styles = [StyleImpl[ name=point]]
+	Transparent = false
+	Version = 1.1.1
+	Width = 20
+	Wms = org.geoserver.wms.WMS@7264e65c
+2023-02-13 18:02:15,061 INFO [geoserver.filters] - 66.249.69.47 "GET /geoserver/wms?request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=TRB%3AKEEN_Obs_Sites_3857" took 7ms
