@@ -39161,3 +39161,17 @@ Request: getMap
 2023-02-14 17:51:40,195 INFO [geoserver.filters] - 137.184.59.77 "HEAD /geoserver" took 2ms
 2023-02-14 17:56:14,676 INFO [geoserver.filters] - 101.198.0.155 "GET /geoserver" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_0) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.56 Safari/535.11" "https://geoserver-temperatereefbase.imas.utas.edu.au/" "" 
 2023-02-14 17:56:14,678 INFO [geoserver.filters] - 101.198.0.155 "GET /geoserver" took 2ms
+2023-02-14 19:20:45,161 INFO [geoserver.filters] - 66.249.69.45 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_JBoada_Algae_Urchin_2013_GV" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.77 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-02-14 19:20:45,164 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-02-14 19:20:45,165 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-02-14 19:20:45,167 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_JBoada_Algae_Urchin_2013_GV
+    outputFormat = GML2
+    resultType = results
+2023-02-14 19:20:45,207 INFO [geoserver.filters] - 66.249.69.45 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_JBoada_Algae_Urchin_2013_GV" took 46ms
