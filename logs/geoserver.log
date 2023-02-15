@@ -42300,3 +42300,38 @@ Request: getCapabilities
 2023-02-15 21:47:58,546 INFO [geoserver.filters] - 104.233.61.115 "GET /geoserver/geoserver/index.html" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.125 Safari/537.36" "" "" 
 2023-02-15 21:47:58,548 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/geoserver/index.html
 2023-02-15 21:47:58,548 INFO [geoserver.filters] - 104.233.61.115 "GET /geoserver/geoserver/index.html" took 2ms
+2023-02-15 22:32:44,009 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?typeName=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV&SERVICE=WFS&outputFormat=csv-with-metadata-header&REQUEST=GetFeature&VERSION=1.0.0&CQL_FILTER=INTERSECTS(GEOM%2CPOLYGON((109.462890625%20-48.20703125%2C109.462890625%20-27.2890625%2C179.951171875%20-27.2890625%2C179.951171875%20-48.20703125%2C109.462890625%20-48.20703125)))&downloadToken=1676460763644" "AODN-Portal/V4.42.64" "" "" 
+2023-02-15 22:32:44,013 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-02-15 22:32:44,013 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-02-15 22:32:44,014 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        filter = [ GEOM intersects POLYGON ((109.462890625 -48.20703125, 109.462890625 -27.2890625, 179.951171875 -27.2890625, 179.951171875 -48.20703125, 109.462890625 -48.20703125)) ]
+        typeName[0] = {TRB}TRB_KEEN_kelp_timeseries_aggregated_GV
+    outputFormat = csv-with-metadata-header
+    resultType = results
+2023-02-15 22:32:44,026 WARN [wfs.response] - Invalid object name 'parameters_mapping.dbo_metadata_summary'.
+2023-02-15 22:32:44,221 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?typeName=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV&SERVICE=WFS&outputFormat=csv-with-metadata-header&REQUEST=GetFeature&VERSION=1.0.0&CQL_FILTER=INTERSECTS(GEOM%2CPOLYGON((109.462890625%20-48.20703125%2C109.462890625%20-27.2890625%2C179.951171875%20-27.2890625%2C179.951171875%20-48.20703125%2C109.462890625%20-48.20703125)))&downloadToken=1676460763644" took 212ms
+2023-02-15 22:35:39,009 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV" "Java/1.8.0_352" "" "" 
+2023-02-15 22:35:39,013 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
+2023-02-15 22:35:39,013 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-02-15 22:35:39,031 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV" took 21ms
+2023-02-15 22:35:57,405 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?typeName=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV&SERVICE=WFS&outputFormat=csv-with-metadata-header&REQUEST=GetFeature&VERSION=1.0.0&downloadToken=1676460956369" "AODN-Portal/V4.42.64" "" "" 
+2023-02-15 22:35:57,408 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-02-15 22:35:57,408 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-02-15 22:35:57,409 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_kelp_timeseries_aggregated_GV
+    outputFormat = csv-with-metadata-header
+    resultType = results
+2023-02-15 22:35:57,420 WARN [wfs.response] - Invalid object name 'parameters_mapping.dbo_metadata_summary'.
+2023-02-15 22:35:57,749 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?typeName=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV&SERVICE=WFS&outputFormat=csv-with-metadata-header&REQUEST=GetFeature&VERSION=1.0.0&downloadToken=1676460956369" took 344ms
