@@ -39336,3 +39336,32 @@ java.lang.NullPointerException
 2023-02-15 03:52:21,743 INFO [geoserver.filters] - 34.168.205.59 "GET /geoserver" took 2ms
 2023-02-15 12:52:17,992 INFO [geoserver.filters] - 104.143.83.241 "GET /geoserver" "Mozilla/5.0 zgrab/0.x" "https://geoserver-temperatereefbase.imas.utas.edu.au/" "" 
 2023-02-15 12:52:17,994 INFO [geoserver.filters] - 104.143.83.241 "GET /geoserver" took 2ms
+2023-02-15 16:28:02,935 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_fish_community_responses_GV" "Java/1.8.0_352" "" "" 
+2023-02-15 16:28:02,938 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
+2023-02-15 16:28:02,938 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-02-15 16:28:02,958 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_fish_community_responses_GV" took 23ms
+2023-02-15 16:28:03,639 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=DescribeLayer&service=WMS&version=1.1.1&layers=TRB:TRB_KEEN_fish_community_responses_GV2" "Java/1.8.0_352" "" "" 
+2023-02-15 16:28:03,641 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-02-15 16:28:03,642 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-02-15 16:28:03,642 INFO [geoserver.wms] - 
+Request: describeLayer
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	ExeptionFormat = application/vnd.ogc.se_xml
+	Get = false
+	GetMapRequest = null
+	Layers = [org.geoserver.wms.MapLayerInfo@a5612d7d]
+	OutputFormat = application/vnd.ogc.wms_xml
+	RawKvp = {REQUEST=DescribeLayer, VERSION=1.1.1, SERVICE=WMS, LAYERS=TRB:TRB_KEEN_fish_community_responses_GV2}
+	Request = DescribeLayer
+	RequestCharset = null
+	Version = 1.1.1
+2023-02-15 16:28:03,643 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=DescribeLayer&service=WMS&version=1.1.1&layers=TRB:TRB_KEEN_fish_community_responses_GV2" took 4ms
+2023-02-15 16:28:04,318 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=uniqueValues&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_fish_community_responses_GV2&propertyName=PROVINCE" "Java/1.8.0_352" "" "" 
+2023-02-15 16:28:04,320 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
+2023-02-15 16:28:04,320 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-02-15 16:28:04,397 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=uniqueValues&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_fish_community_responses_GV2&propertyName=PROVINCE" took 79ms
+2023-02-15 16:28:05,017 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=uniqueValues&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_fish_community_responses_GV2&propertyName=REALM" "Java/1.8.0_352" "" "" 
+2023-02-15 16:28:05,019 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
+2023-02-15 16:28:05,019 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-02-15 16:28:05,026 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=uniqueValues&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_fish_community_responses_GV2&propertyName=REALM" took 9ms
