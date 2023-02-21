@@ -85345,3 +85345,14 @@ java.lang.NullPointerException
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:750)
 2023-02-21 06:43:47,224 INFO [geoserver.filters] - 114.119.147.15 "GET /geoserver/TRB/wms/kml?layers=TRB:TRB_JBoada_Algae_Urchin_2013" took 9ms
+2023-02-21 11:55:11,106 INFO [geoserver.filters] - 66.249.69.171 "GET /geoserver/ows?service=wfs&version=1.0.0&request=GetCapabilities" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.77 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-02-21 11:55:11,113 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-02-21 11:55:11,196 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-02-21 11:55:11,211 INFO [geoserver.wfs] - 
+Request: getCapabilities
+    acceptVersions:
+        version[0] = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    service = wfs
+2023-02-21 11:55:11,462 INFO [geoserver.filters] - 66.249.69.171 "GET /geoserver/ows?service=wfs&version=1.0.0&request=GetCapabilities" took 356ms
