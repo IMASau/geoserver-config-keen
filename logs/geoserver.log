@@ -86144,3 +86144,18 @@ Request: getMap
 2023-02-22 13:53:16,157 INFO [geoserver.filters] - 66.249.69.113 "GET /geoserver/gwc/rest/web/openlayers3/ol.js" took 31ms
 2023-02-22 16:15:51,718 INFO [geoserver.filters] - 34.145.19.183 "GET /geoserver" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0" "" "" 
 2023-02-22 16:15:51,721 INFO [geoserver.filters] - 34.145.19.183 "GET /geoserver" took 3ms
+2023-02-22 17:50:03,223 INFO [geoserver.filters] - 66.249.69.109 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_KEEN_fish_community_responses_GV&maxFeatures=10" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.77 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-02-22 17:50:03,229 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-02-22 17:50:03,249 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-02-22 17:50:03,644 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_fish_community_responses_GV
+    maxFeatures = 10
+    outputFormat = GML2
+    resultType = results
+2023-02-22 17:50:03,676 INFO [geoserver.filters] - 66.249.69.109 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_KEEN_fish_community_responses_GV&maxFeatures=10" took 452ms
