@@ -88225,3 +88225,17 @@ Request: getMap
 2023-02-24 01:07:44,317 INFO [geoserver.filters] - 104.208.80.224 "GET /geoserver/sito/wp-includes/wlwmanifest.xml" took 3ms
 2023-02-24 02:18:58,468 INFO [geoserver.filters] - 128.199.23.207 "HEAD /geoserver" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.517 Safari/537.36" "https://www.bing.com" "" 
 2023-02-24 02:18:58,475 INFO [geoserver.filters] - 128.199.23.207 "HEAD /geoserver" took 6ms
+2023-02-24 10:58:09,926 INFO [geoserver.filters] - 66.249.79.15 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV&outputFormat=csv" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.100 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-02-24 10:58:09,931 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-02-24 10:58:09,932 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-02-24 10:58:10,032 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_kelp_timeseries_aggregated_GV
+    outputFormat = csv
+    resultType = results
+2023-02-24 10:58:10,441 INFO [geoserver.filters] - 66.249.79.15 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV&outputFormat=csv" took 515ms
