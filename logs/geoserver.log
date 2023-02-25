@@ -92595,3 +92595,34 @@ Request: getFeature
 2023-02-25 12:01:07,599 INFO [geoserver.filters] - 114.119.136.87 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=1EEDC47304CD05BC174403EBA2352166?0" took 4ms
 2023-02-25 12:50:11,317 INFO [geoserver.filters] - 104.143.83.241 "GET /geoserver" "Mozilla/5.0 zgrab/0.x" "https://geoserver-temperatereefbase.imas.utas.edu.au/" "" 
 2023-02-25 12:50:11,320 INFO [geoserver.filters] - 104.143.83.241 "GET /geoserver" took 3ms
+2023-02-25 15:04:24,745 INFO [geoserver.filters] - 66.249.65.95 "GET /geoserver/gwc/rest/seed/TRB:KEEN_Obs_Sites_3857" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.100 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-02-25 15:04:24,785 INFO [geoserver.filters] - 66.249.65.95 "GET /geoserver/gwc/rest/seed/TRB:KEEN_Obs_Sites_3857" took 40ms
+2023-02-25 15:06:45,732 INFO [geoserver.filters] - 185.191.171.23 "GET /geoserver/TRB/ows?outputFormat=csv&request=GetFeature&service=WFS&typeName=TRB%3ATRB_KEEN_fish_community_responses_GV&version=1.0.0" "Mozilla/5.0 (compatible; SemrushBot/7~bl; +http://www.semrush.com/bot.html)" "" "" 
+2023-02-25 15:06:45,735 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-02-25 15:06:45,736 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-02-25 15:06:45,737 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_fish_community_responses_GV
+    outputFormat = csv
+    resultType = results
+2023-02-25 15:06:45,815 INFO [geoserver.filters] - 185.191.171.23 "GET /geoserver/TRB/ows?outputFormat=csv&request=GetFeature&service=WFS&typeName=TRB%3ATRB_KEEN_fish_community_responses_GV&version=1.0.0" took 83ms
+2023-02-25 15:24:05,086 INFO [geoserver.filters] - 5.161.144.16 "GET /geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" "" "" 
+2023-02-25 15:24:05,089 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-02-25 15:24:05,090 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-02-25 15:24:05,094 INFO [geoserver.wms] - 
+Request: getCapabilities
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Get = false
+	Namespace = null
+	RawKvp = {REQUEST=GetCapabilities, VERSION=1.3.0, SERVICE=wms}
+	Request = GetCapabilities
+	RequestCharset = null
+	UpdateSequence = null
+	Version = 1.3.0
+2023-02-25 15:24:05,671 INFO [geoserver.filters] - 5.161.144.16 "GET /geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities" took 585ms
