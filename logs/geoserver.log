@@ -16556,3 +16556,17 @@ GetMap Request
 	XPixel = 364
 	YPixel = 182
 2023-03-11 11:10:21,867 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?LAYERS=TRB%3ATRB_KEEN_kelp_timeseries_aggregated_GV2&TRANSPARENT=TRUE&VERSION=1.3.0&FORMAT=text%2Fhtml&EXCEPTIONS=application%2Fvnd.ogc.se_xml&TILED=true&SERVICE=WMS&REQUEST=GetFeatureInfo&STYLES=&QUERYABLE=true&CRS=EPSG%3A4326&BBOX=35.15448%2C-122.491455%2C36.478333%2C-119.330139&INFO_FORMAT=text%2Fhtml&QUERY_LAYERS=TRB%3ATRB_KEEN_kelp_timeseries_aggregated_GV2&FEATURE_COUNT=100&SRS=EPSG%3A4326&WIDTH=1151&HEIGHT=482&X=364&Y=182&I=364&J=182&BUFFER=10" took 93ms
+2023-03-11 12:05:32,930 INFO [geoserver.filters] - 114.119.134.121 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:FloatingForests_DATA" "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage" "" 
+2023-03-11 12:05:32,933 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-03-11 12:05:32,934 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-03-11 12:05:32,935 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}FloatingForests_DATA
+    outputFormat = GML2
+    resultType = results
+2023-03-11 12:05:42,499 INFO [geoserver.filters] - 114.119.134.121 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:FloatingForests_DATA" took 9569ms
