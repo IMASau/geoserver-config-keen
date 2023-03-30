@@ -247,3 +247,17 @@ Request: getMap
 2023-03-30 12:24:12,366 INFO [geoserver.filters] - 104.143.83.241 "GET /geoserver" took 2ms
 2023-03-30 14:57:32,518 INFO [geoserver.filters] - 42.192.4.129 "HEAD /geoserver" "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2224.3 Safari/537.36" "https://www.bing.com" "" 
 2023-03-30 14:57:32,531 INFO [geoserver.filters] - 42.192.4.129 "HEAD /geoserver" took 13ms
+2023-03-31 02:01:55,473 INFO [geoserver.filters] - 66.249.69.109 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_KEEN_Survey_Data_Pointcount_GV" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.5563.146 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-03-31 02:01:55,478 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-03-31 02:01:55,480 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-03-31 02:01:55,483 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_Survey_Data_Pointcount_GV
+    outputFormat = GML2
+    resultType = results
+2023-03-31 02:01:55,616 INFO [geoserver.filters] - 66.249.69.109 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_KEEN_Survey_Data_Pointcount_GV" took 143ms
