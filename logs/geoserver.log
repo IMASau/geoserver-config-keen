@@ -10292,3 +10292,18 @@ Request: getFeature
 2023-04-03 01:29:12,357 INFO [geoserver.filters] - 66.249.69.111 "GET /geoserver/gwc/rest/web/openlayers3/ol.js" took 164ms
 2023-04-03 01:29:13,691 INFO [geoserver.filters] - 66.249.69.109 "GET /geoserver/gwc/rest/web/openlayers3/ol.css" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.5563.110 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/gwc/demo/TRB:TG2021?gridSet=EPSG:900913&format=image/jpeg" "" 
 2023-04-03 01:29:13,695 INFO [geoserver.filters] - 66.249.69.109 "GET /geoserver/gwc/rest/web/openlayers3/ol.css" took 4ms
+2023-04-03 04:28:48,561 INFO [geoserver.filters] - 66.249.69.109 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_KEEN_Survey_Data_Quads_GV&maxFeatures=10" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.5563.146 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-04-03 04:28:48,566 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-04-03 04:28:48,567 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-04-03 04:28:48,570 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_Survey_Data_Quads_GV
+    maxFeatures = 10
+    outputFormat = GML2
+    resultType = results
+2023-04-03 04:28:48,628 INFO [geoserver.filters] - 66.249.69.109 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_KEEN_Survey_Data_Quads_GV&maxFeatures=10" took 67ms
