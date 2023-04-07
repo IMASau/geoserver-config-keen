@@ -11224,3 +11224,15 @@ org.geoserver.platform.ServiceException: Could not determine geoserver request f
 2023-04-07 16:50:46,421 INFO [geoserver.filters] - 104.194.196.141 "GET /geoserver/geoserver/index.html" took 2ms
 2023-04-07 16:50:49,268 INFO [geoserver.filters] - 104.194.196.141 "GET /geoserver" "Mozilla/5.0 (Windows NT 6.3; WOW64; rv:43.0) Gecko/20100101 Firefox/43.0" "" "" 
 2023-04-07 16:50:49,270 INFO [geoserver.filters] - 104.194.196.141 "GET /geoserver" took 2ms
+2023-04-07 20:24:28,178 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV" "Java/1.8.0_362" "" "" 
+2023-04-07 20:24:28,181 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
+2023-04-07 20:24:28,181 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-04-07 20:24:28,203 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV" took 25ms
+2023-04-07 20:24:29,663 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=uniqueValues&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV2&propertyName=PROVINCE" "Java/1.8.0_362" "" "" 
+2023-04-07 20:24:29,666 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
+2023-04-07 20:24:29,666 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-04-07 20:24:29,688 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=uniqueValues&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV2&propertyName=PROVINCE" took 25ms
+2023-04-07 20:24:30,358 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=uniqueValues&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV2&propertyName=REALM" "Java/1.8.0_362" "" "" 
+2023-04-07 20:24:30,360 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
+2023-04-07 20:24:30,360 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-04-07 20:24:30,376 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=uniqueValues&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV2&propertyName=REALM" took 18ms
