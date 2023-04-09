@@ -11479,3 +11479,24 @@ Request: getMap
 2023-04-10 02:11:02,921 INFO [geoserver.filters] - 40.77.167.164 "GET /geoserver" took 3ms
 2023-04-10 02:11:03,924 INFO [geoserver.filters] - 40.77.167.164 "GET /geoserver/index.html" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/103.0.5060.134 Safari/537.36" "" "" 
 2023-04-10 02:11:03,930 INFO [geoserver.filters] - 40.77.167.164 "GET /geoserver/index.html" took 5ms
+2023-04-10 03:15:18,668 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:TRB_AGomez_HOBO_LP" "Java/1.8.0_362" "" "" 
+2023-04-10 03:15:18,672 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
+2023-04-10 03:15:18,672 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-04-10 03:15:18,690 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:TRB_AGomez_HOBO_LP" took 22ms
+2023-04-10 03:15:19,187 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=DescribeLayer&service=WMS&version=1.1.1&layers=TRB:TRB_AGomez_HOBO_LP" "Java/1.8.0_362" "" "" 
+2023-04-10 03:15:19,189 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-04-10 03:15:19,193 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-04-10 03:15:19,193 INFO [geoserver.wms] - 
+Request: describeLayer
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	ExeptionFormat = application/vnd.ogc.se_xml
+	Get = false
+	GetMapRequest = null
+	Layers = [org.geoserver.wms.MapLayerInfo@71971d27]
+	OutputFormat = application/vnd.ogc.wms_xml
+	RawKvp = {REQUEST=DescribeLayer, VERSION=1.1.1, SERVICE=WMS, LAYERS=TRB:TRB_AGomez_HOBO_LP}
+	Request = DescribeLayer
+	RequestCharset = null
+	Version = 1.1.1
+2023-04-10 03:15:19,197 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=DescribeLayer&service=WMS&version=1.1.1&layers=TRB:TRB_AGomez_HOBO_LP" took 10ms
