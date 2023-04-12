@@ -13639,3 +13639,17 @@ org.geoserver.platform.ServiceException: Could not determine geoserver request f
 2023-04-12 12:49:27,996 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
 2023-04-12 12:49:27,996 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
 2023-04-12 12:49:28,018 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:KEEN_Obs_Sites" took 25ms
+2023-04-12 15:56:12,642 INFO [geoserver.filters] - 114.119.137.134 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_JBoada_Algae_Urchin_2013" "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage" "" 
+2023-04-12 15:56:12,645 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-04-12 15:56:12,646 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-04-12 15:56:12,649 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_JBoada_Algae_Urchin_2013
+    outputFormat = GML2
+    resultType = results
+2023-04-12 15:56:12,689 INFO [geoserver.filters] - 114.119.137.134 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_JBoada_Algae_Urchin_2013" took 47ms
