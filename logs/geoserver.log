@@ -63621,3 +63621,17 @@ org.geoserver.platform.ServiceException: Could not determine geoserver request f
 2023-04-24 00:17:27,246 INFO [geoserver.filters] - 167.248.133.187 "GET /geoserver" took 2ms
 2023-04-24 00:55:55,901 INFO [geoserver.filters] - 167.248.133.125 "GET /geoserver" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)" "" "" 
 2023-04-24 00:55:55,903 INFO [geoserver.filters] - 167.248.133.125 "GET /geoserver" took 2ms
+2023-04-24 03:29:05,794 INFO [geoserver.filters] - 188.223.123.77 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV&outputFormat=csv" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" "" "" 
+2023-04-24 03:29:05,798 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-04-24 03:29:05,800 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-04-24 03:29:05,804 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_kelp_timeseries_aggregated_GV
+    outputFormat = csv
+    resultType = results
+2023-04-24 03:29:06,107 INFO [geoserver.filters] - 188.223.123.77 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV&outputFormat=csv" took 312ms
