@@ -23310,3 +23310,18 @@ Request: kml
 2023-05-29 17:19:06,950 INFO [geoserver.filters] - 114.119.151.156 "GET /geoserver/TRB/wms/kml?layers=TRB:TRB_KEEN_Survey_Data_Pointcount_GV" took 34ms
 2023-05-29 22:10:40,743 INFO [geoserver.filters] - 167.248.133.191 "GET /geoserver" "Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)" "" "" 
 2023-05-29 22:10:40,745 INFO [geoserver.filters] - 167.248.133.191 "GET /geoserver" took 2ms
+2023-05-30 00:30:18,339 INFO [geoserver.filters] - 157.55.39.213 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:FloatingForests_DATA&outputFormat=csv" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/103.0.5060.134 Safari/537.36" "" "" 
+2023-05-30 00:30:18,343 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-05-30 00:30:18,343 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-05-30 00:30:18,345 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}FloatingForests_DATA
+    outputFormat = csv
+    resultType = results
+2023-05-30 00:30:52,967 INFO [geoserver.servlets] - OutputStream was successfully aborted.
+2023-05-30 00:30:52,968 INFO [geoserver.filters] - 157.55.39.213 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:FloatingForests_DATA&outputFormat=csv" took 34629ms
