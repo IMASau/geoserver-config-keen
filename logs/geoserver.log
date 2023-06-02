@@ -29804,3 +29804,17 @@ Request: getMap
 	ViewParams = null
 	Width = 256
 2023-06-02 14:04:45,418 INFO [geoserver.filters] - 66.249.79.19 "GET /geoserver/wms?LAYERS=TRB%3ATRB_KEEN_kelp_timeseries_aggregated_GV2&TRANSPARENT=TRUE&VERSION=1.3.0&FORMAT=image%2Fpng&EXCEPTIONS=application%2Fvnd.ogc.se_xml&TILED=true&SERVICE=WMS&REQUEST=GetMap&STYLES=&QUERYABLE=true&CRS=EPSG%3A4326&BBOX=45,-45,90,0&WIDTH=256&HEIGHT=256" took 135ms
+2023-06-02 17:34:23,827 INFO [geoserver.filters] - 114.119.145.151 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:KEEN_Obs_Sites" "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage" "" 
+2023-06-02 17:34:23,830 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-06-02 17:34:23,831 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-06-02 17:34:23,832 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}KEEN_Obs_Sites
+    outputFormat = GML2
+    resultType = results
+2023-06-02 17:34:23,921 INFO [geoserver.filters] - 114.119.145.151 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:KEEN_Obs_Sites" took 94ms
