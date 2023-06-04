@@ -29961,3 +29961,14 @@ Request: getMap
 2023-06-04 06:46:53,504 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
 2023-06-04 06:46:53,504 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
 2023-06-04 06:46:53,525 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV" took 25ms
+2023-06-04 12:20:23,354 INFO [geoserver.filters] - 40.94.95.69 "GET /geoserver/wfs?request=GetCapabilities&service=WFS&version=1.1.0" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "https://catalogue-temperatereefbase.imas.utas.edu.au/" "" 
+2023-06-04 12:20:23,393 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-06-04 12:20:23,398 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-06-04 12:20:23,403 INFO [geoserver.wfs] - 
+Request: getCapabilities
+    acceptVersions:
+        version[0] = 1.1.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    service = WFS
+2023-06-04 12:20:23,432 INFO [geoserver.filters] - 40.94.95.69 "GET /geoserver/wfs?request=GetCapabilities&service=WFS&version=1.1.0" took 78ms
