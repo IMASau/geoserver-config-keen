@@ -29972,3 +29972,24 @@ Request: getCapabilities
     baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
     service = WFS
 2023-06-04 12:20:23,432 INFO [geoserver.filters] - 40.94.95.69 "GET /geoserver/wfs?request=GetCapabilities&service=WFS&version=1.1.0" took 78ms
+2023-06-04 14:13:17,163 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:KEEN_Obs_Sites" "Java/1.8.0_372" "" "" 
+2023-06-04 14:13:17,167 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
+2023-06-04 14:13:17,167 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-06-04 14:13:17,190 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:KEEN_Obs_Sites" took 27ms
+2023-06-04 14:13:17,729 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=DescribeLayer&service=WMS&version=1.1.1&layers=TRB:KEEN_Obs_Sites" "Java/1.8.0_372" "" "" 
+2023-06-04 14:13:17,732 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-06-04 14:13:17,734 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-06-04 14:13:17,734 INFO [geoserver.wms] - 
+Request: describeLayer
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	ExeptionFormat = application/vnd.ogc.se_xml
+	Get = false
+	GetMapRequest = null
+	Layers = [org.geoserver.wms.MapLayerInfo@73eca7da]
+	OutputFormat = application/vnd.ogc.wms_xml
+	RawKvp = {REQUEST=DescribeLayer, VERSION=1.1.1, SERVICE=WMS, LAYERS=TRB:KEEN_Obs_Sites}
+	Request = DescribeLayer
+	RequestCharset = null
+	Version = 1.1.1
+2023-06-04 14:13:17,736 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=DescribeLayer&service=WMS&version=1.1.1&layers=TRB:KEEN_Obs_Sites" took 7ms
