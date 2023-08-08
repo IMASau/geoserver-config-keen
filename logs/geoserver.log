@@ -16196,3 +16196,497 @@ Request: getMap
 2023-08-09 06:54:39,096 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
 2023-08-09 06:54:39,096 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
 2023-08-09 06:54:39,118 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV" took 25ms
+2023-08-09 09:28:05,521 INFO [geoserver.filters] - 40.83.2.64 "GET /geoserver/web/" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)" "" "" 
+2023-08-09 09:28:05,559 INFO [geoserver.filters] - 40.83.2.64 "GET /geoserver/web/" took 38ms
+2023-08-09 09:28:16,062 INFO [geoserver.filters] - 20.15.242.140 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3ATRB_KEEN_kelp_timeseries_aggregated_GV&bbox=-178.687481%2C-43.644509%2C179.426451%2C74.300001&width=768&height=330&srs=EPSG%3A4326&format=application/openlayers" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)" "" "" 
+2023-08-09 09:28:16,065 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-08-09 09:28:16,066 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-08-09 09:28:16,087 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[-178.687481 : 179.426451, -43.644509 : 74.300001]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 330
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@51a5d47d]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=-178.687481,-43.644509,179.426451,74.300001, VERSION=1.1.0, SERVICE=WMS, WIDTH=768, HEIGHT=330, LAYERS=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=point]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 768
+2023-08-09 09:28:16,088 INFO [geoserver.filters] - 20.15.242.140 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3ATRB_KEEN_kelp_timeseries_aggregated_GV&bbox=-178.687481%2C-43.644509%2C179.426451%2C74.300001&width=768&height=330&srs=EPSG%3A4326&format=application/openlayers" took 26ms
+2023-08-09 09:28:26,830 INFO [geoserver.filters] - 20.15.240.93 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3AKEEN_Obs_Sites_3857&bbox=-7944473.809913834%2C5082942.896890753%2C-7737577.200188786%2C5440079.398680641&width=444&height=768&srs=EPSG%3A3857&format=application/openlayers" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)" "" "" 
+2023-08-09 09:28:26,833 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-08-09 09:28:26,833 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-08-09 09:28:26,867 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[-7944473.809913834 : -7737577.200188786, 5082942.896890753 : 5440079.398680641]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = PROJCS["WGS 84 / Pseudo-Mercator", 
+  GEOGCS["WGS 84", 
+    DATUM["World Geodetic System 1984", 
+      SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+      AUTHORITY["EPSG","6326"]], 
+    PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+    UNIT["degree", 0.017453292519943295], 
+    AXIS["Geodetic longitude", EAST], 
+    AXIS["Geodetic latitude", NORTH], 
+    AUTHORITY["EPSG","4326"]], 
+  PROJECTION["Popular Visualisation Pseudo Mercator", AUTHORITY["EPSG","1024"]], 
+  PARAMETER["semi_minor", 6378137.0], 
+  PARAMETER["latitude_of_origin", 0.0], 
+  PARAMETER["central_meridian", 0.0], 
+  PARAMETER["scale_factor", 1.0], 
+  PARAMETER["false_easting", 0.0], 
+  PARAMETER["false_northing", 0.0], 
+  UNIT["m", 1.0], 
+  AXIS["Easting", EAST], 
+  AXIS["Northing", NORTH], 
+  AUTHORITY["EPSG","3857"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@ca085b62]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:3857, FORMAT=application/openlayers, BBOX=-7944473.809913834,5082942.896890753,-7737577.200188786,5440079.398680641, VERSION=1.1.0, SERVICE=WMS, WIDTH=444, HEIGHT=768, LAYERS=TRB:KEEN_Obs_Sites_3857}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:3857
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=point]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 444
+2023-08-09 09:28:26,868 INFO [geoserver.filters] - 20.15.240.93 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3AKEEN_Obs_Sites_3857&bbox=-7944473.809913834%2C5082942.896890753%2C-7737577.200188786%2C5440079.398680641&width=444&height=768&srs=EPSG%3A3857&format=application/openlayers" took 38ms
+2023-08-09 09:28:37,440 INFO [geoserver.filters] - 20.15.240.110 "GET /geoserver/TRB/wms/kml?layers=TRB:FloatingForests_MAP" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)" "" "" 
+2023-08-09 09:28:37,446 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-08-09 09:28:37,447 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-08-09 09:28:37,459 INFO [geoserver.wms] - 
+Request: kml
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = null
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = null
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = null
+	FormatOptions = {}
+	Get = true
+	Height = 0
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@55ea082a]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {LAYERS=TRB:FloatingForests_MAP}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = null
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=FloatingForests]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = null
+	ViewParams = null
+	Width = 0
+2023-08-09 09:28:37,500 INFO [geoserver.filters] - 20.15.240.110 "GET /geoserver/TRB/wms/kml?layers=TRB:FloatingForests_MAP" took 60ms
+2023-08-09 09:28:48,910 INFO [geoserver.filters] - 20.15.240.83 "GET /geoserver" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)" "" "" 
+2023-08-09 09:28:48,912 INFO [geoserver.filters] - 20.15.240.83 "GET /geoserver" took 2ms
+2023-08-09 09:28:58,557 INFO [geoserver.filters] - 20.15.240.91 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3AKEEN_Obs_Sites&bbox=-71.36642205%2C41.47691367%2C-69.507839%2C43.835881&width=605&height=768&srs=EPSG%3A4326&format=application/openlayers" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)" "" "" 
+2023-08-09 09:28:58,560 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-08-09 09:28:58,560 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-08-09 09:28:58,580 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[-71.36642205 : -69.507839, 41.47691367 : 43.835881]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 768
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@73eca7da]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=-71.36642205,41.47691367,-69.507839,43.835881, VERSION=1.1.0, SERVICE=WMS, WIDTH=605, HEIGHT=768, LAYERS=TRB:KEEN_Obs_Sites}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=green_circle_SAMPLING_SITE]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 605
+2023-08-09 09:28:58,580 INFO [geoserver.filters] - 20.15.240.91 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3AKEEN_Obs_Sites&bbox=-71.36642205%2C41.47691367%2C-69.507839%2C43.835881&width=605&height=768&srs=EPSG%3A4326&format=application/openlayers" took 23ms
+2023-08-09 09:29:08,889 INFO [geoserver.filters] - 20.15.240.70 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage?0-1.ILinkListener-srsListPanel-table-filterForm-navigatorTop-navigator-next" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)" "" "" 
+2023-08-09 09:29:08,953 INFO [geoserver.filters] - 20.15.240.70 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage?0-1.ILinkListener-srsListPanel-table-filterForm-navigatorTop-navigator-next" took 64ms
+2023-08-09 09:29:09,160 INFO [geoserver.filters] - 20.15.240.70 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=C0CB8F611204046E82D135393EB2D1F0?0" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)" "" "" 
+2023-08-09 09:29:09,164 INFO [geoserver.filters] - 20.15.240.70 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=C0CB8F611204046E82D135393EB2D1F0?0" took 4ms
+2023-08-09 09:29:18,616 INFO [geoserver.filters] - 20.15.242.153 "GET /geoserver" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)" "" "" 
+2023-08-09 09:29:18,618 INFO [geoserver.filters] - 20.15.242.153 "GET /geoserver" took 2ms
+2023-08-09 09:29:29,318 INFO [geoserver.filters] - 20.15.242.147 "GET /geoserver/TRB/wms/kml?layers=TRB:FloatingForests_DATA" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)" "" "" 
+2023-08-09 09:29:29,321 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-08-09 09:29:29,321 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-08-09 09:29:29,323 INFO [geoserver.wms] - 
+Request: kml
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = null
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = null
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = null
+	FormatOptions = {}
+	Get = true
+	Height = 0
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@66d7cfd2]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {LAYERS=TRB:FloatingForests_DATA}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = null
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=FloatingForests_detail]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = null
+	ViewParams = null
+	Width = 0
+2023-08-09 09:29:29,340 INFO [geoserver.filters] - 20.15.242.147 "GET /geoserver/TRB/wms/kml?layers=TRB:FloatingForests_DATA" took 22ms
+2023-08-09 09:29:40,322 INFO [geoserver.filters] - 20.15.240.177 "GET /geoserver/TRB/wms/kml?layers=TRB:TRB_KEEN_Survey_Data_Pointcount_GV" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)" "" "" 
+2023-08-09 09:29:40,324 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-08-09 09:29:40,326 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-08-09 09:29:40,327 INFO [geoserver.wms] - 
+Request: kml
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = null
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = null
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = null
+	FormatOptions = {}
+	Get = true
+	Height = 0
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@f6c10b6d]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {LAYERS=TRB:TRB_KEEN_Survey_Data_Pointcount_GV}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = null
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=point_green]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = null
+	ViewParams = null
+	Width = 0
+2023-08-09 09:29:40,347 INFO [geoserver.filters] - 20.15.240.177 "GET /geoserver/TRB/wms/kml?layers=TRB:TRB_KEEN_Survey_Data_Pointcount_GV" took 25ms
+2023-08-09 09:29:51,173 INFO [geoserver.filters] - 20.15.240.71 "GET /geoserver/TRB/wms/kml?layers=TRB:TRB_KEEN_Survey_Data_Swath_GV" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)" "" "" 
+2023-08-09 09:29:51,175 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-08-09 09:29:51,176 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-08-09 09:29:51,177 INFO [geoserver.wms] - 
+Request: kml
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = null
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = null
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = null
+	FormatOptions = {}
+	Get = true
+	Height = 0
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@b1bbc2c9]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {LAYERS=TRB:TRB_KEEN_Survey_Data_Swath_GV}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = null
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=point_purple]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = null
+	ViewParams = null
+	Width = 0
+2023-08-09 09:29:51,194 INFO [geoserver.filters] - 20.15.240.71 "GET /geoserver/TRB/wms/kml?layers=TRB:TRB_KEEN_Survey_Data_Swath_GV" took 21ms
+2023-08-09 09:30:01,591 INFO [geoserver.filters] - 20.15.240.95 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3ATRB_KEEN_Survey_Data_Swath_GV&bbox=-70.613884985%2C42.989986014%2C-70.610729965%2C42.99307004&width=768&height=750&srs=EPSG%3A4326&format=application/openlayers" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)" "" "" 
+2023-08-09 09:30:01,594 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-08-09 09:30:01,594 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-08-09 09:30:01,613 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[-70.613884985 : -70.610729965, 42.989986014 : 42.99307004]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 750
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@b1bbc2c9]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=-70.613884985,42.989986014,-70.610729965,42.99307004, VERSION=1.1.0, SERVICE=WMS, WIDTH=768, HEIGHT=750, LAYERS=TRB:TRB_KEEN_Survey_Data_Swath_GV}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=point_purple]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 768
+2023-08-09 09:30:01,614 INFO [geoserver.filters] - 20.15.240.95 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3ATRB_KEEN_Survey_Data_Swath_GV&bbox=-70.613884985%2C42.989986014%2C-70.610729965%2C42.99307004&width=768&height=750&srs=EPSG%3A4326&format=application/openlayers" took 23ms
