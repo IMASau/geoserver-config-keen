@@ -27203,3 +27203,17 @@ Request: getMap
 2023-08-14 02:32:25,167 INFO [geoserver.filters] - 66.249.79.1 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x2511y3029z12.jpeg.kml" took 7ms
 2023-08-14 03:41:24,413 INFO [geoserver.filters] - 34.82.96.110 "GET /geoserver" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:79.0) Gecko/20100101 Firefox/79.0" "" "" 
 2023-08-14 03:41:24,416 INFO [geoserver.filters] - 34.82.96.110 "GET /geoserver" took 3ms
+2023-08-14 08:36:37,049 INFO [geoserver.filters] - 114.119.128.56 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:FloatingForests_DATA" "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage" "" 
+2023-08-14 08:36:37,052 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-08-14 08:36:37,053 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-08-14 08:36:37,055 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}FloatingForests_DATA
+    outputFormat = GML2
+    resultType = results
+2023-08-14 08:36:51,224 INFO [geoserver.filters] - 114.119.128.56 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:FloatingForests_DATA" took 14175ms
