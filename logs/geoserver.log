@@ -59859,3 +59859,17 @@ Request: getFeature
     resultType = results
 2023-08-15 22:16:34,273 INFO [wfs.json] - about to encode JSON
 2023-08-15 22:16:34,303 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?SERVICE=WFS&VERSION=1.0.0&REQUEST=GetFeature&typeName=TRB:KEEN_Obs_Sites&outputFormat=json&CQL_FILTER=INTERSECTS%28geom%2CPOLYGON%28%28-71.77307128906298+41.158508300781%2C-71.77307128906298+41.982482910156%2C-70.9326171875+41.982482910156%2C-70.9326171875+41.158508300781%2C-71.77307128906298+41.158508300781%29%29%29&maxFeatures=1" took 34ms
+2023-08-16 01:18:41,398 INFO [geoserver.filters] - 52.167.144.94 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_fish_community_responses_GV&outputFormat=csv" "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm) Chrome/103.0.5060.134 Safari/537.36" "" "" 
+2023-08-16 01:18:41,401 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-08-16 01:18:41,402 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-08-16 01:18:41,404 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_fish_community_responses_GV
+    outputFormat = csv
+    resultType = results
+2023-08-16 01:18:41,513 INFO [geoserver.filters] - 52.167.144.94 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_fish_community_responses_GV&outputFormat=csv" took 115ms
