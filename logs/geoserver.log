@@ -59893,3 +59893,17 @@ Request: getFeature
 2023-08-16 13:53:45,900 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
 2023-08-16 13:53:45,900 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
 2023-08-16 13:53:45,927 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:KEEN_Obs_Sites" took 30ms
+2023-08-16 14:23:31,634 INFO [geoserver.filters] - 66.249.68.1 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3AKEEN_Obs_Sites" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.179 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-08-16 14:23:31,637 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-08-16 14:23:31,638 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-08-16 14:23:31,639 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}KEEN_Obs_Sites
+    outputFormat = GML2
+    resultType = results
+2023-08-16 14:23:31,712 INFO [geoserver.filters] - 66.249.68.1 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3AKEEN_Obs_Sites" took 78ms
