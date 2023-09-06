@@ -41277,3 +41277,26 @@ Request: getCapabilities
     baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
     service = WFS
 2023-09-06 21:23:00,047 INFO [geoserver.filters] - 40.94.102.18 "GET /geoserver/wfs?request=GetCapabilities&service=WFS&version=1.1.0" took 42ms
+2023-09-06 21:30:46,776 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV" "Java/1.8.0_382" "" "" 
+2023-09-06 21:30:46,779 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
+2023-09-06 21:30:46,780 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-09-06 21:30:46,803 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV" took 26ms
+2023-09-06 21:30:47,258 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=uniqueValues&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV2&propertyName=PROVINCE" "Java/1.8.0_382" "" "" 
+2023-09-06 21:30:47,261 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
+2023-09-06 21:30:47,261 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-09-06 21:30:47,337 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=uniqueValues&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV2&propertyName=PROVINCE" took 78ms
+2023-09-06 21:30:57,257 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=uniqueValues&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV2&propertyName=REALM" "Java/1.8.0_382" "" "" 
+2023-09-06 21:30:57,260 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
+2023-09-06 21:30:57,260 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-09-06 21:30:57,292 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=uniqueValues&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV2&propertyName=REALM" took 35ms
+2023-09-06 21:58:16,295 INFO [geoserver.filters] - 20.213.136.124 "GET /geoserver/wfs?request=GetCapabilities&service=WFS&version=1.1.0" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" "https://catalogue-temperatereefbase.imas.utas.edu.au/" "" 
+2023-09-06 21:58:16,298 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-09-06 21:58:16,299 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-09-06 21:58:16,299 INFO [geoserver.wfs] - 
+Request: getCapabilities
+    acceptVersions:
+        version[0] = 1.1.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    service = WFS
+2023-09-06 21:58:16,323 INFO [geoserver.filters] - 20.213.136.124 "GET /geoserver/wfs?request=GetCapabilities&service=WFS&version=1.1.0" took 28ms
