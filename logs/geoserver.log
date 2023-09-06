@@ -41238,3 +41238,17 @@ Request: getFeature
     outputFormat = GML2
     resultType = results
 2023-09-06 08:50:23,641 INFO [geoserver.filters] - 114.119.159.20 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:FloatingForests_DATA" took 9615ms
+2023-09-06 16:43:59,697 INFO [geoserver.filters] - 114.119.159.26 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:FloatingForests_MAP" "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage" "" 
+2023-09-06 16:43:59,700 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-09-06 16:43:59,702 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-09-06 16:43:59,704 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}FloatingForests_MAP
+    outputFormat = GML2
+    resultType = results
+2023-09-06 16:44:05,888 INFO [geoserver.filters] - 114.119.159.26 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:FloatingForests_MAP" took 6191ms
