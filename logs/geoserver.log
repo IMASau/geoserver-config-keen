@@ -5674,3 +5674,18 @@ Request: getFeature
 2023-10-18 15:28:20,880 INFO [geoserver.filters] - 207.241.235.149 "GET /geoserver/TRB/-121.308470147904" "Mozilla/5.0 (compatible; archive.org_bot/3.3.0 +http://pandora.nla.gov.au/crawl.html)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3AFloatingForests_DATA" "" 
 2023-10-18 15:28:20,883 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/TRB/-121.308470147904
 2023-10-18 15:28:20,883 INFO [geoserver.filters] - 207.241.235.149 "GET /geoserver/TRB/-121.308470147904" took 3ms
+2023-10-18 15:45:37,662 INFO [geoserver.filters] - 47.128.49.219 "GET /geoserver/TRB/ows?maxFeatures=10&outputFormat=csv&request=GetFeature&service=WFS&typeName=TRB%3ATRB_JBoada_Algae_Urchin_2013&version=1.0.0" "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; spider-feedback@bytedance.com)" "" "" 
+2023-10-18 15:45:37,666 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-10-18 15:45:37,667 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-10-18 15:45:37,668 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_JBoada_Algae_Urchin_2013
+    maxFeatures = 10
+    outputFormat = csv
+    resultType = results
+2023-10-18 15:45:37,683 INFO [geoserver.filters] - 47.128.49.219 "GET /geoserver/TRB/ows?maxFeatures=10&outputFormat=csv&request=GetFeature&service=WFS&typeName=TRB%3ATRB_JBoada_Algae_Urchin_2013&version=1.0.0" took 20ms
