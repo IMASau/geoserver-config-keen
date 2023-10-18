@@ -5877,3 +5877,17 @@ Request: kml
 2023-10-19 01:06:09,318 INFO [geoserver.filters] - 66.249.79.8 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x321054y387862z19.jpeg" "Googlebot-Image/1.0" "" "" 
 2023-10-19 01:06:09,321 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
 2023-10-19 01:06:09,323 INFO [geoserver.filters] - 66.249.79.8 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x321054y387862z19.jpeg" took 5ms
+2023-10-19 01:59:55,513 INFO [geoserver.filters] - 47.128.35.76 "GET /geoserver/TRB/ows?request=GetFeature&service=WFS&typeName=TRB%3ATRB_KEEN_kelp_timeseries_aggregated_GV&version=1.0.0" "Mozilla/5.0 (Linux; Android 5.0) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; Bytespider; spider-feedback@bytedance.com)" "" "" 
+2023-10-19 01:59:55,518 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-10-19 01:59:55,519 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-10-19 01:59:55,520 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_kelp_timeseries_aggregated_GV
+    outputFormat = GML2
+    resultType = results
+2023-10-19 01:59:56,087 INFO [geoserver.filters] - 47.128.35.76 "GET /geoserver/TRB/ows?request=GetFeature&service=WFS&typeName=TRB%3ATRB_KEEN_kelp_timeseries_aggregated_GV&version=1.0.0" took 573ms
