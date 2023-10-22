@@ -34854,3 +34854,19 @@ GetMap Request
 2023-10-22 14:33:06,993 INFO [geoserver.filters] - 66.249.64.168 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285672y1551321z21.jpeg.kml" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.88 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
 2023-10-22 14:33:06,998 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
 2023-10-22 14:33:07,001 INFO [geoserver.filters] - 66.249.64.168 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285672y1551321z21.jpeg.kml" took 8ms
+2023-10-22 15:13:33,186 INFO [geoserver.filters] - 35.230.107.0 "GET /geoserver" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" "" "" 
+2023-10-22 15:13:33,189 INFO [geoserver.filters] - 35.230.107.0 "GET /geoserver" took 3ms
+2023-10-22 15:28:34,287 INFO [geoserver.filters] - 114.119.138.5 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:FloatingForests_MAP" "Mozilla/5.0 (Linux; Android 7.0;) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36 (compatible; PetalBot;+https://webmaster.petalsearch.com/site/petalbot)" "https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage" "" 
+2023-10-22 15:28:34,292 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-10-22 15:28:34,377 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-10-22 15:28:34,856 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}FloatingForests_MAP
+    outputFormat = GML2
+    resultType = results
+2023-10-22 15:28:41,230 INFO [geoserver.filters] - 114.119.138.5 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:FloatingForests_MAP" took 6943ms
