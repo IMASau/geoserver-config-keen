@@ -34876,3 +34876,83 @@ Request: getFeature
 2023-10-22 16:41:04,955 INFO [geoserver.filters] - 103.131.71.66 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=7A275BC5C04A0B5E703DBA4202FC66A2" took 538ms
 2023-10-22 16:41:07,579 INFO [geoserver.filters] - 103.131.71.66 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage?0" "Mozilla/5.0 (compatible; coccocbot-web/1.0; +http://help.coccoc.com/searchengine)" "" "" 
 2023-10-22 16:41:07,585 INFO [geoserver.filters] - 103.131.71.66 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage?0" took 6ms
+2023-10-22 19:41:21,985 INFO [geoserver.filters] - 66.249.64.167 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285675y1551323z21.jpeg.kml" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.88 Mobile Safari/537.36 (compatible; GoogleOther)" "" "" 
+2023-10-22 19:41:21,991 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-10-22 19:41:21,995 INFO [geoserver.filters] - 66.249.64.167 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285675y1551323z21.jpeg.kml" took 10ms
+2023-10-22 19:41:53,845 INFO [geoserver.filters] - 66.249.64.166 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285675y1551323z21.jpeg" "Googlebot-Image/1.0" "" "" 
+2023-10-22 19:41:53,849 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-10-22 19:41:53,870 WARN [layer.MetaTile] - ********* Native JAI is not installed, meta tile cropping may be slow ********
+2023-10-22 19:41:53,878 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-10-22 19:41:54,142 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-10-22 19:41:54,175 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[-69.64988708496094 : -69.64954376220703, 43.15086364746094 : 43.151206970214844]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 1024
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@ca085b62]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/jpeg, STYLES=point, WIDTH=1024, HEIGHT=1024, LAYERS=TRB:KEEN_Obs_Sites_3857, EXCEPTIONS=SE_XML, GWC_SEED_INTERCEPT=true, REQUEST=GetMap, SRS=EPSG:4326, BBOX=-69.64988708496094,43.15086364746094,-69.64954376220703,43.151206970214844, VERSION=1.1.1, SERVICE=WMS, TRANSPARENT=true}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=point]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1024
+2023-10-22 19:41:54,278 INFO [geoserver.filters] - 66.249.64.166 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285675y1551323z21.jpeg" took 433ms
+2023-10-22 19:43:47,642 INFO [geoserver.filters] - 66.249.64.166 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285674y1551322z21.jpeg.kml" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.88 Mobile Safari/537.36 (compatible; GoogleOther)" "" "" 
+2023-10-22 19:43:47,646 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-10-22 19:43:47,647 INFO [geoserver.filters] - 66.249.64.166 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285674y1551322z21.jpeg.kml" took 5ms
+2023-10-22 19:46:13,588 INFO [geoserver.filters] - 66.249.64.167 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285675y1551322z21.jpeg.kml" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.88 Mobile Safari/537.36 (compatible; GoogleOther)" "" "" 
+2023-10-22 19:46:13,592 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-10-22 19:46:13,594 INFO [geoserver.filters] - 66.249.64.167 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285675y1551322z21.jpeg.kml" took 6ms
+2023-10-22 19:48:09,761 INFO [geoserver.filters] - 66.249.64.168 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285675y1551322z21.jpeg" "Googlebot-Image/1.0" "" "" 
+2023-10-22 19:48:09,765 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-10-22 19:48:09,768 INFO [geoserver.filters] - 66.249.64.168 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285675y1551322z21.jpeg" took 7ms
+2023-10-22 19:48:39,526 INFO [geoserver.filters] - 66.249.64.167 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285674y1551323z21.jpeg.kml" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.88 Mobile Safari/537.36 (compatible; GoogleOther)" "" "" 
+2023-10-22 19:48:39,530 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-10-22 19:48:39,533 INFO [geoserver.filters] - 66.249.64.167 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285674y1551323z21.jpeg.kml" took 7ms
