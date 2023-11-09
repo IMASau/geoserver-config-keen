@@ -21331,3 +21331,33 @@ Request: getMap
 2023-11-10 03:17:04,565 INFO [geoserver.filters] - 66.249.75.166 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=294C5DBC56F5C0D61FB1EA0DC8DA0B78?0-1.IBehaviorListener.0-form-sourceCRS-find&toSRS=EPSG:2073" took 131ms
 2023-11-10 03:17:05,744 INFO [geoserver.filters] - 66.249.75.168 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=0D0D9BCADFBA92F45B6E6FFC8CF460CE?0&toSRS=EPSG:2073" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.105 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
 2023-11-10 03:17:05,748 INFO [geoserver.filters] - 66.249.75.168 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=0D0D9BCADFBA92F45B6E6FFC8CF460CE?0&toSRS=EPSG:2073" took 4ms
+2023-11-10 06:04:39,812 INFO [geoserver.filters] - 66.249.77.166 "GET /geoserver/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=TRB%3ATRB_KEEN_fish_community_responses_GV2" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.123 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-11-10 06:04:39,816 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-11-10 06:04:39,819 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-11-10 06:04:39,820 INFO [geoserver.wms] - 
+Request: getLegendGraphic
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Env = {}
+	Exceptions = SE_XML
+	FeatureType = null
+	Format = image/png
+	Get = false
+	Height = 20
+	Kvp = {REQUEST=GetLegendGraphic, FORMAT=image/png, SERVICE=WMS, WIDTH=20, HEIGHT=20, LAYER=TRB:TRB_KEEN_fish_community_responses_GV2}
+	Layers = [SimpleFeatureTypeImpl TRB:TRB_KEEN_fish_community_responses_GV2 identified extends Feature(Authors_Year:Authors_Year,GEOM:GEOM,Site:Site,Variable:Variable,Type_of_Study_Experimental_Observational:Type_of_Study_Experimental_Observational,Clearing_Size_m_2:Clearing_Size_m_2,Fish_Species:Fish_Species,Trophic_group:Trophic_group,Total_Lenght_cm:Total_Lenght_cm,Kelp_Taxon:Kelp_Taxon,Mean_kelp:Mean_kelp,Mean_no_Kelp:Mean_no_Kelp,Hedges_G:Hedges_G,REALM:REALM,PROVINCE:PROVINCE)]
+	LegendOptions = {}
+	Legends = [LegendRequest [layer=TRB:TRB_KEEN_fish_community_responses_GV2, name=TRB:TRB_KEEN_fish_community_responses_GV2 styleName=point_orange_star, title=KEEN Fish Community Responses (map), legendInfo=null]]
+	Locale = null
+	RawKvp = {REQUEST=GetLegendGraphic, FORMAT=image/png, SERVICE=WMS, WIDTH=20, HEIGHT=20, LAYER=TRB:TRB_KEEN_fish_community_responses_GV2}
+	Request = GetLegendGraphic
+	RequestCharset = null
+	Rules = [null]
+	Scale = -1.0
+	Strict = true
+	Styles = [StyleImpl[ name=point_orange_star]]
+	Transparent = false
+	Version = 1.1.1
+	Width = 20
+	Wms = org.geoserver.wms.WMS@7e2fba13
+2023-11-10 06:04:39,821 INFO [geoserver.filters] - 66.249.77.166 "GET /geoserver/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=TRB%3ATRB_KEEN_fish_community_responses_GV2" took 9ms
