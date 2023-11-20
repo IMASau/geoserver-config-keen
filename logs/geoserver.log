@@ -20135,3 +20135,58 @@ org.geoserver.platform.ServiceException: Could not determine geoserver request f
 2023-11-21 03:48:08,204 INFO [geoserver.filters] - 66.249.79.7 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x160715y193910z18.jpeg.kml" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.123 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
 2023-11-21 03:48:08,208 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
 2023-11-21 03:48:08,211 INFO [geoserver.filters] - 66.249.79.7 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x160715y193910z18.jpeg.kml" took 7ms
+2023-11-21 04:03:10,536 INFO [geoserver.filters] - 66.249.79.7 "GET /geoserver/TRB/wms/kml?layers=TRB:FloatingForests_DATA" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.123 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-11-21 04:03:10,540 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-11-21 04:03:10,571 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-11-21 04:03:10,573 INFO [geoserver.wms] - 
+Request: kml
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = null
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = null
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = null
+	FormatOptions = {}
+	Get = true
+	Height = 0
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@66d7cfd2]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {LAYERS=TRB:FloatingForests_DATA}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = null
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=FloatingForests_detail]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = null
+	ViewParams = null
+	Width = 0
+2023-11-21 04:03:10,584 INFO [geoserver.filters] - 66.249.79.7 "GET /geoserver/TRB/wms/kml?layers=TRB:FloatingForests_DATA" took 48ms
