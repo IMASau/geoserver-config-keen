@@ -34631,3 +34631,151 @@ org.geoserver.platform.ServiceException: Could not determine geoserver request f
 2023-11-23 20:47:53,805 INFO [geoserver.filters] - 66.249.66.84 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x321428y387820z19.jpeg" "Googlebot-Image/1.0" "" "" 
 2023-11-23 20:47:53,808 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
 2023-11-23 20:47:53,810 INFO [geoserver.filters] - 66.249.66.84 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x321428y387820z19.jpeg" took 5ms
+2023-11-23 21:02:02,795 INFO [geoserver.filters] - 66.249.66.84 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x20088y24233z15.jpeg.kml" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.123 Mobile Safari/537.36 (compatible; GoogleOther)" "" "" 
+2023-11-23 21:02:02,799 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-11-23 21:02:02,802 INFO [geoserver.filters] - 66.249.66.84 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x20088y24233z15.jpeg.kml" took 7ms
+2023-11-23 21:02:12,839 INFO [geoserver.filters] - 66.249.66.85 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x20088y24233z15.jpeg" "Googlebot-Image/1.0" "" "" 
+2023-11-23 21:02:12,842 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-11-23 21:02:12,844 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-11-23 21:02:12,844 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-11-23 21:02:12,918 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[-69.6533203125 : -69.63134765625, 43.1103515625 : 43.13232421875]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 1024
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@ca085b62]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/jpeg, STYLES=point, WIDTH=1024, HEIGHT=1024, LAYERS=TRB:KEEN_Obs_Sites_3857, EXCEPTIONS=SE_XML, GWC_SEED_INTERCEPT=true, REQUEST=GetMap, SRS=EPSG:4326, BBOX=-69.6533203125,43.1103515625,-69.63134765625,43.13232421875, VERSION=1.1.1, SERVICE=WMS, TRANSPARENT=true}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=point]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1024
+2023-11-23 21:02:12,975 INFO [geoserver.filters] - 66.249.66.85 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x20088y24233z15.jpeg" took 136ms
+2023-11-23 21:06:26,252 INFO [geoserver.filters] - 85.208.96.195 "GET /geoserver/TRB/ows?outputFormat=csv&request=GetFeature&service=WFS&typeName=TRB%3ATRB_KEEN_kelp_timeseries_aggregated_GV&version=1.0.0" "Mozilla/5.0 (compatible; SemrushBot/7~bl; +http://www.semrush.com/bot.html)" "" "" 
+2023-11-23 21:06:26,256 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-11-23 21:06:26,257 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-11-23 21:06:26,258 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_kelp_timeseries_aggregated_GV
+    outputFormat = csv
+    resultType = results
+2023-11-23 21:06:26,626 INFO [geoserver.filters] - 85.208.96.195 "GET /geoserver/TRB/ows?outputFormat=csv&request=GetFeature&service=WFS&typeName=TRB%3ATRB_KEEN_kelp_timeseries_aggregated_GV&version=1.0.0" took 373ms
+2023-11-23 21:17:02,797 INFO [geoserver.filters] - 66.249.66.86 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1284192y1551449z21.jpeg.kml" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.123 Mobile Safari/537.36 (compatible; GoogleOther)" "" "" 
+2023-11-23 21:17:02,801 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-11-23 21:17:02,804 INFO [geoserver.filters] - 66.249.66.86 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1284192y1551449z21.jpeg.kml" took 7ms
+2023-11-23 21:17:20,857 INFO [geoserver.filters] - 66.249.66.84 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1284192y1551449z21.jpeg" "Googlebot-Image/1.0" "" "" 
+2023-11-23 21:17:20,860 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-11-23 21:17:20,862 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-11-23 21:17:20,862 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-11-23 21:17:20,884 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[-69.77691650390625 : -69.77657318115234, 43.16184997558594 : 43.162193298339844]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 1024
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@ca085b62]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/jpeg, STYLES=point, WIDTH=1024, HEIGHT=1024, LAYERS=TRB:KEEN_Obs_Sites_3857, EXCEPTIONS=SE_XML, GWC_SEED_INTERCEPT=true, REQUEST=GetMap, SRS=EPSG:4326, BBOX=-69.77691650390625,43.16184997558594,-69.77657318115234,43.162193298339844, VERSION=1.1.1, SERVICE=WMS, TRANSPARENT=true}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=point]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1024
+2023-11-23 21:17:20,945 INFO [geoserver.filters] - 66.249.66.84 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1284192y1551449z21.jpeg" took 88ms
