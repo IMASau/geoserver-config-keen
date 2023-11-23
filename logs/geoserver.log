@@ -34490,3 +34490,37 @@ Request: getFeature
     resultType = results
 2023-11-23 15:21:30,939 INFO [geoserver.servlets] - OutputStream was successfully aborted.
 2023-11-23 15:21:30,940 INFO [geoserver.filters] - 85.208.96.201 "GET /geoserver/TRB/ows?outputFormat=csv&request=GetFeature&service=WFS&typeName=TRB%3AFloatingForests_DATA&version=1.0.0" took 1359ms
+2023-11-23 15:50:53,603 INFO [geoserver.filters] - 66.249.66.85 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=4341517280D92889C9D4BB4D45312DD0?fromSRS=EPSG:2175" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.123 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-11-23 15:50:53,663 INFO [geoserver.filters] - 66.249.66.85 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=4341517280D92889C9D4BB4D45312DD0?fromSRS=EPSG:2175" took 60ms
+2023-11-23 15:50:54,167 INFO [geoserver.filters] - 66.249.66.85 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=883C7AF09F43F611CB93FD5C9EFF680D?0&fromSRS=EPSG:2175" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.123 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-11-23 15:50:54,172 INFO [geoserver.filters] - 66.249.66.85 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=883C7AF09F43F611CB93FD5C9EFF680D?0&fromSRS=EPSG:2175" took 5ms
+2023-11-23 15:51:07,965 INFO [geoserver.filters] - 66.249.66.84 "GET /geoserver/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=TRB%3ATRB_KEEN_fish_community_responses_GV2" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.123 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-11-23 15:51:07,969 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-11-23 15:51:07,971 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-11-23 15:51:07,972 INFO [geoserver.wms] - 
+Request: getLegendGraphic
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Env = {}
+	Exceptions = SE_XML
+	FeatureType = null
+	Format = image/png
+	Get = false
+	Height = 20
+	Kvp = {REQUEST=GetLegendGraphic, FORMAT=image/png, SERVICE=WMS, WIDTH=20, HEIGHT=20, LAYER=TRB:TRB_KEEN_fish_community_responses_GV2}
+	Layers = [SimpleFeatureTypeImpl TRB:TRB_KEEN_fish_community_responses_GV2 identified extends Feature(Authors_Year:Authors_Year,GEOM:GEOM,Site:Site,Variable:Variable,Type_of_Study_Experimental_Observational:Type_of_Study_Experimental_Observational,Clearing_Size_m_2:Clearing_Size_m_2,Fish_Species:Fish_Species,Trophic_group:Trophic_group,Total_Lenght_cm:Total_Lenght_cm,Kelp_Taxon:Kelp_Taxon,Mean_kelp:Mean_kelp,Mean_no_Kelp:Mean_no_Kelp,Hedges_G:Hedges_G,REALM:REALM,PROVINCE:PROVINCE)]
+	LegendOptions = {}
+	Legends = [LegendRequest [layer=TRB:TRB_KEEN_fish_community_responses_GV2, name=TRB:TRB_KEEN_fish_community_responses_GV2 styleName=point_orange_star, title=KEEN Fish Community Responses (map), legendInfo=null]]
+	Locale = null
+	RawKvp = {REQUEST=GetLegendGraphic, FORMAT=image/png, SERVICE=WMS, WIDTH=20, HEIGHT=20, LAYER=TRB:TRB_KEEN_fish_community_responses_GV2}
+	Request = GetLegendGraphic
+	RequestCharset = null
+	Rules = [null]
+	Scale = -1.0
+	Strict = true
+	Styles = [StyleImpl[ name=point_orange_star]]
+	Transparent = false
+	Version = 1.1.1
+	Width = 20
+	Wms = org.geoserver.wms.WMS@4a363b5c
+2023-11-23 15:51:07,974 INFO [geoserver.filters] - 66.249.66.84 "GET /geoserver/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=TRB%3ATRB_KEEN_fish_community_responses_GV2" took 9ms
