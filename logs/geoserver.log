@@ -34461,3 +34461,32 @@ Request: kml
 2023-11-23 14:21:16,683 INFO [geoserver.filters] - 66.249.66.86 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x321419y387829z19.jpeg.kml" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.123 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
 2023-11-23 14:21:16,687 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
 2023-11-23 14:21:16,690 INFO [geoserver.filters] - 66.249.66.86 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x321419y387829z19.jpeg.kml" took 7ms
+2023-11-23 15:16:18,861 INFO [geoserver.filters] - 85.208.96.207 "GET /geoserver/TRB/ows?outputFormat=csv&request=GetFeature&service=WFS&typeName=TRB%3ATRB_KEEN_fish_community_responses_GV&version=1.0.0" "Mozilla/5.0 (compatible; SemrushBot/7~bl; +http://www.semrush.com/bot.html)" "" "" 
+2023-11-23 15:16:18,866 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-11-23 15:16:18,867 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-11-23 15:16:18,868 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_fish_community_responses_GV
+    outputFormat = csv
+    resultType = results
+2023-11-23 15:16:19,027 INFO [geoserver.filters] - 85.208.96.207 "GET /geoserver/TRB/ows?outputFormat=csv&request=GetFeature&service=WFS&typeName=TRB%3ATRB_KEEN_fish_community_responses_GV&version=1.0.0" took 166ms
+2023-11-23 15:21:29,581 INFO [geoserver.filters] - 85.208.96.201 "GET /geoserver/TRB/ows?outputFormat=csv&request=GetFeature&service=WFS&typeName=TRB%3AFloatingForests_DATA&version=1.0.0" "Mozilla/5.0 (compatible; SemrushBot/7~bl; +http://www.semrush.com/bot.html)" "" "" 
+2023-11-23 15:21:29,584 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-11-23 15:21:29,585 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-11-23 15:21:29,586 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}FloatingForests_DATA
+    outputFormat = csv
+    resultType = results
+2023-11-23 15:21:30,939 INFO [geoserver.servlets] - OutputStream was successfully aborted.
+2023-11-23 15:21:30,940 INFO [geoserver.filters] - 85.208.96.201 "GET /geoserver/TRB/ows?outputFormat=csv&request=GetFeature&service=WFS&typeName=TRB%3AFloatingForests_DATA&version=1.0.0" took 1359ms
