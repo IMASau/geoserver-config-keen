@@ -54157,3 +54157,18 @@ Request: getMap
 	ViewParams = null
 	Width = 625
 2023-11-24 22:25:24,066 INFO [geoserver.filters] - 1.145.213.68 "GET /geoserver/TRB/wms?TRANSPARENT=TRUE&OPACITY=1&LAYERS=TG_KML_Em&VERSION=1.3.0&EXCEPTIONS=INIMAGE&SERVICE=WMS&REQUEST=GetMap&STYLES=&FORMAT=image%2Fpng&CRS=EPSG%3A3857&BBOX=16374524.411094,-5335829.6172913,16380500.831244,-5326356.2030983&WIDTH=625&HEIGHT=991" took 130ms
+2023-11-24 22:40:38,967 INFO [geoserver.filters] - 66.249.66.84 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3AFloatingForests_MAP" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.123 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-11-24 22:40:38,972 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-11-24 22:40:38,973 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-11-24 22:40:38,974 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}FloatingForests_MAP
+    outputFormat = GML2
+    resultType = results
+2023-11-24 22:40:45,965 INFO [geoserver.servlets] - OutputStream was successfully aborted.
+2023-11-24 22:40:45,965 INFO [geoserver.filters] - 66.249.66.84 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3AFloatingForests_MAP" took 6998ms
