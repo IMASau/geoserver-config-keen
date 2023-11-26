@@ -54716,3 +54716,70 @@ org.geoserver.platform.ServiceException: GetMap requests must include a BBOX par
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:750)
 2023-11-26 15:57:42,877 INFO [geoserver.filters] - 66.249.66.86 "GET /geoserver/TRB/wms?service=wms&request=GetMap&version=1.1.1&format=application/vnd.google-earth.kml+xml&layers=TRB:FloatingForests_DATA&styles=FloatingForests_detail&height=2048&width=2048&transparent=false&srs=EPSG:4326&format_options=AUTOFIT:true;KMATTR:true;KMPLACEMARK:false;KMSCORE:40;MODE:refresh;SUPEROVERLAY:false" took 7ms
+2023-11-26 16:05:59,487 INFO [geoserver.filters] - 66.249.66.85 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=883C7AF09F43F611CB93FD5C9EFF680D?0-1.IBehaviorListener.0-form-forward&fromSRS=EPSG:2175" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.123 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-11-26 16:05:59,545 INFO [geoserver.filters] - 66.249.66.85 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=883C7AF09F43F611CB93FD5C9EFF680D?0-1.IBehaviorListener.0-form-forward&fromSRS=EPSG:2175" took 58ms
+2023-11-26 16:06:00,217 INFO [geoserver.filters] - 66.249.66.84 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=6F95018C70921E4EE94263E3A4073252?0&fromSRS=EPSG:2175" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.123 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-11-26 16:06:00,221 INFO [geoserver.filters] - 66.249.66.84 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=6F95018C70921E4EE94263E3A4073252?0&fromSRS=EPSG:2175" took 4ms
+2023-11-26 16:28:23,710 INFO [geoserver.filters] - 66.249.66.84 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3ATRB_KEEN_fish_community_responses_GV&bbox=-134.645834%2C-55.039972999999996%2C177.000001%2C58.381381&width=768&height=330&srs=EPSG%3A4326&format=application/openlayers" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.123 Mobile Safari/537.36 (compatible; GoogleOther)" "" "" 
+2023-11-26 16:28:23,714 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-11-26 16:28:23,714 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-11-26 16:28:23,748 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[-134.645834 : 177.000001, -55.039972999999996 : 58.381381]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = application/openlayers
+	FormatOptions = {}
+	Get = true
+	Height = 330
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@8134b253]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {REQUEST=GetMap, SRS=EPSG:4326, FORMAT=application/openlayers, BBOX=-134.645834,-55.039972999999996,177.000001,58.381381, VERSION=1.1.0, SERVICE=WMS, WIDTH=768, HEIGHT=330, LAYERS=TRB:TRB_KEEN_fish_community_responses_GV}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=point]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = false
+	ValidateSchema = false
+	Version = 1.1.0
+	ViewParams = null
+	Width = 768
+2023-11-26 16:28:23,749 INFO [geoserver.filters] - 66.249.66.84 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3ATRB_KEEN_fish_community_responses_GV&bbox=-134.645834%2C-55.039972999999996%2C177.000001%2C58.381381&width=768&height=330&srs=EPSG%3A4326&format=application/openlayers" took 39ms
