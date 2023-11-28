@@ -69004,3 +69004,18 @@ Request: getLegendGraphic
 2023-11-28 14:45:33,831 INFO [geoserver.filters] - 66.249.66.85 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x321431y387822z19.jpeg" "Googlebot-Image/1.0" "" "" 
 2023-11-28 14:45:33,835 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
 2023-11-28 14:45:33,848 INFO [geoserver.filters] - 66.249.66.85 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x321431y387822z19.jpeg" took 17ms
+2023-11-28 16:53:31,528 INFO [geoserver.filters] - 66.249.66.86 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3AFloatingForests_MAP" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.123 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-11-28 16:53:31,538 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-11-28 16:53:31,546 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-11-28 16:53:31,572 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}FloatingForests_MAP
+    outputFormat = GML2
+    resultType = results
+2023-11-28 16:53:39,028 INFO [geoserver.servlets] - OutputStream was successfully aborted.
+2023-11-28 16:53:39,029 INFO [geoserver.filters] - 66.249.66.86 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3AFloatingForests_MAP" took 7501ms
