@@ -70410,3 +70410,24 @@ java.lang.ArrayIndexOutOfBoundsException: 1
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:750)
 2023-12-10 00:18:09,368 INFO [geoserver.filters] - 66.249.77.168 "GET /geoserver/gwc/service/tms/1.0.0/TRB:KEEN_Obs_Sites_3857@EPSG:900913@png/17" took 8ms
+2023-12-10 02:03:02,937 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:TRB_AGomez_HOBO_LP" "Java/1.8.0_392" "" "" 
+2023-12-10 02:03:02,940 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
+2023-12-10 02:03:02,940 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-12-10 02:03:02,964 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:TRB_AGomez_HOBO_LP" took 27ms
+2023-12-10 02:03:03,552 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=DescribeLayer&service=WMS&version=1.1.1&layers=TRB:TRB_AGomez_HOBO_LP" "Java/1.8.0_392" "" "" 
+2023-12-10 02:03:03,555 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-12-10 02:03:03,558 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-12-10 02:03:03,558 INFO [geoserver.wms] - 
+Request: describeLayer
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	ExeptionFormat = application/vnd.ogc.se_xml
+	Get = false
+	GetMapRequest = null
+	Layers = [org.geoserver.wms.MapLayerInfo@71971d27]
+	OutputFormat = application/vnd.ogc.wms_xml
+	RawKvp = {REQUEST=DescribeLayer, VERSION=1.1.1, SERVICE=WMS, LAYERS=TRB:TRB_AGomez_HOBO_LP}
+	Request = DescribeLayer
+	RequestCharset = null
+	Version = 1.1.1
+2023-12-10 02:03:03,569 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=DescribeLayer&service=WMS&version=1.1.1&layers=TRB:TRB_AGomez_HOBO_LP" took 17ms
