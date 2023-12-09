@@ -17297,3 +17297,17 @@ Request: getFeature
 2023-12-09 13:06:23,696 INFO [geoserver.filters] - 114.119.151.70 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.DemoPage" took 40ms
 2023-12-09 13:10:48,944 INFO [geoserver.filters] - 51.81.46.212 "GET /geoserver" "" "" "" 
 2023-12-09 13:10:48,946 INFO [geoserver.filters] - 51.81.46.212 "GET /geoserver" took 2ms
+2023-12-09 13:46:34,829 INFO [geoserver.filters] - 66.249.65.70 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_AGomez_HOBO_LP" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.62 Mobile Safari/537.36 (compatible; GoogleOther)" "" "" 
+2023-12-09 13:46:34,834 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-12-09 13:46:34,834 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-12-09 13:46:34,835 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_AGomez_HOBO_LP
+    outputFormat = GML2
+    resultType = results
+2023-12-09 13:46:34,875 INFO [geoserver.filters] - 66.249.65.70 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_AGomez_HOBO_LP" took 46ms
