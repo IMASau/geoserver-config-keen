@@ -17367,3 +17367,40 @@ Request: getFeature
 2023-12-09 14:47:30,810 INFO [geoserver.filters] - 173.249.24.36 "GET /geoserver/sito/wp-includes/wlwmanifest.xml" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4240.193 Safari/537.36" "" "" 
 2023-12-09 14:47:30,813 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/sito/wp-includes/wlwmanifest.xml
 2023-12-09 14:47:30,813 INFO [geoserver.filters] - 173.249.24.36 "GET /geoserver/sito/wp-includes/wlwmanifest.xml" took 3ms
+2023-12-09 15:18:31,091 INFO [geoserver.filters] - 66.249.65.70 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=294C5DBC56F5C0D61FB1EA0DC8DA0B78?0-1.IBehaviorListener.0-form-targetCRS-wkt&toSRS=EPSG:2073" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.62 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-12-09 15:18:31,212 INFO [geoserver.filters] - 66.249.65.70 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=294C5DBC56F5C0D61FB1EA0DC8DA0B78?0-1.IBehaviorListener.0-form-targetCRS-wkt&toSRS=EPSG:2073" took 121ms
+2023-12-09 15:18:32,089 INFO [geoserver.filters] - 66.249.65.72 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=A0EDC92A60E378670DC7045A7298125F?0&toSRS=EPSG:2073" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.62 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-12-09 15:18:32,093 INFO [geoserver.filters] - 66.249.65.72 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=A0EDC92A60E378670DC7045A7298125F?0&toSRS=EPSG:2073" took 4ms
+2023-12-09 15:23:00,884 INFO [geoserver.filters] - 66.249.65.71 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x642105y775723z20.jpeg.kml" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.62 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-12-09 15:23:00,888 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-12-09 15:23:00,890 INFO [geoserver.filters] - 66.249.65.71 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x642105y775723z20.jpeg.kml" took 6ms
+2023-12-09 15:28:01,656 INFO [geoserver.filters] - 66.249.65.72 "GET /geoserver/wms?request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=TRB%3ATRB_JBoada_Algae_Urchin_2013_GV" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.62 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-12-09 15:28:01,659 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-12-09 15:28:01,661 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-12-09 15:28:01,662 INFO [geoserver.wms] - 
+Request: getLegendGraphic
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Env = {}
+	Exceptions = SE_XML
+	FeatureType = null
+	Format = image/png
+	Get = false
+	Height = 20
+	Kvp = {REQUEST=GetLegendGraphic, FORMAT=image/png, WIDTH=20, HEIGHT=20, LAYER=TRB:TRB_JBoada_Algae_Urchin_2013_GV}
+	Layers = [SimpleFeatureTypeImpl TRB:TRB_JBoada_Algae_Urchin_2013_GV identified extends Feature(GEOM:GEOM,POT:POT,TITLE:TITLE,PI:PI,PURPOSE:PURPOSE)]
+	LegendOptions = {}
+	Legends = [LegendRequest [layer=TRB:TRB_JBoada_Algae_Urchin_2013_GV, name=TRB:TRB_JBoada_Algae_Urchin_2013_GV styleName=large_poly_spatial_area, title=TRB_JBoada_Algae_Urchin_2013_GV, legendInfo=null]]
+	Locale = null
+	RawKvp = {REQUEST=GetLegendGraphic, FORMAT=image/png, WIDTH=20, HEIGHT=20, LAYER=TRB:TRB_JBoada_Algae_Urchin_2013_GV}
+	Request = GetLegendGraphic
+	RequestCharset = null
+	Rules = [null]
+	Scale = -1.0
+	Strict = true
+	Styles = [StyleImpl[ name=large_poly_spatial_area]]
+	Transparent = false
+	Version = 1.1.1
+	Width = 20
+	Wms = org.geoserver.wms.WMS@4a363b5c
+2023-12-09 15:28:01,663 INFO [geoserver.filters] - 66.249.65.72 "GET /geoserver/wms?request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=TRB%3ATRB_JBoada_Algae_Urchin_2013_GV" took 7ms
