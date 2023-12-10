@@ -70653,3 +70653,24 @@ Request: getMap
 	ViewParams = null
 	Width = 768
 2023-12-10 14:40:56,513 INFO [geoserver.filters] - 66.249.77.168 "GET /geoserver/TRB/wms?service=WMS&version=1.1.0&request=GetMap&layers=TRB%3ATRB_AGomez_HOBO_LP&bbox=-67.07193%2C17.96057%2C-67.04755%2C17.97004&width=768&height=330&srs=EPSG%3A4326&format=application/openlayers" took 42ms
+2023-12-10 15:19:30,294 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:FloatingForests_DATA" "Java/1.8.0_392" "" "" 
+2023-12-10 15:19:30,297 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
+2023-12-10 15:19:30,297 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-12-10 15:19:30,320 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:FloatingForests_DATA" took 26ms
+2023-12-10 15:19:31,417 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=DescribeLayer&service=WMS&version=1.1.1&layers=TRB:FloatingForests_MAP" "Java/1.8.0_392" "" "" 
+2023-12-10 15:19:31,420 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-12-10 15:19:31,421 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-12-10 15:19:31,421 INFO [geoserver.wms] - 
+Request: describeLayer
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	ExeptionFormat = application/vnd.ogc.se_xml
+	Get = false
+	GetMapRequest = null
+	Layers = [org.geoserver.wms.MapLayerInfo@55ea082a]
+	OutputFormat = application/vnd.ogc.wms_xml
+	RawKvp = {REQUEST=DescribeLayer, VERSION=1.1.1, SERVICE=WMS, LAYERS=TRB:FloatingForests_MAP}
+	Request = DescribeLayer
+	RequestCharset = null
+	Version = 1.1.1
+2023-12-10 15:19:31,422 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=DescribeLayer&service=WMS&version=1.1.1&layers=TRB:FloatingForests_MAP" took 5ms
