@@ -85222,3 +85222,17 @@ java.lang.ArrayIndexOutOfBoundsException: 1
 2023-12-11 05:12:34,953 INFO [geoserver.filters] - 66.249.77.167 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.MapPreviewPage;jsessionid=B03605B98FACE374E6DF6CABCE39D49F?0" took 4ms
 2023-12-11 05:53:36,583 INFO [geoserver.filters] - 34.105.18.242 "GET /geoserver" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" "" "" 
 2023-12-11 05:53:36,585 INFO [geoserver.filters] - 34.105.18.242 "GET /geoserver" took 2ms
+2023-12-11 07:18:12,570 INFO [geoserver.filters] - 66.249.77.166 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_KEEN_Survey_Data_Quads_GV" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.62 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-12-11 07:18:12,574 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2023-12-11 07:18:12,575 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-12-11 07:18:12,580 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_Survey_Data_Quads_GV
+    outputFormat = GML2
+    resultType = results
+2023-12-11 07:18:12,671 INFO [geoserver.filters] - 66.249.77.166 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_KEEN_Survey_Data_Quads_GV" took 101ms
