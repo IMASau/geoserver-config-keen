@@ -85236,3 +85236,44 @@ Request: getFeature
     outputFormat = GML2
     resultType = results
 2023-12-11 07:18:12,671 INFO [geoserver.filters] - 66.249.77.166 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_KEEN_Survey_Data_Quads_GV" took 101ms
+2023-12-11 07:59:08,433 INFO [geoserver.filters] - 66.249.77.168 "GET /geoserver/wms?request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=TRB%3AFloatingForests_MAP" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.62 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-12-11 07:59:08,437 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2023-12-11 07:59:08,439 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-12-11 07:59:08,466 INFO [geoserver.wms] - 
+Request: getLegendGraphic
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Env = {}
+	Exceptions = SE_XML
+	FeatureType = null
+	Format = image/png
+	Get = false
+	Height = 20
+	Kvp = {REQUEST=GetLegendGraphic, FORMAT=image/png, WIDTH=20, HEIGHT=20, LAYER=TRB:FloatingForests_MAP}
+	Layers = [SimpleFeatureTypeImpl TRB:FloatingForests_MAP identified extends Feature(global_fid:global_fid,threshold:threshold,image_url:image_url,scene_timestamp:scene_timestamp,classification_count:classification_count,geom:geom,geom_bdy:geom_bdy)]
+	LegendOptions = {}
+	Legends = [LegendRequest [layer=TRB:FloatingForests_MAP, name=TRB:FloatingForests_MAP styleName=FloatingForests, title=Floating Forests - MAP ONLY, legendInfo=null]]
+	Locale = null
+	RawKvp = {REQUEST=GetLegendGraphic, FORMAT=image/png, WIDTH=20, HEIGHT=20, LAYER=TRB:FloatingForests_MAP}
+	Request = GetLegendGraphic
+	RequestCharset = null
+	Rules = [null]
+	Scale = -1.0
+	Strict = true
+	Styles = [StyleImpl[ name=FloatingForests]]
+	Transparent = false
+	Version = 1.1.1
+	Width = 20
+	Wms = org.geoserver.wms.WMS@4a363b5c
+2023-12-11 07:59:08,474 INFO [geoserver.filters] - 66.249.77.168 "GET /geoserver/wms?request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=TRB%3AFloatingForests_MAP" took 41ms
+2023-12-11 07:59:08,965 INFO [geoserver.filters] - 66.249.77.168 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=B251ADB18FDF37E0E1EB630A3430B69B?0-1.ILinkListener-srsListPanel-table-filterForm-navigatorTop-navigator-navigation-1-pageLink" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.62 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-12-11 07:59:09,048 INFO [geoserver.filters] - 66.249.77.168 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=B251ADB18FDF37E0E1EB630A3430B69B?0-1.ILinkListener-srsListPanel-table-filterForm-navigatorTop-navigator-navigation-1-pageLink" took 82ms
+2023-12-11 07:59:09,841 INFO [geoserver.filters] - 66.249.77.168 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=B251ADB18FDF37E0E1EB630A3430B69B?0-1.ILinkListener-srsListPanel-table-filterForm-navigatorTop-navigator-navigation-3-pageLink" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.62 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-12-11 07:59:09,877 INFO [geoserver.filters] - 66.249.77.168 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=B251ADB18FDF37E0E1EB630A3430B69B?0-1.ILinkListener-srsListPanel-table-filterForm-navigatorTop-navigator-navigation-3-pageLink" took 36ms
+2023-12-11 07:59:11,014 INFO [geoserver.filters] - 66.249.77.167 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1284110y1551461z21.jpeg.kml" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.62 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-12-11 07:59:11,017 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2023-12-11 07:59:11,019 INFO [geoserver.filters] - 66.249.77.167 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1284110y1551461z21.jpeg.kml" took 5ms
+2023-12-11 07:59:11,780 INFO [geoserver.filters] - 66.249.77.166 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=DD17B4EBD97DFBCA4B111CDBC00F59F4?0" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.62 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-12-11 07:59:11,784 INFO [geoserver.filters] - 66.249.77.166 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=DD17B4EBD97DFBCA4B111CDBC00F59F4?0" took 4ms
+2023-12-11 07:59:12,150 INFO [geoserver.filters] - 66.249.77.167 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=F692854526321E7300CEC4506DC96820?0" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.62 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2023-12-11 07:59:12,155 INFO [geoserver.filters] - 66.249.77.167 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.SRSListPage;jsessionid=F692854526321E7300CEC4506DC96820?0" took 5ms
