@@ -44407,3 +44407,17 @@ Request: describeLayer
 	RequestCharset = null
 	Version = 1.1.1
 2024-01-26 07:21:12,043 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=DescribeLayer&service=WMS&version=1.1.1&layers=TRB:KEEN_Obs_Sites" took 43ms
+2024-01-26 08:13:30,214 INFO [geoserver.filters] - 66.249.79.1 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV&outputFormat=csv" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.224 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2024-01-26 08:13:30,220 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2024-01-26 08:13:30,313 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2024-01-26 08:13:30,356 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_KEEN_kelp_timeseries_aggregated_GV
+    outputFormat = csv
+    resultType = results
+2024-01-26 08:13:31,018 INFO [geoserver.filters] - 66.249.79.1 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV&outputFormat=csv" took 804ms
