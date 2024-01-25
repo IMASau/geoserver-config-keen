@@ -44203,3 +44203,78 @@ Request: getMap
 2024-01-25 18:23:37,172 INFO [geoserver.filters] - 66.249.75.77 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285663y1551300z21.jpeg.kml" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.224 Mobile Safari/537.36 (compatible; GoogleOther)" "" "" 
 2024-01-25 18:23:37,176 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
 2024-01-25 18:23:37,180 INFO [geoserver.filters] - 66.249.75.77 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285663y1551300z21.jpeg.kml" took 8ms
+2024-01-25 18:32:30,898 INFO [geoserver.filters] - 66.249.75.76 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285663y1551300z21.jpeg" "Googlebot-Image/1.0" "" "" 
+2024-01-25 18:32:30,902 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2024-01-25 18:32:30,923 WARN [layer.MetaTile] - ********* Native JAI is not installed, meta tile cropping may be slow ********
+2024-01-25 18:32:30,928 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2024-01-25 18:32:30,933 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2024-01-25 18:32:30,969 INFO [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	Bbox = SRSEnvelope[-69.65091705322266 : -69.65057373046875, 43.149147033691406 : 43.14949035644531]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Filters = null
+	Format = image/jpeg
+	FormatOptions = {}
+	Get = true
+	Height = 1024
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@ca085b62]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/jpeg, STYLES=point, WIDTH=1024, HEIGHT=1024, LAYERS=TRB:KEEN_Obs_Sites_3857, EXCEPTIONS=SE_XML, GWC_SEED_INTERCEPT=true, REQUEST=GetMap, SRS=EPSG:4326, BBOX=-69.65091705322266,43.149147033691406,-69.65057373046875,43.14949035644531, VERSION=1.1.1, SERVICE=WMS, TRANSPARENT=true}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=point]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1024
+2024-01-25 18:32:31,413 INFO [geoserver.filters] - 66.249.75.76 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285663y1551300z21.jpeg" took 515ms
+2024-01-25 18:45:15,140 INFO [geoserver.filters] - 192.177.58.241 "GET /geoserver" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624" "" "" 
+2024-01-25 18:45:15,142 INFO [geoserver.filters] - 192.177.58.241 "GET /geoserver" took 2ms
+2024-01-25 18:45:15,864 INFO [geoserver.filters] - 192.177.58.241 "GET /geoserver/geoserver/index.html" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624" "" "" 
+2024-01-25 18:45:15,865 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/geoserver/index.html
+2024-01-25 18:45:15,866 INFO [geoserver.filters] - 192.177.58.241 "GET /geoserver/geoserver/index.html" took 2ms
+2024-01-25 18:45:18,334 INFO [geoserver.filters] - 192.177.58.241 "GET /geoserver" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624" "" "" 
+2024-01-25 18:45:18,336 INFO [geoserver.filters] - 192.177.58.241 "GET /geoserver" took 2ms
+2024-01-25 18:45:20,329 INFO [geoserver.filters] - 192.177.58.241 "GET /geoserver/geoserver/index.html" "Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.4) Gecko/20030624" "" "" 
+2024-01-25 18:45:20,331 WARN [servlet.PageNotFound] - No mapping for GET /geoserver/geoserver/index.html
+2024-01-25 18:45:20,331 INFO [geoserver.filters] - 192.177.58.241 "GET /geoserver/geoserver/index.html" took 2ms
