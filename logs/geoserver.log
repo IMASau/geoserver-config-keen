@@ -68110,3 +68110,34 @@ Request: getMap
 2024-01-31 08:04:41,073 INFO [geoserver.filters] - 66.249.68.38 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285668y1551347z21.jpeg" "Googlebot-Image/1.0" "" "" 
 2024-01-31 08:04:41,076 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
 2024-01-31 08:04:41,077 INFO [geoserver.filters] - 66.249.68.38 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285668y1551347z21.jpeg" took 4ms
+2024-01-31 10:15:14,716 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV" "Java/1.8.0_392" "" "" 
+2024-01-31 10:15:14,719 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
+2024-01-31 10:15:14,720 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2024-01-31 10:15:14,740 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wfs?request=enabledFilters&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV" took 24ms
+2024-01-31 10:15:15,191 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=DescribeLayer&service=WMS&version=1.1.1&layers=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV2" "Java/1.8.0_392" "" "" 
+2024-01-31 10:15:15,193 INFO [geoserver.wms] - 
+Request: getServiceInfo
+2024-01-31 10:15:15,199 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2024-01-31 10:15:15,200 INFO [geoserver.wms] - 
+Request: describeLayer
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+	ExeptionFormat = application/vnd.ogc.se_xml
+	Get = false
+	GetMapRequest = null
+	Layers = [org.geoserver.wms.MapLayerInfo@e3145093]
+	OutputFormat = application/vnd.ogc.wms_xml
+	RawKvp = {REQUEST=DescribeLayer, VERSION=1.1.1, SERVICE=WMS, LAYERS=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV2}
+	Request = DescribeLayer
+	RequestCharset = null
+	Version = 1.1.1
+2024-01-31 10:15:15,204 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=DescribeLayer&service=WMS&version=1.1.1&layers=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV2" took 13ms
+2024-01-31 10:15:15,689 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=uniqueValues&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV2&propertyName=PROVINCE" "Java/1.8.0_392" "" "" 
+2024-01-31 10:15:15,691 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
+2024-01-31 10:15:15,691 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2024-01-31 10:15:15,694 ERROR [filters.LayerFiltersService] - Could not parse allowed regex from config file 'filters.xml': '/opt/imas-webapps/geoserver/filters.xml (No such file or directory)'
+2024-01-31 10:15:15,694 WARN [filters.LayerFiltersService] - Allowing uniqueValues on any configured layer.
+2024-01-31 10:15:16,041 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=uniqueValues&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV2&propertyName=PROVINCE" took 352ms
+2024-01-31 10:15:16,200 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=uniqueValues&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV2&propertyName=REALM" "Java/1.8.0_392" "" "" 
+2024-01-31 10:15:16,202 WARN [geoserver.ows] - Could not get a ServiceInfo for service layerFilters thus could not check if the service is enabled
+2024-01-31 10:15:16,202 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2024-01-31 10:15:16,216 INFO [geoserver.filters] - 10.2.6.84 "GET /geoserver/wms?request=uniqueValues&service=layerFilters&version=1.0.0&layer=TRB:TRB_KEEN_kelp_timeseries_aggregated_GV2&propertyName=REALM" took 16ms
