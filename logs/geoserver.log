@@ -72600,3 +72600,20 @@ org.geoserver.platform.ServiceException: GetMap requests must include a BBOX par
 2024-03-15 19:31:19,912 INFO [geoserver.filters] - 66.249.66.198 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=0C38F8DAF51A6C5B2841CE1342BD115D?0-1.IBehaviorListener.0-form-backward&toSRS=EPSG:62086405" took 49ms
 2024-03-15 19:35:12,229 INFO [geoserver.filters] - 66.249.66.196 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=355EA8B10C37AA515EA8111658D3B257?0&toSRS=EPSG:62086405" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.94 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
 2024-03-15 19:35:12,234 INFO [geoserver.filters] - 66.249.66.196 "GET /geoserver/web/wicket/bookmarkable/org.geoserver.web.demo.ReprojectPage;jsessionid=355EA8B10C37AA515EA8111658D3B257?0&toSRS=EPSG:62086405" took 5ms
+2024-03-15 20:18:14,503 INFO [geoserver.filters] - 66.249.66.198 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x160515y193946z18.jpeg.kml" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.94 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2024-03-15 20:18:14,508 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2024-03-15 20:18:14,510 INFO [geoserver.filters] - 66.249.66.198 "GET /geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x160515y193946z18.jpeg.kml" took 7ms
+2024-03-15 20:29:41,116 INFO [geoserver.filters] - 66.249.66.196 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_AGomez_HOBO_LP" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.6261.94 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "" "" 
+2024-03-15 20:29:41,120 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2024-03-15 20:29:41,120 INFO [geoserver.flow] - Control-flow inactive, there are no configured rules
+2024-03-15 20:29:41,121 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 1.0.0
+    baseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au:443/geoserver/
+    query[0]:
+        typeName[0] = {TRB}TRB_AGomez_HOBO_LP
+    outputFormat = GML2
+    resultType = results
+2024-03-15 20:29:41,344 INFO [geoserver.filters] - 66.249.66.196 "GET /geoserver/TRB/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=TRB%3ATRB_AGomez_HOBO_LP" took 228ms
