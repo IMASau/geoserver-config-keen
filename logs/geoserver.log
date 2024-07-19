@@ -35547,3 +35547,488 @@ Request: getMap
 20 Jul. 00:59:55 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
 20 Jul. 00:59:58 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
 20 Jul. 01:00:00 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:51:46 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+20 Jul. 06:51:46 INFO   [geoserver.logging] - Suppressing StdOut logging.  If you want to see GeoServer logs, be sure to look in '/opt/imas-webapps/geoserver/logs/geoserver.log'
+20 Jul. 06:51:49 WARN   [geoserver.monitor] - monitoring storage memory not found, falling back to 'memory'
+20 Jul. 06:51:50 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+20 Jul. 06:51:50 CONFIG [org.geoserver] - Loading catalog /opt/imas-webapps/geoserver
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'FloatingForests'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'FloatingForests_detail'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'large_poly_spatial_area'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'line'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'line_blue'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'line_purple'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'line_turq'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'point'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'point_blue'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'point_green'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'generic'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'point_green_circle'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'point_orange'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'point_orange_star'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'point_purple'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'raster'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'line_purble'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'PIE'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'line_red'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'polygon'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded default workspace 'TRB'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded workspace 'TRB'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'FloatingForests_copy'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded style 'green_circle_SAMPLING_SITE'
+20 Jul. 06:51:51 WARN   [org.geoserver] - Failed to load styleFloatingForests_detail.xml
+java.lang.IllegalArgumentException: Style named 'FloatingForests_copy' already exists in workspace TRB
+	at org.geoserver.catalog.impl.CatalogImpl.validate(CatalogImpl.java:1685)
+	at org.geoserver.catalog.impl.CatalogImpl.add(CatalogImpl.java:1659)
+	at org.geoserver.config.GeoServerLoader.loadStyles(GeoServerLoader.java:1048)
+	at org.geoserver.config.GeoServerLoader.readCatalog(GeoServerLoader.java:624)
+	at org.geoserver.config.GeoServerLoader.readCatalog(GeoServerLoader.java:479)
+	at org.geoserver.config.DefaultGeoServerLoader.loadCatalog(DefaultGeoServerLoader.java:37)
+	at org.geoserver.config.GeoServerLoader.postProcessBeforeInitializationCatalog(GeoServerLoader.java:329)
+	at org.geoserver.config.GeoServerLoader.postProcessBeforeInitialization(GeoServerLoader.java:280)
+	at org.geoserver.config.GeoServerLoaderProxy.postProcessBeforeInitialization(GeoServerLoaderProxy.java:61)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:209)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:695)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:209)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:695)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:209)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:695)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:209)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:695)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:209)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:695)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:209)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:695)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:209)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1707)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1452)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:209)
+	at org.springframework.aop.framework.ProxyFactoryBean.addGlobalAdvisors(ProxyFactoryBean.java:513)
+	at org.springframework.aop.framework.ProxyFactoryBean.initializeAdvisorChain(ProxyFactoryBean.java:444)
+	at org.springframework.aop.framework.ProxyFactoryBean.getObject(ProxyFactoryBean.java:251)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:169)
+	at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:101)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:1899)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:1284)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:268)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:209)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:330)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:113)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:695)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:209)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:399)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:278)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.geoserver.platform.GeoServerContextLoaderListener.contextInitialized(GeoServerContextLoaderListener.java:22)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4007)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4448)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:599)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:571)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:603)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:680)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1844)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:575)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:466)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1584)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:312)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:776)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:721)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1203)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1193)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:749)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:211)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:415)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:878)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:735)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded workspace 'seamap'
+20 Jul. 06:51:51 CONFIG [org.geoserver] - Loaded data store 'TemperateReefBase', enabled
+20 Jul. 06:51:53 CONFIG [org.geoserver] - Loaded feature type 'FloatingForests_DATA', enabled
+20 Jul. 06:51:53 CONFIG [org.geoserver] - Loaded layer 'FloatingForests_DATA'
+20 Jul. 06:51:53 CONFIG [org.geoserver] - Loaded feature type 'FloatingForests_MAP', enabled
+20 Jul. 06:51:53 CONFIG [org.geoserver] - Loaded layer 'FloatingForests_MAP'
+20 Jul. 06:51:53 CONFIG [org.geoserver] - Loaded feature type 'KEEN_Obs_Sites', enabled
+20 Jul. 06:51:53 CONFIG [org.geoserver] - Loaded layer 'KEEN_Obs_Sites'
+20 Jul. 06:51:53 CONFIG [org.geoserver] - Loaded feature type 'TG_KML', enabled
+20 Jul. 06:51:53 CONFIG [org.geoserver] - Loaded layer 'TG_KML'
+20 Jul. 06:51:53 CONFIG [org.geoserver] - Loaded feature type 'TG_KML_Em', enabled
+20 Jul. 06:51:53 CONFIG [org.geoserver] - Loaded layer 'TG_KML_Em'
+20 Jul. 06:51:53 CONFIG [org.geoserver] - Loaded feature type 'TG2020', enabled
+20 Jul. 06:51:53 CONFIG [org.geoserver] - Loaded layer 'TG2020'
+20 Jul. 06:51:53 CONFIG [org.geoserver] - Loaded feature type 'TG_KML_Matt', enabled
+20 Jul. 06:51:53 CONFIG [org.geoserver] - Loaded layer 'TG_KML_Matt'
+20 Jul. 06:51:53 CONFIG [org.geoserver] - Loaded feature type 'TRB_AGomez_HOBO_LP', enabled
+20 Jul. 06:51:53 CONFIG [org.geoserver] - Loaded layer 'TRB_AGomez_HOBO_LP'
+20 Jul. 06:51:53 CONFIG [org.geoserver] - Loaded feature type 'TRB_JBoada_Algae_Urchin_2013_GV', enabled
+20 Jul. 06:51:53 CONFIG [org.geoserver] - Loaded layer 'TRB_JBoada_Algae_Urchin_2013_GV'
+20 Jul. 06:51:53 CONFIG [org.geoserver] - Loaded feature type 'TRB_JBoada_Algae_Urchin_2013', enabled
+20 Jul. 06:51:53 INFO   [catalog.impl] - Layer TRB:TRB_JBoada_Algae_Urchin_2013 is missing the default style, assigning one automatically
+20 Jul. 06:51:54 CONFIG [org.geoserver] - Loaded layer 'TRB_JBoada_Algae_Urchin_2013'
+20 Jul. 06:51:54 CONFIG [org.geoserver] - Loaded feature type 'TRB_KEEN_Survey_Data_Pointcount_GV', enabled
+20 Jul. 06:51:54 CONFIG [org.geoserver] - Loaded layer 'TRB_KEEN_Survey_Data_Pointcount_GV'
+20 Jul. 06:51:54 CONFIG [org.geoserver] - Loaded feature type 'TRB_KEEN_Survey_Data_Swath_GV', enabled
+20 Jul. 06:51:54 CONFIG [org.geoserver] - Loaded layer 'TRB_KEEN_Survey_Data_Swath_GV'
+20 Jul. 06:51:54 CONFIG [org.geoserver] - Loaded feature type 'TRB_KEEN_fish_community_responses_GV', enabled
+20 Jul. 06:51:54 CONFIG [org.geoserver] - Loaded layer 'TRB_KEEN_fish_community_responses_GV'
+20 Jul. 06:51:54 CONFIG [org.geoserver] - Loaded feature type 'TRB_KEEN_Survey_Data_Quads_GV', enabled
+20 Jul. 06:51:54 CONFIG [org.geoserver] - Loaded layer 'TRB_KEEN_Survey_Data_Quads_GV'
+20 Jul. 06:51:54 CONFIG [org.geoserver] - Loaded feature type 'TRB_KEEN_fish_community_responses_GV2', enabled
+20 Jul. 06:51:54 CONFIG [org.geoserver] - Loaded layer 'TRB_KEEN_fish_community_responses_GV2'
+20 Jul. 06:51:54 CONFIG [org.geoserver] - Loaded feature type 'TRB_KEEN_kelp_timeseries_aggregated_GV2', enabled
+20 Jul. 06:51:54 CONFIG [org.geoserver] - Loaded layer 'TRB_KEEN_kelp_timeseries_aggregated_GV2'
+20 Jul. 06:51:54 CONFIG [org.geoserver] - Loaded feature type 'TRB_KEEN_kelp_timeseries_aggregated_GV', enabled
+20 Jul. 06:51:54 CONFIG [org.geoserver] - Loaded layer 'TRB_KEEN_kelp_timeseries_aggregated_GV'
+20 Jul. 06:51:55 CONFIG [org.geoserver] - Loaded feature type 'KEEN_Obs_Sites_3857', enabled
+20 Jul. 06:51:55 CONFIG [org.geoserver] - Loaded layer 'KEEN_Obs_Sites_3857'
+20 Jul. 06:51:55 CONFIG [org.geoserver] - Loaded feature type 'TG2021', enabled
+20 Jul. 06:51:55 CONFIG [org.geoserver] - Loaded layer 'TG2021'
+20 Jul. 06:51:55 CONFIG [org.geoserver] - Read catalog in 4.638 s
+20 Jul. 06:51:55 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/opt/imas-webapps/geoserver/gwc'.
+20 Jul. 06:51:55 WARN   [config.XMLConfiguration] - GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+20 Jul. 06:51:55 WARN   [config.XMLConfiguration] - Will try to use configuration anyway. Please check the order of declared elements against the schema.
+20 Jul. 06:51:55 CONFIG [config.XMLConfiguration] - Initializing GridSets from gwc
+20 Jul. 06:51:55 CONFIG [config.XMLConfiguration] - Initializing layers from gwc
+20 Jul. 06:51:55 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+20 Jul. 06:51:55 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+20 Jul. 06:51:55 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+20 Jul. 06:51:56 CONFIG [gwc.layer] - Loaded 2 tile layers in 88.55 ms
+20 Jul. 06:51:56 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+20 Jul. 06:51:56 CONFIG [storage.DefaultStorageFinder] - Found Java system propertyGEOSERVER_DATA_DIR set to /opt/imas-webapps/geoserver, using it as the default prefix.
+20 Jul. 06:51:56 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/opt/imas-webapps/geoserver/gwc'.
+20 Jul. 06:51:56 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/opt/imas-webapps/geoserver/gwc'.
+20 Jul. 06:51:56 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+20 Jul. 06:51:56 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+20 Jul. 06:51:56 CONFIG [org.geoserver] - Loaded service 'WCSInfoImpl--21071077:14b33c29d5b:-7ff9', enabled
+20 Jul. 06:51:56 CONFIG [org.geoserver] - Loaded service 'WFSInfoImpl--21071077:14b33c29d5b:-7ff8', enabled
+20 Jul. 06:51:56 CONFIG [org.geoserver] - Loaded service 'WPSInfoImpl-4efb679e:1562b326035:-7ffc', enabled
+20 Jul. 06:51:56 CONFIG [org.geoserver] - Loaded service 'WMTSInfoImpl-2fa76b22:1697c4315b1:-7ffd', enabled
+20 Jul. 06:51:56 CONFIG [org.geoserver] - Loaded service 'WMSInfoImpl--21071077:14b33c29d5b:-7ff7', enabled
+20 Jul. 06:51:57 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+20 Jul. 06:51:57 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:51:58 INFO   [geoserver.monitor] - Monitor extension enabled
+20 Jul. 06:52:04 WARN   [wms.NcwmsConfig] - Could not open config file '/opt/imas-webapps/geoserver/ncwms.xml': '/opt/imas-webapps/geoserver/ncwms.xml (No such file or directory) Nested exception: /opt/imas-webapps/geoserver/ncwms.xml (No such file or directory)'
+20 Jul. 06:52:04 WARN   [wms.NcwmsConfig] - Could not read '/opt/imas-webapps/geoserver/ncwms.xml' as an xml document: '/opt/imas-webapps/geoserver/ncwms.xml (No such file or directory) Nested exception: /opt/imas-webapps/geoserver/ncwms.xml (No such file or directory)'
+20 Jul. 06:52:06 CONFIG [geoserver.wps] - Found 6 bindable processes in GeoServer specific processes
+20 Jul. 06:52:06 CONFIG [geoserver.wps] - Found 89 bindable processes in Deprecated processes
+20 Jul. 06:52:06 CONFIG [geoserver.wps] - Blacklisting process vec:GroupCandidateSelection as the input groupingAttributes of type class java.lang.Object cannot be handled
+20 Jul. 06:52:06 CONFIG [geoserver.wps] - Found 31 bindable processes in Vector processes
+20 Jul. 06:52:06 CONFIG [geoserver.wps] - Blacklisting process ras:ConvolveCoverage as the input kernel of type class javax.media.jai.KernelJAI cannot be handled
+20 Jul. 06:52:06 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input zones of type class java.lang.Object cannot be handled
+20 Jul. 06:52:06 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input nodata of type class it.geosolutions.jaiext.range.Range cannot be handled
+20 Jul. 06:52:06 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input rangeData of type class java.lang.Object cannot be handled
+20 Jul. 06:52:06 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the output zonal statistics of type interface java.util.List cannot be handled
+20 Jul. 06:52:06 CONFIG [geoserver.wps] - Found 18 bindable processes in Raster processes
+20 Jul. 06:52:06 CONFIG [geoserver.wps] - Found 48 bindable processes in Geometry processes
+20 Jul. 06:52:06 CONFIG [geoserver.wps] - Found 1 bindable processes in PolygonLabelProcess
+20 Jul. 06:52:06 CONFIG [geoserver.wps] - Found 1 bindable processes in geo
+20 Jul. 06:52:06 CONFIG [geoserver.wps] - Found 1 bindable processes in geo
+20 Jul. 06:52:06 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+20 Jul. 06:52:06 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+20 Jul. 06:52:06 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+20 Jul. 06:52:08 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+20 Jul. 06:52:08 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+20 Jul. 06:52:08 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+20 Jul. 06:52:08 CONFIG [diskquota.DiskQuotaMonitor] - 2 layers attached to global quota 500.0 MB
+20 Jul. 06:52:08 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+20 Jul. 06:52:08 WARN   [geoserver.security] - security/masterpw.info is a security risk. Please read this file and remove it afterward
+20 Jul. 06:52:09 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+20 Jul. 06:52:09 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+20 Jul. 06:52:09 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+20 Jul. 06:52:09 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+20 Jul. 06:52:10 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:52:10 INFO   [geowebcache.GeoWebCacheDispatcher] - Loading GWC Service extensions...
+20 Jul. 06:52:10 INFO   [geowebcache.GeoWebCacheDispatcher] - Done loading GWC Service extensions. Found : [gmaps, wmts, kml, tms, wms, mgmaps, ve]
+20 Jul. 06:52:10 INFO   [geowebcache.GeoWebCacheDispatcher] - Read 425 from blank PNG file (expected 425).
+20 Jul. 06:52:54 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:53:10 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:53:34 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:53:44 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:53:52 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:53:59 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:05 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:10 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:14 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:18 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:21 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:24 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:28 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:30 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:31 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:33 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:34 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:36 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:36 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:37 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:38 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:39 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:39 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:40 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:41 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:42 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:42 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:43 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:44 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:45 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:54:45 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:55:25 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:55:35 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:55:36 CONFIG [layer.MetaTile] - Native JAI is not installed
+20 Jul. 06:55:36 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+20 Jul. 06:55:36 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:55:36 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/
+	Bbox = SRSEnvelope[146.39556884765625 : 146.39591217041016, -41.671142578125 : -41.670799255371094]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1024
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@b4c45fdb]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, STYLES=line_red, WIDTH=1024, HEIGHT=1024, LAYERS=TRB:TG2021, EXCEPTIONS=SE_XML, GWC_SEED_INTERCEPT=true, REQUEST=GetMap, SRS=EPSG:4326, BBOX=146.39556884765625,-41.671142578125,146.39591217041016,-41.670799255371094, VERSION=1.1.1, SERVICE=WMS, TRANSPARENT=true}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_red]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1024
+20 Jul. 06:55:47 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:55:48 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:55:48 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:55:49 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:55:49 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:56:19 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:56:49 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:56:49 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:56:49 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:56:50 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:56:51 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:56:52 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:56:57 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:57:29 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:58:03 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:58:04 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:58:06 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:58:06 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:58:07 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:58:14 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:58:15 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:58:26 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:58:51 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:58:51 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+20 Jul. 06:58:51 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:58:52 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/
+	Bbox = SRSEnvelope[146.3983154296875 : 146.40106201171875, -41.5777587890625 : -41.57501220703125]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1024
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@b4c45fdb]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, STYLES=line_red, WIDTH=1024, HEIGHT=1024, LAYERS=TRB:TG2021, EXCEPTIONS=SE_XML, GWC_SEED_INTERCEPT=true, REQUEST=GetMap, SRS=EPSG:4326, BBOX=146.3983154296875,-41.5777587890625,146.40106201171875,-41.57501220703125, VERSION=1.1.1, SERVICE=WMS, TRANSPARENT=true}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_red]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1024
+20 Jul. 06:59:10 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:59:11 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:59:11 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:59:13 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:59:16 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:59:32 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+20 Jul. 06:59:49 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
