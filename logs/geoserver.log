@@ -9000,3 +9000,2299 @@ Request: getMap
 02 Aug. 22:59:52 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
 02 Aug. 23:00:00 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
 02 Aug. 23:00:01 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:00:03 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:00:05 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:00:05 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:00:06 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:00:16 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:00:27 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:00:29 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:00:40 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:00:53 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:00:55 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:01:03 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:01:05 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:01:06 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:01:07 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:01:07 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:01:07 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:01:16 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:01:18 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:01:29 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:01:39 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:01:42 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:01:53 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:02:03 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:02:04 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:02:06 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:02:08 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:02:09 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:02:17 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:02:28 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:02:30 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:02:41 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:02:52 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:02:54 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:02:59 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:02:59 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+02 Aug. 23:02:59 ERROR  [geoserver.ows] - 
+java.lang.NullPointerException
+	at org.geoserver.wms.map.GetMapKvpRequestReader.getDefaultStyle(GetMapKvpRequestReader.java:1044)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.processLayersStyles(GetMapKvpRequestReader.java:655)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:460)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:107)
+	at org.geoserver.ows.Dispatcher.parseRequestKVP(Dispatcher.java:1547)
+	at org.geoserver.ows.Dispatcher.dispatch(Dispatcher.java:720)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:259)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.GWC.dispatchOwsRequest(GWC.java:1368)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.dispatchGetMap(GeoServerTileLayer.java:693)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:613)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getTile(GeoServerTileLayer.java:558)
+	at org.geowebcache.util.ResponseUtils.writeTile(ResponseUtils.java:101)
+	at org.geowebcache.GeoWebCacheDispatcher.handleServiceRequest(GeoWebCacheDispatcher.java:428)
+	at org.geowebcache.GeoWebCacheDispatcher.handleRequestInternal(GeoWebCacheDispatcher.java:288)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.dispatch.GwcServiceProxy.dispatch(GwcServiceProxy.java:87)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.geoserver.ows.Dispatcher.execute(Dispatcher.java:905)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:269)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.HTTPMethodFilter.doFilter(HTTPMethodFilter.java:36)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:194)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.monitor.MonitorFilter.doFilter(MonitorFilter.java:159)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:141)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:100)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+02 Aug. 23:02:59 ERROR  [geowebcache.GeoWebCacheDispatcher] - Problem communicating with GeoServer https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x643556y774930z20.png
+02 Aug. 23:02:59 ERROR  [geowebcache.GeoWebCacheDispatcher] - Request failed
+org.geowebcache.GeoWebCacheException: Problem communicating with GeoServer
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:621)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getTile(GeoServerTileLayer.java:558)
+	at org.geowebcache.util.ResponseUtils.writeTile(ResponseUtils.java:101)
+	at org.geowebcache.GeoWebCacheDispatcher.handleServiceRequest(GeoWebCacheDispatcher.java:428)
+	at org.geowebcache.GeoWebCacheDispatcher.handleRequestInternal(GeoWebCacheDispatcher.java:288)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.dispatch.GwcServiceProxy.dispatch(GwcServiceProxy.java:87)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.geoserver.ows.Dispatcher.execute(Dispatcher.java:905)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:269)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.HTTPMethodFilter.doFilter(HTTPMethodFilter.java:36)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:194)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.monitor.MonitorFilter.doFilter(MonitorFilter.java:159)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:141)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:100)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalStateException: Expected: RenderedImageMap, got null
+	at org.geoserver.gwc.layer.GeoServerTileLayer.dispatchGetMap(GeoServerTileLayer.java:696)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:613)
+	... 88 more
+02 Aug. 23:03:06 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:03:06 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:03:16 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:03:18 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:03:30 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:03:40 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:03:42 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:03:54 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:04:09 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:04:09 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:04:10 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:04:20 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:04:22 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:04:27 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:04:32 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:04:34 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:04:42 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:04:52 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:04:55 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:04:58 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:04:58 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+02 Aug. 23:04:58 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:04:59 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/
+	Bbox = SRSEnvelope[146.26304626464844 : 146.26338958740234, -41.752166748046875 : -41.75182342529297]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1024
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@b4c45fdb]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, STYLES=line_red, WIDTH=1024, HEIGHT=1024, LAYERS=TRB:TG2021, EXCEPTIONS=SE_XML, GWC_SEED_INTERCEPT=true, REQUEST=GetMap, SRS=EPSG:4326, BBOX=146.26304626464844,-41.752166748046875,146.26338958740234,-41.75182342529297, VERSION=1.1.1, SERVICE=WMS, TRANSPARENT=true}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_red]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1024
+02 Aug. 23:05:10 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:05:11 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:05:11 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:05:11 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:05:12 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:05:13 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:05:13 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:05:18 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:05:20 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:05:24 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:05:24 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+02 Aug. 23:05:24 ERROR  [geoserver.ows] - 
+java.lang.NullPointerException
+	at org.geoserver.wms.map.GetMapKvpRequestReader.getDefaultStyle(GetMapKvpRequestReader.java:1044)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.processLayersStyles(GetMapKvpRequestReader.java:655)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:460)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:107)
+	at org.geoserver.ows.Dispatcher.parseRequestKVP(Dispatcher.java:1547)
+	at org.geoserver.ows.Dispatcher.dispatch(Dispatcher.java:720)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:259)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.GWC.dispatchOwsRequest(GWC.java:1368)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.dispatchGetMap(GeoServerTileLayer.java:693)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:613)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getTile(GeoServerTileLayer.java:558)
+	at org.geowebcache.util.ResponseUtils.writeTile(ResponseUtils.java:101)
+	at org.geowebcache.GeoWebCacheDispatcher.handleServiceRequest(GeoWebCacheDispatcher.java:428)
+	at org.geowebcache.GeoWebCacheDispatcher.handleRequestInternal(GeoWebCacheDispatcher.java:288)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.dispatch.GwcServiceProxy.dispatch(GwcServiceProxy.java:87)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.geoserver.ows.Dispatcher.execute(Dispatcher.java:905)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:269)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.HTTPMethodFilter.doFilter(HTTPMethodFilter.java:36)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:194)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.monitor.MonitorFilter.doFilter(MonitorFilter.java:159)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:141)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:100)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+02 Aug. 23:05:24 ERROR  [geowebcache.GeoWebCacheDispatcher] - Problem communicating with GeoServer https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x160636y193987z18.png
+02 Aug. 23:05:24 ERROR  [geowebcache.GeoWebCacheDispatcher] - Request failed
+org.geowebcache.GeoWebCacheException: Problem communicating with GeoServer
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:621)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getTile(GeoServerTileLayer.java:558)
+	at org.geowebcache.util.ResponseUtils.writeTile(ResponseUtils.java:101)
+	at org.geowebcache.GeoWebCacheDispatcher.handleServiceRequest(GeoWebCacheDispatcher.java:428)
+	at org.geowebcache.GeoWebCacheDispatcher.handleRequestInternal(GeoWebCacheDispatcher.java:288)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.dispatch.GwcServiceProxy.dispatch(GwcServiceProxy.java:87)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.geoserver.ows.Dispatcher.execute(Dispatcher.java:905)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:269)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.HTTPMethodFilter.doFilter(HTTPMethodFilter.java:36)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:194)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.monitor.MonitorFilter.doFilter(MonitorFilter.java:159)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:141)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:100)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalStateException: Expected: RenderedImageMap, got null
+	at org.geoserver.gwc.layer.GeoServerTileLayer.dispatchGetMap(GeoServerTileLayer.java:696)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:613)
+	... 88 more
+02 Aug. 23:05:31 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:05:42 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:05:45 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:05:55 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:06:05 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:06:07 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:06:13 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:06:19 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:06:20 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:06:22 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:06:29 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:06:32 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:06:44 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:06:54 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:06:56 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:07:08 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:07:14 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:07:14 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:07:17 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:07:20 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:07:24 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:07:25 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:07:32 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:07:41 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:07:44 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:07:56 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:08:06 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:08:09 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:08:15 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:08:23 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:08:27 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:08:29 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:08:33 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:08:45 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:08:54 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:08:57 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:08:57 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+02 Aug. 23:08:57 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:08:58 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/
+	Bbox = SRSEnvelope[146.6839599609375 : 146.689453125, -41.2591552734375 : -41.253662109375]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1024
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@b4c45fdb]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, STYLES=line_red, WIDTH=1024, HEIGHT=1024, LAYERS=TRB:TG2021, EXCEPTIONS=SE_XML, GWC_SEED_INTERCEPT=true, REQUEST=GetMap, SRS=EPSG:4326, BBOX=146.6839599609375,-41.2591552734375,146.689453125,-41.253662109375, VERSION=1.1.1, SERVICE=WMS, TRANSPARENT=true}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_red]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1024
+02 Aug. 23:09:16 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:09:16 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:09:17 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:09:20 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:09:22 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:09:29 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:09:29 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:09:35 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:09:44 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:09:46 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:09:52 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:09:58 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:10:06 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:10:10 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:10:17 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:10:22 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:10:30 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:10:34 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:10:46 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:10:46 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:10:49 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:10:57 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:11:00 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:11:00 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+02 Aug. 23:11:00 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:11:00 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/
+	Bbox = SRSEnvelope[146.4202880859375 : 146.42303466796875, -41.78375244140625 : -41.781005859375]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1024
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@b4c45fdb]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, STYLES=line_red, WIDTH=1024, HEIGHT=1024, LAYERS=TRB:TG2021, EXCEPTIONS=SE_XML, GWC_SEED_INTERCEPT=true, REQUEST=GetMap, SRS=EPSG:4326, BBOX=146.4202880859375,-41.78375244140625,146.42303466796875,-41.781005859375, VERSION=1.1.1, SERVICE=WMS, TRANSPARENT=true}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_red]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1024
+02 Aug. 23:11:02 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:11:10 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:11:18 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:11:18 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:11:22 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:11:22 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+02 Aug. 23:11:22 ERROR  [geoserver.ows] - 
+java.lang.NullPointerException
+	at org.geoserver.wms.map.GetMapKvpRequestReader.getDefaultStyle(GetMapKvpRequestReader.java:1044)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.processLayersStyles(GetMapKvpRequestReader.java:655)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:460)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:107)
+	at org.geoserver.ows.Dispatcher.parseRequestKVP(Dispatcher.java:1547)
+	at org.geoserver.ows.Dispatcher.dispatch(Dispatcher.java:720)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:259)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.GWC.dispatchOwsRequest(GWC.java:1368)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.dispatchGetMap(GeoServerTileLayer.java:693)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:613)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getTile(GeoServerTileLayer.java:558)
+	at org.geowebcache.util.ResponseUtils.writeTile(ResponseUtils.java:101)
+	at org.geowebcache.GeoWebCacheDispatcher.handleServiceRequest(GeoWebCacheDispatcher.java:428)
+	at org.geowebcache.GeoWebCacheDispatcher.handleRequestInternal(GeoWebCacheDispatcher.java:288)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.dispatch.GwcServiceProxy.dispatch(GwcServiceProxy.java:87)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.geoserver.ows.Dispatcher.execute(Dispatcher.java:905)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:269)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.HTTPMethodFilter.doFilter(HTTPMethodFilter.java:36)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:194)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.monitor.MonitorFilter.doFilter(MonitorFilter.java:159)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:141)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:100)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+02 Aug. 23:11:22 ERROR  [geowebcache.GeoWebCacheDispatcher] - Problem communicating with GeoServer https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1281205y1547963z21.png
+02 Aug. 23:11:22 ERROR  [geowebcache.GeoWebCacheDispatcher] - Request failed
+org.geowebcache.GeoWebCacheException: Problem communicating with GeoServer
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:621)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getTile(GeoServerTileLayer.java:558)
+	at org.geowebcache.util.ResponseUtils.writeTile(ResponseUtils.java:101)
+	at org.geowebcache.GeoWebCacheDispatcher.handleServiceRequest(GeoWebCacheDispatcher.java:428)
+	at org.geowebcache.GeoWebCacheDispatcher.handleRequestInternal(GeoWebCacheDispatcher.java:288)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.dispatch.GwcServiceProxy.dispatch(GwcServiceProxy.java:87)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.geoserver.ows.Dispatcher.execute(Dispatcher.java:905)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:269)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.HTTPMethodFilter.doFilter(HTTPMethodFilter.java:36)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:194)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.monitor.MonitorFilter.doFilter(MonitorFilter.java:159)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:141)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:100)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalStateException: Expected: RenderedImageMap, got null
+	at org.geoserver.gwc.layer.GeoServerTileLayer.dispatchGetMap(GeoServerTileLayer.java:696)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:613)
+	... 88 more
+02 Aug. 23:11:25 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:11:35 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:11:42 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:11:47 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:11:52 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:11:52 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:11:53 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:11:59 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:12:07 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:12:15 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:12:19 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:12:23 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:12:31 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:12:35 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:12:47 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:12:55 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:12:55 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:12:55 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:12:59 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:13:07 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:13:07 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+02 Aug. 23:13:07 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:13:07 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/
+	Bbox = SRSEnvelope[146.4862060546875 : 146.49169921875, -41.781005859375 : -41.7755126953125]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1024
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@b4c45fdb]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, STYLES=line_red, WIDTH=1024, HEIGHT=1024, LAYERS=TRB:TG2021, EXCEPTIONS=SE_XML, GWC_SEED_INTERCEPT=true, REQUEST=GetMap, SRS=EPSG:4326, BBOX=146.4862060546875,-41.781005859375,146.49169921875,-41.7755126953125, VERSION=1.1.1, SERVICE=WMS, TRANSPARENT=true}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_red]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1024
+02 Aug. 23:13:14 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:13:19 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:13:20 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:13:20 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:13:24 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:13:36 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:13:46 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:13:48 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:13:57 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:14:13 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:14:16 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:14:20 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:14:21 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:14:22 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:14:25 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:14:31 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:14:36 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:14:49 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:14:55 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:14:55 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+02 Aug. 23:14:55 ERROR  [geoserver.ows] - 
+java.lang.NullPointerException
+	at org.geoserver.wms.map.GetMapKvpRequestReader.getDefaultStyle(GetMapKvpRequestReader.java:1044)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.processLayersStyles(GetMapKvpRequestReader.java:655)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:460)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:107)
+	at org.geoserver.ows.Dispatcher.parseRequestKVP(Dispatcher.java:1547)
+	at org.geoserver.ows.Dispatcher.dispatch(Dispatcher.java:720)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:259)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.GWC.dispatchOwsRequest(GWC.java:1368)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.dispatchGetMap(GeoServerTileLayer.java:693)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:613)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getTile(GeoServerTileLayer.java:558)
+	at org.geowebcache.util.ResponseUtils.writeTile(ResponseUtils.java:101)
+	at org.geowebcache.GeoWebCacheDispatcher.handleServiceRequest(GeoWebCacheDispatcher.java:428)
+	at org.geowebcache.GeoWebCacheDispatcher.handleRequestInternal(GeoWebCacheDispatcher.java:288)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.dispatch.GwcServiceProxy.dispatch(GwcServiceProxy.java:87)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.geoserver.ows.Dispatcher.execute(Dispatcher.java:905)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:269)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.HTTPMethodFilter.doFilter(HTTPMethodFilter.java:36)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:194)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.monitor.MonitorFilter.doFilter(MonitorFilter.java:159)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:141)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:100)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+02 Aug. 23:14:55 ERROR  [geowebcache.GeoWebCacheDispatcher] - Problem communicating with GeoServer https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x643250y767765z20.png
+02 Aug. 23:14:55 ERROR  [geowebcache.GeoWebCacheDispatcher] - Request failed
+org.geowebcache.GeoWebCacheException: Problem communicating with GeoServer
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:621)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getTile(GeoServerTileLayer.java:558)
+	at org.geowebcache.util.ResponseUtils.writeTile(ResponseUtils.java:101)
+	at org.geowebcache.GeoWebCacheDispatcher.handleServiceRequest(GeoWebCacheDispatcher.java:428)
+	at org.geowebcache.GeoWebCacheDispatcher.handleRequestInternal(GeoWebCacheDispatcher.java:288)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.dispatch.GwcServiceProxy.dispatch(GwcServiceProxy.java:87)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.geoserver.ows.Dispatcher.execute(Dispatcher.java:905)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:269)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.HTTPMethodFilter.doFilter(HTTPMethodFilter.java:36)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:194)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.monitor.MonitorFilter.doFilter(MonitorFilter.java:159)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:141)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:100)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalStateException: Expected: RenderedImageMap, got null
+	at org.geoserver.gwc.layer.GeoServerTileLayer.dispatchGetMap(GeoServerTileLayer.java:696)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:613)
+	... 88 more
+02 Aug. 23:14:58 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:14:58 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:15:01 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:15:14 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:15:19 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:15:23 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:15:25 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:15:37 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:15:44 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:15:49 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:16:01 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:16:01 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:16:02 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:16:08 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:16:13 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:16:23 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:16:24 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:16:25 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:16:32 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:16:38 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:16:50 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:16:54 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:16:54 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+02 Aug. 23:16:54 ERROR  [geoserver.ows] - 
+java.lang.NullPointerException
+	at org.geoserver.wms.map.GetMapKvpRequestReader.getDefaultStyle(GetMapKvpRequestReader.java:1044)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.processLayersStyles(GetMapKvpRequestReader.java:655)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:460)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:107)
+	at org.geoserver.ows.Dispatcher.parseRequestKVP(Dispatcher.java:1547)
+	at org.geoserver.ows.Dispatcher.dispatch(Dispatcher.java:720)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:259)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.GWC.dispatchOwsRequest(GWC.java:1368)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.dispatchGetMap(GeoServerTileLayer.java:693)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:613)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getTile(GeoServerTileLayer.java:558)
+	at org.geowebcache.util.ResponseUtils.writeTile(ResponseUtils.java:101)
+	at org.geowebcache.GeoWebCacheDispatcher.handleServiceRequest(GeoWebCacheDispatcher.java:428)
+	at org.geowebcache.GeoWebCacheDispatcher.handleRequestInternal(GeoWebCacheDispatcher.java:288)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.dispatch.GwcServiceProxy.dispatch(GwcServiceProxy.java:87)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.geoserver.ows.Dispatcher.execute(Dispatcher.java:905)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:269)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.HTTPMethodFilter.doFilter(HTTPMethodFilter.java:36)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:194)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.monitor.MonitorFilter.doFilter(MonitorFilter.java:159)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:141)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:100)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+02 Aug. 23:16:54 ERROR  [geowebcache.GeoWebCacheDispatcher] - Problem communicating with GeoServer https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x40210y48049z16.png
+02 Aug. 23:16:54 ERROR  [geowebcache.GeoWebCacheDispatcher] - Request failed
+org.geowebcache.GeoWebCacheException: Problem communicating with GeoServer
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:621)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getTile(GeoServerTileLayer.java:558)
+	at org.geowebcache.util.ResponseUtils.writeTile(ResponseUtils.java:101)
+	at org.geowebcache.GeoWebCacheDispatcher.handleServiceRequest(GeoWebCacheDispatcher.java:428)
+	at org.geowebcache.GeoWebCacheDispatcher.handleRequestInternal(GeoWebCacheDispatcher.java:288)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.dispatch.GwcServiceProxy.dispatch(GwcServiceProxy.java:87)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.geoserver.ows.Dispatcher.execute(Dispatcher.java:905)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:269)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.HTTPMethodFilter.doFilter(HTTPMethodFilter.java:36)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:194)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.monitor.MonitorFilter.doFilter(MonitorFilter.java:159)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:141)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:100)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalStateException: Expected: RenderedImageMap, got null
+	at org.geoserver.gwc.layer.GeoServerTileLayer.dispatchGetMap(GeoServerTileLayer.java:696)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:613)
+	... 88 more
+02 Aug. 23:16:57 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:17:02 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:17:03 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:17:14 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:17:20 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:17:23 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:17:23 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+02 Aug. 23:17:23 ERROR  [geoserver.ows] - 
+java.lang.NullPointerException
+	at org.geoserver.wms.map.GetMapKvpRequestReader.getDefaultStyle(GetMapKvpRequestReader.java:1044)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.processLayersStyles(GetMapKvpRequestReader.java:655)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:460)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:107)
+	at org.geoserver.ows.Dispatcher.parseRequestKVP(Dispatcher.java:1547)
+	at org.geoserver.ows.Dispatcher.dispatch(Dispatcher.java:720)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:259)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.GWC.dispatchOwsRequest(GWC.java:1368)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.dispatchGetMap(GeoServerTileLayer.java:693)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:613)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getTile(GeoServerTileLayer.java:558)
+	at org.geowebcache.util.ResponseUtils.writeTile(ResponseUtils.java:101)
+	at org.geowebcache.GeoWebCacheDispatcher.handleServiceRequest(GeoWebCacheDispatcher.java:428)
+	at org.geowebcache.GeoWebCacheDispatcher.handleRequestInternal(GeoWebCacheDispatcher.java:288)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.dispatch.GwcServiceProxy.dispatch(GwcServiceProxy.java:87)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.geoserver.ows.Dispatcher.execute(Dispatcher.java:905)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:269)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.HTTPMethodFilter.doFilter(HTTPMethodFilter.java:36)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:194)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.monitor.MonitorFilter.doFilter(MonitorFilter.java:159)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:141)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:100)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+02 Aug. 23:17:23 ERROR  [geowebcache.GeoWebCacheDispatcher] - Problem communicating with GeoServer https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x40034y48375z16.png
+02 Aug. 23:17:23 ERROR  [geowebcache.GeoWebCacheDispatcher] - Request failed
+org.geowebcache.GeoWebCacheException: Problem communicating with GeoServer
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:621)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getTile(GeoServerTileLayer.java:558)
+	at org.geowebcache.util.ResponseUtils.writeTile(ResponseUtils.java:101)
+	at org.geowebcache.GeoWebCacheDispatcher.handleServiceRequest(GeoWebCacheDispatcher.java:428)
+	at org.geowebcache.GeoWebCacheDispatcher.handleRequestInternal(GeoWebCacheDispatcher.java:288)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.dispatch.GwcServiceProxy.dispatch(GwcServiceProxy.java:87)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.geoserver.ows.Dispatcher.execute(Dispatcher.java:905)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:269)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.HTTPMethodFilter.doFilter(HTTPMethodFilter.java:36)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:194)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.monitor.MonitorFilter.doFilter(MonitorFilter.java:159)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:141)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:100)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalStateException: Expected: RenderedImageMap, got null
+	at org.geoserver.gwc.layer.GeoServerTileLayer.dispatchGetMap(GeoServerTileLayer.java:696)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:613)
+	... 88 more
+02 Aug. 23:17:24 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:17:25 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:17:26 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:17:38 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:17:44 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:17:50 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:18:03 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:18:04 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:18:05 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:18:08 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:18:15 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:18:25 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:18:26 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:18:27 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:18:32 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:18:39 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:18:51 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:18:56 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:19:07 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:19:13 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:19:19 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:19:21 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:19:26 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:19:27 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:19:40 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:19:45 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:19:47 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:19:52 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:20:04 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:20:09 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:20:11 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:20:14 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:20:16 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:20:16 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:20:27 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:20:28 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:20:33 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:20:40 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:20:52 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:20:55 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:20:55 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+02 Aug. 23:20:55 ERROR  [geoserver.ows] - 
+java.lang.NullPointerException
+	at org.geoserver.wms.map.GetMapKvpRequestReader.getDefaultStyle(GetMapKvpRequestReader.java:1044)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.processLayersStyles(GetMapKvpRequestReader.java:655)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:460)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:107)
+	at org.geoserver.ows.Dispatcher.parseRequestKVP(Dispatcher.java:1547)
+	at org.geoserver.ows.Dispatcher.dispatch(Dispatcher.java:720)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:259)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.GWC.dispatchOwsRequest(GWC.java:1368)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.dispatchGetMap(GeoServerTileLayer.java:693)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:613)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getTile(GeoServerTileLayer.java:558)
+	at org.geowebcache.util.ResponseUtils.writeTile(ResponseUtils.java:101)
+	at org.geowebcache.GeoWebCacheDispatcher.handleServiceRequest(GeoWebCacheDispatcher.java:428)
+	at org.geowebcache.GeoWebCacheDispatcher.handleRequestInternal(GeoWebCacheDispatcher.java:288)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.dispatch.GwcServiceProxy.dispatch(GwcServiceProxy.java:87)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.geoserver.ows.Dispatcher.execute(Dispatcher.java:905)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:269)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.HTTPMethodFilter.doFilter(HTTPMethodFilter.java:36)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:194)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.monitor.MonitorFilter.doFilter(MonitorFilter.java:159)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:141)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:100)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+02 Aug. 23:20:55 ERROR  [geowebcache.GeoWebCacheDispatcher] - Problem communicating with GeoServer https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x321423y384738z19.png
+02 Aug. 23:20:55 ERROR  [geowebcache.GeoWebCacheDispatcher] - Request failed
+org.geowebcache.GeoWebCacheException: Problem communicating with GeoServer
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:621)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getTile(GeoServerTileLayer.java:558)
+	at org.geowebcache.util.ResponseUtils.writeTile(ResponseUtils.java:101)
+	at org.geowebcache.GeoWebCacheDispatcher.handleServiceRequest(GeoWebCacheDispatcher.java:428)
+	at org.geowebcache.GeoWebCacheDispatcher.handleRequestInternal(GeoWebCacheDispatcher.java:288)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.dispatch.GwcServiceProxy.dispatch(GwcServiceProxy.java:87)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.geoserver.ows.Dispatcher.execute(Dispatcher.java:905)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:269)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.HTTPMethodFilter.doFilter(HTTPMethodFilter.java:36)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:194)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.monitor.MonitorFilter.doFilter(MonitorFilter.java:159)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:141)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:100)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalStateException: Expected: RenderedImageMap, got null
+	at org.geoserver.gwc.layer.GeoServerTileLayer.dispatchGetMap(GeoServerTileLayer.java:696)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:613)
+	... 88 more
+02 Aug. 23:20:58 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:21:05 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:21:17 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:21:18 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:21:18 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:21:19 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:21:22 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:21:27 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:21:29 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:21:41 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:21:45 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:21:53 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:22:05 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:22:10 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:22:17 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:22:21 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:22:28 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:22:29 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:22:29 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:22:30 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:22:34 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:22:45 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:22:45 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:22:52 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:22:55 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:22:58 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:23:05 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:23:08 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:23:18 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:23:20 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:23:20 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+02 Aug. 23:23:20 ERROR  [geoserver.ows] - 
+java.lang.NullPointerException
+	at org.geoserver.wms.map.GetMapKvpRequestReader.getDefaultStyle(GetMapKvpRequestReader.java:1044)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.processLayersStyles(GetMapKvpRequestReader.java:655)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:460)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:107)
+	at org.geoserver.ows.Dispatcher.parseRequestKVP(Dispatcher.java:1547)
+	at org.geoserver.ows.Dispatcher.dispatch(Dispatcher.java:720)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:259)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.GWC.dispatchOwsRequest(GWC.java:1368)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.dispatchGetMap(GeoServerTileLayer.java:693)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:613)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getTile(GeoServerTileLayer.java:558)
+	at org.geowebcache.util.ResponseUtils.writeTile(ResponseUtils.java:101)
+	at org.geowebcache.GeoWebCacheDispatcher.handleServiceRequest(GeoWebCacheDispatcher.java:428)
+	at org.geowebcache.GeoWebCacheDispatcher.handleRequestInternal(GeoWebCacheDispatcher.java:288)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.dispatch.GwcServiceProxy.dispatch(GwcServiceProxy.java:87)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.geoserver.ows.Dispatcher.execute(Dispatcher.java:905)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:269)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.HTTPMethodFilter.doFilter(HTTPMethodFilter.java:36)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:194)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.monitor.MonitorFilter.doFilter(MonitorFilter.java:159)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:141)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:100)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+02 Aug. 23:23:20 ERROR  [geowebcache.GeoWebCacheDispatcher] - Problem communicating with GeoServer https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1285649y1551173z21.jpeg
+02 Aug. 23:23:20 ERROR  [geowebcache.GeoWebCacheDispatcher] - Request failed
+org.geowebcache.GeoWebCacheException: Problem communicating with GeoServer
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:621)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getTile(GeoServerTileLayer.java:558)
+	at org.geowebcache.util.ResponseUtils.writeTile(ResponseUtils.java:101)
+	at org.geowebcache.GeoWebCacheDispatcher.handleServiceRequest(GeoWebCacheDispatcher.java:428)
+	at org.geowebcache.GeoWebCacheDispatcher.handleRequestInternal(GeoWebCacheDispatcher.java:288)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.dispatch.GwcServiceProxy.dispatch(GwcServiceProxy.java:87)
+	at jdk.internal.reflect.GeneratedMethodAccessor150.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.geoserver.ows.Dispatcher.execute(Dispatcher.java:905)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:269)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:73)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:89)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.HTTPMethodFilter.doFilter(HTTPMethodFilter.java:36)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:194)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.monitor.MonitorFilter.doFilter(MonitorFilter.java:159)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:43)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:141)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.XFrameOptionsFilter.doFilter(XFrameOptionsFilter.java:100)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:49)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalStateException: Expected: RenderedImageMap, got null
+	at org.geoserver.gwc.layer.GeoServerTileLayer.dispatchGetMap(GeoServerTileLayer.java:696)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingReponse(GeoServerTileLayer.java:613)
+	... 88 more
+02 Aug. 23:23:23 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:23:30 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:23:39 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:23:42 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:23:46 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:23:49 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:23:54 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:24:07 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:24:15 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:24:18 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:24:30 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:24:34 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:24:40 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:24:42 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:24:51 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:24:55 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:24:58 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:25:03 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:25:03 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+02 Aug. 23:25:03 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:25:03 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/
+	Bbox = SRSEnvelope[146.6781234741211 : 146.678466796875, -42.17857360839844 : -42.17823028564453]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1024
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@b4c45fdb]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, STYLES=line_red, WIDTH=1024, HEIGHT=1024, LAYERS=TRB:TG2021, EXCEPTIONS=SE_XML, GWC_SEED_INTERCEPT=true, REQUEST=GetMap, SRS=EPSG:4326, BBOX=146.6781234741211,-42.17857360839844,146.678466796875,-42.17823028564453, VERSION=1.1.1, SERVICE=WMS, TRANSPARENT=true}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_red]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1024
+02 Aug. 23:25:07 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:25:19 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:25:22 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:25:31 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:25:41 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:25:41 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:25:43 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:25:47 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:25:55 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:26:08 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:26:10 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:26:13 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:26:19 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:26:32 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:26:35 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:26:42 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:26:44 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:26:51 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:26:56 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:26:59 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:27:02 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:27:08 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:27:20 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:27:23 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:27:32 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:27:43 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:27:44 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:27:47 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:27:56 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:28:03 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:28:04 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:28:09 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:28:11 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:28:21 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:28:33 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:28:35 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:28:44 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:28:45 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:28:51 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:28:51 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+02 Aug. 23:28:51 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:28:51 INFO   [geoserver.wms] - 
+Request: getMap
+	Angle = 0.0
+	BaseUrl = https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/
+	Bbox = SRSEnvelope[147.80559539794922 : 147.80593872070312, -42.96031951904297 : -42.95997619628906]
+	BgColor = java.awt.Color[r=255,g=255,b=255]
+	Buffer = 0
+	Clip = null
+	CQLFilter = null
+	Crs = GEOGCS["WGS 84", 
+  DATUM["World Geodetic System 1984", 
+    SPHEROID["WGS 84", 6378137.0, 298.257223563, AUTHORITY["EPSG","7030"]], 
+    AUTHORITY["EPSG","6326"]], 
+  PRIMEM["Greenwich", 0.0, AUTHORITY["EPSG","8901"]], 
+  UNIT["degree", 0.017453292519943295], 
+  AXIS["Geodetic longitude", EAST], 
+  AXIS["Geodetic latitude", NORTH], 
+  AUTHORITY["EPSG","4326"]]
+	Elevation = []
+	Env = {}
+	Exceptions = SE_XML
+	FeatureId = null
+	FeatureVersion = null
+	Filter = null
+	Format = image/png
+	FormatOptions = {}
+	Get = true
+	Height = 1024
+	Interpolations = []
+	Layers = [org.geoserver.wms.MapLayerInfo@b4c45fdb]
+	MaxFeatures = null
+	Palette = null
+	RawKvp = {FORMAT=image/png, STYLES=line_red, WIDTH=1024, HEIGHT=1024, LAYERS=TRB:TG2021, EXCEPTIONS=SE_XML, GWC_SEED_INTERCEPT=true, REQUEST=GetMap, SRS=EPSG:4326, BBOX=147.80559539794922,-42.96031951904297,147.80593872070312,-42.95997619628906, VERSION=1.1.1, SERVICE=WMS, TRANSPARENT=true}
+	RemoteOwsType = null
+	RemoteOwsURL = null
+	Request = GetMap
+	RequestCharset = UTF-8
+	ScaleMethod = null
+	Sld = null
+	SldBody = null
+	SldVersion = null
+	SortBy = null
+	SortByArrays = null
+	SRS = EPSG:4326
+	StartIndex = null
+	StyleBody = null
+	StyleFormat = sld
+	Styles = [StyleImpl[ name=line_red]]
+	StyleUrl = null
+	StyleVersion = null
+	Tiled = false
+	TilesOrigin = null
+	Time = []
+	Transparent = true
+	ValidateSchema = false
+	Version = 1.1.1
+	ViewParams = null
+	Width = 1024
+02 Aug. 23:29:05 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:29:06 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:29:09 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:29:13 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:29:15 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:29:18 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:29:21 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:29:24 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:29:35 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:29:45 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:29:45 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:29:46 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:29:46 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:29:49 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:29:53 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+02 Aug. 23:29:58 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
