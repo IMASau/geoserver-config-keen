@@ -13678,3 +13678,370 @@ Caused by: java.lang.IllegalStateException: Expected: RenderedImageMap, got null
 	... 88 more
 10 Jul. 00:50:25 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
 10 Jul. 00:55:33 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+19 Jul. 06:36:36 CONFIG [geoserver.logging] - Log4j 2 configuration set to DEFAULT_LOGGING.xml
+19 Jul. 06:36:36 INFO   [geoserver.logging] - Suppressing StdOut logging.  If you want to see GeoServer logs, be sure to look in '/opt/imas-webapps/geoserver/logs/geoserver.log'
+19 Jul. 06:36:41 CONFIG [org.geoserver] - GeoServer configuration lock is enabled
+19 Jul. 06:36:44 CONFIG [gwc.config] - Will look for 'geowebcache.xml' in directory '/opt/imas-webapps/geoserver/gwc'.
+19 Jul. 06:36:44 WARN   [config.XMLConfiguration] - GWC configuration validation error: cvc-elt.1.a: Cannot find the declaration of element 'gwcConfiguration'.
+19 Jul. 06:36:44 WARN   [config.XMLConfiguration] - Will try to use configuration anyway. Please check the order of declared elements against the schema.
+19 Jul. 06:36:44 CONFIG [config.XMLConfiguration] - Initializing GridSets from gwc
+19 Jul. 06:36:44 CONFIG [config.XMLConfiguration] - Initializing layers from gwc
+19 Jul. 06:36:45 CONFIG [geoserver.config] - Loading catalog /opt/imas-webapps/geoserver
+19 Jul. 06:36:45 CONFIG [config.datadir] - Catalog and configuration loader uses 2 threads out of 2 available cores.
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style FloatingForests
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style FloatingForests_detail
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style generic
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style large_poly_spatial_area
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style line
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style line_blue
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style line_purple
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style line_turq
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style point
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style point_blue
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style point_green
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style point_green_circle
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style point_orange
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style point_orange_star
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style point_purple
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style polygon
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style raster
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style line_purble
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style line_red
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style PIE
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded workspace seamap
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded namespace seamap
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded workspace TRB
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded namespace TRB
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style FloatingForests_copy
+19 Jul. 06:36:46 ERROR  [config.datadir] - Failed to load style StyleInfoImpl-558e15c1:161219172dd:4413
+java.lang.IllegalArgumentException: Style named 'FloatingForests_copy' already exists in workspace TRB
+	at org.geoserver.catalog.impl.CatalogImpl.validate(CatalogImpl.java:1634)
+	at org.geoserver.catalog.impl.CatalogImpl.add(CatalogImpl.java:1608)
+	at org.geoserver.config.datadir.CatalogLoader.doAddToCatalog(CatalogLoader.java:387)
+	at org.geoserver.config.datadir.CatalogLoader.addToCatalog(CatalogLoader.java:358)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)
+	at org.geoserver.config.datadir.CatalogLoader.loadStyles(CatalogLoader.java:259)
+	at org.geoserver.config.datadir.CatalogLoader.loadWorkspace(CatalogLoader.java:238)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.ForEachOps$ForEachTask.compute(ForEachOps.java:290)
+	at java.base/java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:746)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded style green_circle_SAMPLING_SITE
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded data store TemperateReefBase
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded feature type TRB_KEEN_Survey_Data_Quads_GV, enabled
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded layer TRB_KEEN_Survey_Data_Quads_GV
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded feature type TRB_KEEN_Survey_Data_Swath_GV, enabled
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded layer TRB_KEEN_Survey_Data_Swath_GV
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded feature type TRB_KEEN_fish_community_responses_GV, enabled
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded layer TRB_KEEN_fish_community_responses_GV
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded feature type TRB_JBoada_Algae_Urchin_2013_GV, enabled
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded layer TRB_JBoada_Algae_Urchin_2013_GV
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded feature type TRB_KEEN_Survey_Data_Pointcount_GV, enabled
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded layer TRB_KEEN_Survey_Data_Pointcount_GV
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded feature type TRB_KEEN_kelp_timeseries_aggregated_GV2, enabled
+19 Jul. 06:36:46 CONFIG [config.datadir] - Loaded layer TRB_KEEN_kelp_timeseries_aggregated_GV2
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded feature type KEEN_Obs_Sites_3857, enabled
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded layer KEEN_Obs_Sites_3857
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded feature type TG2021, enabled
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded layer TG2021
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded feature type TRB_KEEN_fish_community_responses_GV2, enabled
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded layer TRB_KEEN_fish_community_responses_GV2
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded feature type TRB_KEEN_kelp_timeseries_aggregated_GV, enabled
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded layer TRB_KEEN_kelp_timeseries_aggregated_GV
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded feature type TG_KML, enabled
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded layer TG_KML
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded feature type TG_KML_Em, enabled
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded layer TG_KML_Em
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded feature type TRB_AGomez_HOBO_LP, enabled
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded layer TRB_AGomez_HOBO_LP
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded feature type TRB_JBoada_Algae_Urchin_2013, enabled
+19 Jul. 06:36:47 WARN   [config.datadir] - Layer TRB:TRB_JBoada_Algae_Urchin_2013 is missing the default style, assigning one automatically
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded layer TRB_JBoada_Algae_Urchin_2013
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded feature type TG_KML_Matt, enabled
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded layer TG_KML_Matt
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded feature type KEEN_Obs_Sites, enabled
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded layer KEEN_Obs_Sites
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded feature type TG2020, enabled
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded layer TG2020
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded feature type FloatingForests_DATA, enabled
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded layer FloatingForests_DATA
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded feature type FloatingForests_MAP, enabled
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded layer FloatingForests_MAP
+19 Jul. 06:36:47 INFO   [geoserver.config] - Read Catalog in 1.683 s: workspaces: 2, namespaces: 2, styles: 22, stores: 1, resources: 19, layers: 19, layer groups: 0.
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loading GeoServer config...
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded service 'WFSInfoImpl--21071077:14b33c29d5b:-7ff8', enabled
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded service 'WPSInfoImpl-4efb679e:1562b326035:-7ffc', enabled
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded service 'WMTSInfoImpl-2fa76b22:1697c4315b1:-7ffd', enabled
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded service 'WCSInfoImpl--21071077:14b33c29d5b:-7ff9', enabled
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loaded service 'WMSInfoImpl--21071077:14b33c29d5b:-7ff7', enabled
+19 Jul. 06:36:47 CONFIG [config.datadir] - Catalog and configuration loader uses 2 threads out of 2 available cores.
+19 Jul. 06:36:47 CONFIG [config.datadir] - Loading workspace services and settings...
+19 Jul. 06:36:48 CONFIG [config.datadir] - GeoServer config (settings and services) loaded in 325.0 ms
+19 Jul. 06:36:48 CONFIG [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+19 Jul. 06:36:48 CONFIG [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+19 Jul. 06:36:48 CONFIG [gwc.layer] - Loading tile layers from gwc-layers
+19 Jul. 06:36:48 CONFIG [gwc.layer] - Loaded 2 tile layers in 81.57 ms
+19 Jul. 06:36:48 CONFIG [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+19 Jul. 06:36:48 CONFIG [storage.DefaultStorageFinder] - Found Java system propertyGEOSERVER_DATA_DIR set to /opt/imas-webapps/geoserver, using it as the default prefix.
+19 Jul. 06:36:49 CONFIG [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+19 Jul. 06:36:50 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+19 Jul. 06:36:53 WARN   [wms.NcwmsConfig] - Could not open config file '/opt/imas-webapps/geoserver/ncwms.xml': '/opt/imas-webapps/geoserver/ncwms.xml (No such file or directory) Nested exception: /opt/imas-webapps/geoserver/ncwms.xml (No such file or directory)'
+19 Jul. 06:36:53 WARN   [wms.NcwmsConfig] - Could not read '/opt/imas-webapps/geoserver/ncwms.xml' as an xml document: '/opt/imas-webapps/geoserver/ncwms.xml (No such file or directory) Nested exception: /opt/imas-webapps/geoserver/ncwms.xml (No such file or directory)'
+19 Jul. 06:36:54 CONFIG [geoserver.wps] - Found 8 bindable processes in GeoServer specific processes
+19 Jul. 06:36:54 CONFIG [geoserver.wps] - Found 89 bindable processes in Deprecated processes
+19 Jul. 06:36:54 CONFIG [geoserver.wps] - Found 48 bindable processes in Geometry processes
+19 Jul. 06:36:54 CONFIG [geoserver.wps] - Found 1 bindable processes in PolygonLabelProcess
+19 Jul. 06:36:54 CONFIG [geoserver.wps] - Found 1 bindable processes in geo
+19 Jul. 06:36:54 CONFIG [geoserver.wps] - Found 1 bindable processes in geo
+19 Jul. 06:36:54 CONFIG [geoserver.wps] - Blacklisting process ras:ConvolveCoverage as the input kernel of type class javax.media.jai.KernelJAI cannot be handled
+19 Jul. 06:36:54 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input zones of type class java.lang.Object cannot be handled
+19 Jul. 06:36:54 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input nodata of type class it.geosolutions.jaiext.range.Range cannot be handled
+19 Jul. 06:36:54 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the input rangeData of type class java.lang.Object cannot be handled
+19 Jul. 06:36:54 CONFIG [geoserver.wps] - Blacklisting process ras:RasterZonalStatistics2 as the output zonal statistics of type interface java.util.List cannot be handled
+19 Jul. 06:36:54 CONFIG [geoserver.wps] - Found 18 bindable processes in Raster processes
+19 Jul. 06:36:54 CONFIG [geoserver.wps] - Blacklisting process vec:GroupCandidateSelection as the input groupingAttributes of type class java.lang.Object cannot be handled
+19 Jul. 06:36:54 CONFIG [geoserver.wps] - Found 31 bindable processes in Vector processes
+19 Jul. 06:36:55 CONFIG [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+19 Jul. 06:36:55 CONFIG [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+19 Jul. 06:36:55 CONFIG [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+19 Jul. 06:36:55 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota.xml' in directory '/opt/imas-webapps/geoserver/gwc'.
+19 Jul. 06:36:55 CONFIG [gwc.config] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/opt/imas-webapps/geoserver/gwc'.
+19 Jul. 06:36:55 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+19 Jul. 06:36:55 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+19 Jul. 06:36:57 CONFIG [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+19 Jul. 06:36:57 CONFIG [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+19 Jul. 06:36:57 INFO   [geoserver.monitor] - Monitor extension enabled
+19 Jul. 06:37:00 CONFIG [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+19 Jul. 06:37:00 CONFIG [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+19 Jul. 06:37:00 CONFIG [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+19 Jul. 06:37:00 CONFIG [diskquota.DiskQuotaMonitor] - 2 layers attached to global quota 500.0 MB
+19 Jul. 06:37:00 CONFIG [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+19 Jul. 06:37:01 WARN   [geoserver.security] - security/masterpw.info is a security risk. Please read this file and remove it afterward
+19 Jul. 06:37:03 CONFIG [geoserver.security] - Start reloading user/groups for service named default
+19 Jul. 06:37:03 CONFIG [geoserver.security] - Reloading user/groups successful for service named default
+19 Jul. 06:54:42 CONFIG [geoserver.flow] - Control-flow inactive, there are no configured rules
+19 Jul. 06:54:42 INFO   [geowebcache.GeoWebCacheDispatcher] - Loading GWC Service extensions...
+19 Jul. 06:54:42 INFO   [geowebcache.GeoWebCacheDispatcher] - Done loading GWC Service extensions. Found : [gmaps, wmts, kml, tms, wms, mgmaps, ve]
+19 Jul. 06:54:42 INFO   [geowebcache.GeoWebCacheDispatcher] - Read 425 from blank PNG file (expected 425).
+19 Jul. 06:54:42 CONFIG [layer.MetaTile] - Native JAI is not installed
+19 Jul. 06:54:42 INFO   [geoserver.wms] - 
+Request: getServiceInfo
+19 Jul. 06:54:42 ERROR  [geoserver.ows] - 
+java.lang.NullPointerException
+	at org.geoserver.wms.map.GetMapKvpRequestReader.getDefaultStyle(GetMapKvpRequestReader.java:979)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.processLayersStyles(GetMapKvpRequestReader.java:612)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:441)
+	at org.geoserver.wms.map.GetMapKvpRequestReader.read(GetMapKvpRequestReader.java:107)
+	at org.geoserver.ows.Dispatcher.parseRequestKVP(Dispatcher.java:1568)
+	at org.geoserver.ows.Dispatcher.dispatch(Dispatcher.java:785)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:261)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.GWC.dispatchOwsRequest(GWC.java:1337)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.dispatchGetMap(GeoServerTileLayer.java:920)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.computeMetaTile(GeoServerTileLayer.java:659)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingResponse(GeoServerTileLayer.java:615)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getTile(GeoServerTileLayer.java:538)
+	at org.geowebcache.util.ResponseUtils.writeTile(ResponseUtils.java:99)
+	at org.geowebcache.GeoWebCacheDispatcher.handleServiceRequest(GeoWebCacheDispatcher.java:407)
+	at org.geowebcache.GeoWebCacheDispatcher.handleRequestInternal(GeoWebCacheDispatcher.java:276)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.dispatch.GwcServiceProxy.dispatch(GwcServiceProxy.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.geoserver.ows.Dispatcher.execute(Dispatcher.java:952)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:271)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.monitor.MonitorFilter.doFilter(MonitorFilter.java:157)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:67)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:88)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:67)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:67)
+	at org.geoserver.filters.HTTPMethodFilter.doFilter(HTTPMethodFilter.java:36)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:67)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:181)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:67)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:218)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:190)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:139)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SecurityHeadersFilter.doFilter(SecurityHeadersFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+19 Jul. 06:54:42 ERROR  [geowebcache.GeoWebCacheDispatcher] - Problem communicating with GeoServer https://geoserver-temperatereefbase.imas.utas.edu.au/geoserver/gwc/service/kml/TRB:KEEN_Obs_Sites_3857/x1266507y1548934z21.png
+19 Jul. 06:54:42 ERROR  [geowebcache.GeoWebCacheDispatcher] - Request failed
+org.geowebcache.GeoWebCacheException: Problem communicating with GeoServer
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingResponse(GeoServerTileLayer.java:618)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getTile(GeoServerTileLayer.java:538)
+	at org.geowebcache.util.ResponseUtils.writeTile(ResponseUtils.java:99)
+	at org.geowebcache.GeoWebCacheDispatcher.handleServiceRequest(GeoWebCacheDispatcher.java:407)
+	at org.geowebcache.GeoWebCacheDispatcher.handleRequestInternal(GeoWebCacheDispatcher.java:276)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.geoserver.gwc.dispatch.GwcServiceProxy.dispatch(GwcServiceProxy.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.geoserver.ows.Dispatcher.execute(Dispatcher.java:952)
+	at org.geoserver.ows.Dispatcher.handleRequestInternal(Dispatcher.java:271)
+	at org.springframework.web.servlet.mvc.AbstractController.handleRequest(AbstractController.java:177)
+	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:51)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.ThreadLocalsCleanupFilter.doFilter(ThreadLocalsCleanupFilter.java:28)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:70)
+	at org.geoserver.monitor.MonitorFilter.doFilter(MonitorFilter.java:157)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:67)
+	at org.geoserver.flow.controller.IpBlacklistFilter.doFilter(IpBlacklistFilter.java:88)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:67)
+	at org.geoserver.ows.HTTPHeadersCollector.doFilter(HTTPHeadersCollector.java:48)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:67)
+	at org.geoserver.filters.HTTPMethodFilter.doFilter(HTTPMethodFilter.java:36)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:67)
+	at org.geoserver.filters.LoggingFilter.doFilter(LoggingFilter.java:181)
+	at org.geoserver.filters.SpringDelegatingFilter$Chain.doFilter(SpringDelegatingFilter.java:67)
+	at org.geoserver.filters.SpringDelegatingFilter.doFilter(SpringDelegatingFilter.java:41)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.platform.AdvancedDispatchFilter.doFilter(AdvancedDispatchFilter.java:39)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:218)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:190)
+	at org.geoserver.security.GeoServerSecurityFilterChainProxy.doFilter(GeoServerSecurityFilterChainProxy.java:139)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SecurityHeadersFilter.doFilter(SecurityHeadersFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.GZIPFilter.doFilter(GZIPFilter.java:47)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.SessionDebugFilter.doFilter(SessionDebugFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.geoserver.filters.FlushSafeFilter.doFilter(FlushSafeFilter.java:42)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.IllegalStateException: Expected: RenderedImageMap, got null
+	at org.geoserver.gwc.layer.GeoServerTileLayer.dispatchGetMap(GeoServerTileLayer.java:923)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.computeMetaTile(GeoServerTileLayer.java:659)
+	at org.geoserver.gwc.layer.GeoServerTileLayer.getMetatilingResponse(GeoServerTileLayer.java:615)
+	... 89 more
